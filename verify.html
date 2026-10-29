@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verify a Certificate · Praveen Kumar Singh</title>
+<meta name="description" content="Check that a Certificate of Authenticity issued by Praveen Kumar Singh is genuine.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F7F4EE; --card: #FFFFFF; --ink: #2A2723; --body: #57514A; --muted: #6B6457;
+    --line: #D6CDBD; --accent: #3E5C76; --ok: #2F6B45; --ok-bg: #E8F0E8; --bad: #8A2F2A; --bad-bg: #F6E6E3;
+    --warn: #7A5A16; --warn-bg: #F5EEDC;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: Inter, system-ui, sans-serif; font-size: 15px; line-height: 1.6; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+    font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: var(--muted); padding-bottom: 18px; border-bottom: 1px solid var(--ink); }
+  header a { color: var(--muted); text-decoration: none; }
+  header a:hover { color: var(--ink); text-decoration: underline; }
+  h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(36px, 8vw, 54px); line-height: 1; margin: 36px 0 10px; }
+  h1 em { color: var(--accent); }
+  .lede { color: var(--body); margin: 0 0 28px; max-width: 520px; }
+  form { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 32px; }
+  label.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  input[type=text] { flex: 1 1 220px; min-height: 46px; padding: 10px 14px; font: inherit; color: var(--ink); background: var(--card);
+    border: 1px solid var(--line); border-radius: 2px; letter-spacing: .06em; text-transform: uppercase; }
+  input[type=text]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  button { min-height: 46px; padding: 10px 22px; font: inherit; font-size: 12px; letter-spacing: .2em; text-transform: uppercase;
+    color: #fff; background: var(--ink); border: 0; border-radius: 2px; cursor: pointer; }
+  button:hover { background: #000; }
+  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .status { display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px; border-radius: 2px; margin-bottom: 24px; }
+  .status svg { flex: 0 0 26px; margin-top: 2px; }
+  .status strong { display: block; font-size: 16px; font-weight: 500; }
+  .status span { font-size: 14px; }
+  .status.ok { background: var(--ok-bg); color: var(--ok); }
+  .status.bad { background: var(--bad-bg); color: var(--bad); }
+  .status.warn { background: var(--warn-bg); color: var(--warn); }
+  .record { background: var(--card); border: 1px solid var(--line); padding: 24px; display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 640px) { .record.has-img { grid-template-columns: 240px minmax(0, 1fr); } }
+  .mat { background: #fff; border: 1px solid var(--line); padding: 12px; align-self: start; justify-self: center; }
+  .mat img { display: block; max-width: 100%; max-height: 360px; width: auto; height: auto; margin: 0 auto; }
+  .title { font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: 30px; line-height: 1.15; margin: 0 0 4px; }
+  .by { color: var(--body); margin: 0 0 18px; }
+  dl { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr); }
+  dl div { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); }
+  dl div:last-child { border-bottom: 1px solid var(--line); }
+  dt { font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
+  dd { margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 19px; line-height: 1.35; overflow-wrap: anywhere; }
+  .note { margin-top: 18px; font-size: 13px; color: var(--body); }
+  .help { margin-top: 36px; font-size: 13px; color: var(--muted); }
+  .help p { margin: 0 0 8px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); text-align: center; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="./">Praveen Kumar Singh</a>
+    <span>Certificate Registry</span>
+  </header>
+
+  <main>
+    <h1>Verify a <em>Certificate</em></h1>
+    <p class="lede">Scan the QR code on a Certificate of Authenticity, or enter the certificate number below, to check that it was issued by the artist.</p>
+
+    <form id="lookup" autocomplete="off">
+      <label class="sr" for="cid">Certificate number</label>
+      <input type="text" id="cid" name="id" placeholder="e.g. PKS-0001" maxlength="40" inputmode="text" spellcheck="false">
+      <button type="submit">Verify</button>
+    </form>
+
+    <div id="result" aria-live="polite"></div>
+
+    <div class="help">
+      <p>A genuine certificate matches every detail shown here: the title, dimensions, edition, and the artwork itself.</p>
+      <p>If anything differs, or the number is not found, please contact the artist before buying.</p>
+    </div>
+  </main>
+
+  <footer>© <span id="yr"></span> Praveen Kumar Singh · All rights reserved</footer>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var REGISTRY_URL = 'certificates.json';
+  var IMG_PATH = /^certificates\/[A-Za-z0-9_-]+\.(jpe?g|png|webp)$/i;
+  var ID_OK = /^[A-Z0-9][A-Z0-9-]{0,39}$/;
+
+  var form = document.getElementById('lookup');
+  var input = document.getElementById('cid');
+  var out = document.getElementById('result');
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  var ICONS = {
+    ok: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>',
+    bad: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8.5 8.5l7 7M15.5 8.5l-7 7"/></svg>',
+    warn: '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 7v6M12 16.5v.5"/></svg>'
+  };
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+
+  function statusBox(kind, title, text) {
+    var box = el('div', 'status ' + kind);
+    box.setAttribute('role', 'status');
+    box.innerHTML = ICONS[kind];
+    var t = el('div');
+    t.appendChild(el('strong', null, title));
+    t.appendChild(el('span', null, text));
+    box.appendChild(t);
+    return box;
+  }
+
+  function fmtDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    if (!m) return iso || '';
+    var d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+    try { return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }); }
+    catch (e) { return iso; }
+  }
+
+  function normalise(raw) { return String(raw || '').trim().toUpperCase().replace(/\s+/g, ''); }
+
+  var registryPromise = null;
+  function loadRegistry() {
+    if (!registryPromise) {
+      registryPromise = fetch(REGISTRY_URL, { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (j) { return Array.isArray(j) ? j : (j && Array.isArray(j.certificates) ? j.certificates : []); });
+    }
+    return registryPromise;
+  }
+
+  function render(rec) {
+    var status = String(rec.status || 'valid').toLowerCase();
+    var frag = document.createDocumentFragment();
+    if (status === 'valid') {
+      frag.appendChild(statusBox('ok', 'Authentic — registered certificate', 'Certificate ' + rec.id + ' was issued by the artist and is valid.'));
+    } else if (status === 'revoked') {
+      frag.appendChild(statusBox('bad', 'Certificate revoked', 'Certificate ' + rec.id + ' has been withdrawn by the artist and is no longer valid.'));
+    } else {
+      frag.appendChild(statusBox('warn', 'Status: ' + status, 'Please contact the artist about certificate ' + rec.id + '.'));
+    }
+
+    var card = el('section', 'record');
+    card.setAttribute('aria-label', 'Certificate details');
+    if (rec.image && IMG_PATH.test(rec.image)) {
+      card.classList.add('has-img');
+      var mat = el('div', 'mat');
+      var img = el('img');
+      img.src = rec.image;
+      img.alt = 'Photograph of the artwork' + (rec.title ? ': ' + rec.title : '');
+      img.loading = 'lazy';
+      img.onerror = function () { mat.remove(); card.classList.remove('has-img'); };
+      mat.appendChild(img);
+      card.appendChild(mat);
+    }
+    var info = el('div');
+    info.appendChild(el('p', 'title', rec.title || 'Untitled'));
+    if (rec.artist) info.appendChild(el('p', 'by', 'by ' + rec.artist));
+    var dl = el('dl');
+    [['Certificate Nº', rec.id], ['Year', rec.year], ['Medium', rec.medium], ['Dimensions', rec.dimensions],
+     ['Edition', rec.edition], ['Date of issue', fmtDate(rec.issued)], ['Location', rec.location]].forEach(function (p) {
+      if (!p[1]) return;
+      var row = el('div');
+      row.appendChild(el('dt', null, p[0]));
+      row.appendChild(el('dd', null, String(p[1])));
+      dl.appendChild(row);
+    });
+    info.appendChild(dl);
+    if (rec.note) info.appendChild(el('p', 'note', String(rec.note)));
+    card.appendChild(info);
+    frag.appendChild(card);
+    out.replaceChildren(frag);
+  }
+
+  function verify(raw, pushUrl) {
+    var id = normalise(raw);
+    input.value = id;
+    if (!id) { out.replaceChildren(); return; }
+    if (!ID_OK.test(id)) {
+      out.replaceChildren(statusBox('bad', 'Not a valid certificate number', 'Certificate numbers look like PKS-0001.'));
+      return;
+    }
+    if (pushUrl) {
+      try { history.replaceState(null, '', '?id=' + encodeURIComponent(id)); } catch (e) {}
+    }
+    out.replaceChildren(el('p', null, 'Checking…'));
+    loadRegistry().then(function (list) {
+      var rec = null;
+      for (var i = 0; i < list.length; i++) {
+        if (list[i] && normalise(list[i].id) === id) { rec = list[i]; break; }
+      }
+      if (rec) render(rec);
+      else out.replaceChildren(statusBox('bad', 'Not found', 'No certificate numbered ' + id + ' is registered. Check the number, or contact the artist.'));
+    }).catch(function () {
+      registryPromise = null;
+      out.replaceChildren(statusBox('warn', 'Could not reach the registry', 'Please check your connection and try again.'));
+    });
+  }
+
+  form.addEventListener('submit', function (e) { e.preventDefault(); verify(input.value, true); });
+  var q = new URLSearchParams(location.search).get('id');
+  if (q) verify(q, false); else input.focus();
+})();
+</script>
+</body>
+</html>
