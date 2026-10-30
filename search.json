@@ -1,9 +1,23 @@
 [
   {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Back to top"
+    "text": "Bir-Hakeim Bridge with Paris Metro Line 6 — Paris, 2026\n  \n  \n    Scroll"
+  },
+  {
+    "objectID": "index.html#your-heading-here",
+    "href": "index.html#your-heading-here",
+    "title": "",
+    "section": "Your heading here",
+    "text": "Your heading here\nYour introduction text goes here."
   }
 ]
