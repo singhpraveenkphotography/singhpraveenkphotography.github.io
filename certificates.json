@@ -33,6 +33,22 @@
       "image": "certificates/DEMO0002.jpg",
       "status": "valid",
       "note": ""
+    },
+    {
+      "id": "DEMO0003",
+      "title": "Lumbini",
+      "artist": "Praveen Kumar Singh",
+      "year": "2025",
+      "medium": "Color on canvas",
+      "dimensions": "80 × 60 cm",
+      "edition": "Original",
+      "purchased": "2026-10-30",
+      "purchasedFrom": "www.saatchiart.com",
+      "issued": "2026-10-30",
+      "location": "Igny, France",
+      "image": "certificates/DEMO0003.jpg",
+      "status": "valid",
+      "note": ""
     }
   ]
 }
