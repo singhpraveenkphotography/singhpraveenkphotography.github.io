@@ -15,6 +15,20 @@
       "image": "certificates/DEMO0001.jpg",
       "status": "valid",
       "note": ""
+    },
+    {
+      "id": "DEMO0002",
+      "title": "Clouds",
+      "artist": "Praveen Kumar Singh",
+      "year": "2026",
+      "medium": "Color on canvas",
+      "dimensions": "80 × 60 cm",
+      "edition": "Limited Edition 1 of 15",
+      "issued": "2026-10-30",
+      "location": "Igny, France",
+      "image": "certificates/DEMO0002.jpg",
+      "status": "valid",
+      "note": ""
     }
   ]
 }
