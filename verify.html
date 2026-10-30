@@ -211,6 +211,12 @@ ul.task-list li input[type="checkbox"] {
     var d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
     try { return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }); } catch (e) { return iso; }
   }
+  function purchase(rec) {
+    var M = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(rec.purchased || '');
+    var d = m ? m[3] + '-' + M[+m[2] - 1] + '-' + m[1] : (rec.purchased || ''), f = rec.purchasedFrom ? String(rec.purchasedFrom) : '';
+    return d && f ? d + ' from ' + f : (d || (f ? 'from ' + f : ''));
+  }
   function normalise(raw) { return String(raw || '').trim().toUpperCase().replace(/\s+/g, ''); }
   var registryPromise = null;
   function loadRegistry() {
@@ -238,8 +244,8 @@ ul.task-list li input[type="checkbox"] {
     info.appendChild(el('p', 'r-title', rec.title || 'Untitled'));
     if (rec.artist) info.appendChild(el('p', 'by', 'by ' + rec.artist));
     var dl = el('dl');
-    [['Certificate Nº', rec.id], ['Year', rec.year], ['Medium', rec.medium], ['Dimensions', rec.dimensions],
-     ['Edition', rec.edition], ['Date of issue', fmtDate(rec.issued)], ['Location', rec.location]].forEach(function (p) {
+    [['Certificate Nº', rec.id], ['Year', rec.year], ['Medium & materials', rec.medium], ['Dimensions', rec.dimensions],
+     ['Edition', rec.edition], ['Date of purchase', purchase(rec)], ['Date of issue', fmtDate(rec.issued)], ['Location', rec.location]].forEach(function (p) {
       if (!p[1]) return; var row = el('div'); row.appendChild(el('dt', null, p[0])); row.appendChild(el('dd', null, String(p[1]))); dl.appendChild(row);
     });
     info.appendChild(dl);
