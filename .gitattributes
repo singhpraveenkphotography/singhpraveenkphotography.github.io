@@ -1,4 +1,9 @@
 /tests/ export-ignore
 certificates.json export-ignore
+verify.html export-ignore
+index.html export-ignore
 **/assets/ export-ignore
 **/certificates/ export-ignore
+**/gallery/ export-ignore
+**/contact/ export-ignore
+**/about/ export-ignore
