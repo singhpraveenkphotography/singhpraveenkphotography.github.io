@@ -2050,7 +2050,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/5 s",
       "iso": 6400,
-      "date_taken": "2025-10-18T17:52:13"
+      "date_taken": "2025-10-18T17:52:13",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacred-Night-at-Maya-Devi-Temple-Lumbini/3063431/14132249/view"
+      }
     },
     {
       "id": "058",
@@ -2086,7 +2089,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/2 s",
       "iso": 6400,
-      "date_taken": "2025-10-18T17:57:51"
+      "date_taken": "2025-10-18T17:57:51",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Meditating-Monk-Under-a-Sacred-Tree-at-Dusk/3063431/14131345/view"
+      }
     },
     {
       "id": "059",
@@ -2593,7 +2599,10 @@
       "aperture": "f/16",
       "shutter_speed": "25 s",
       "iso": 100,
-      "date_taken": "2026-08-07T21:45:26"
+      "date_taken": "2026-08-07T21:45:26",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-Paris/3063431/14141877/view"
+      }
     },
     {
       "id": "073",
@@ -2629,7 +2638,10 @@
       "aperture": "f/13",
       "shutter_speed": "25 s",
       "iso": 100,
-      "date_taken": "2026-08-07T21:52:50"
+      "date_taken": "2026-08-07T21:52:50",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-BW-Paris/3063431/14142801/view"
+      }
     },
     {
       "id": "074",
@@ -2665,7 +2677,10 @@
       "aperture": "f/18",
       "shutter_speed": "5 s",
       "iso": 800,
-      "date_taken": "2026-08-07T22:14:11"
+      "date_taken": "2026-08-07T22:14:11",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Montmartre-Nocturne/3063431/14233283/view"
+      }
     },
     {
       "id": "075",
@@ -2701,7 +2716,10 @@
       "aperture": "f/13",
       "shutter_speed": "30 s",
       "iso": 100,
-      "date_taken": "2026-09-26T21:14:30"
+      "date_taken": "2026-09-26T21:14:30",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Notre-Dame-de-Paris-glowing-under-the-moon/3063431/14274179/view"
+      }
     },
     {
       "id": "076",
@@ -2737,8 +2755,11 @@
       "aperture": "f/16",
       "shutter_speed": "30 s",
       "iso": 100,
-      "date_taken": "2026-09-26T21:39:14"
+      "date_taken": "2026-09-26T21:39:14",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Illuminated-Notre-Dame-and-Seine-River-Paris/3063431/14292111/view"
+      }
     }
   ],
-  "updated": "2026-10-31T05:01:18"
+  "updated": "2026-10-31T05:11:29"
 }
