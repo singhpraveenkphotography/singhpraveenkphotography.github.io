@@ -310,7 +310,7 @@
       img.alt = label(p, i);
       img.decoding = 'async';
       if (i === 0) img.fetchPriority = 'high';
-      img.src = i === 0 ? p.fullUrl : '';           // later slides load just before they show
+      if (i === 0) img.src = p.fullUrl;             // later slides load just before they show
       hero.insertBefore(img, staticImg ? staticImg.nextSibling : hero.firstChild);
       return img;
     });
