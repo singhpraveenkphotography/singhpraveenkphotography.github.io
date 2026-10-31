@@ -1,1 +1,4 @@
-
+/tests/ export-ignore
+certificates.json export-ignore
+**/assets/ export-ignore
+**/certificates/ export-ignore
