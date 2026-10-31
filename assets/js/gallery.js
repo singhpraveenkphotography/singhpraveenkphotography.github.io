@@ -46,6 +46,10 @@
     return cache[base];
   }
   const label = (p, i) => p.title || `Photograph ${pad(i + 1)}`;
+  // "shop" in photos.json: { "Saatchi Art": "https://…", "Artfinder": { "url": "https://…", "note": "Limited edition of 15" } }
+  const shopLinks = (p) => Object.entries(p.shop || {})
+    .map(([name, v]) => (typeof v === 'string' ? { name, url: v } : { name, url: v && v.url, note: v && v.note }))
+    .filter((s) => s.url && /^https?:\/\//.test(s.url));
   const place = (p) => [p.title, p.location, p.date_taken ? p.date_taken.slice(0, 4) : null].filter(Boolean).join(' — ');
 
   /* ---------- photo details shown in the lightbox ---------- */
@@ -97,6 +101,10 @@
           <span class="pg-lb-title"></span><span class="pg-lb-caption"></span>
           <span class="pg-lb-counter"></span>
         </figcaption>
+        <div class="pg-lb-shop" hidden>
+          <span class="pg-lb-shop-label">Available as a print</span>
+          <span class="pg-lb-shop-links"></span>
+        </div>
       </figure>`;
     document.body.appendChild(lb);
     $('.pg-lb-close', lb).addEventListener('click', closeLb);
@@ -134,6 +142,20 @@
     });
     dl.hidden = !dl.children.length;
   }
+  function renderShop(p) {
+    const box = $('.pg-lb-shop', lb), links = $('.pg-lb-shop-links', lb);
+    links.innerHTML = '';
+    shopLinks(p).forEach((s) => {
+      const a = document.createElement('a');
+      a.className = 'pg-lb-shop-link';
+      a.href = s.url; a.target = '_blank'; a.rel = 'noopener';
+      a.textContent = `${s.name} ↗`;
+      if (s.note) { const n = document.createElement('small'); n.textContent = s.note; a.appendChild(n); }
+      a.setAttribute('aria-label', `Buy a print of ${p.title || 'this photograph'} on ${s.name} (opens in a new tab)`);
+      links.appendChild(a);
+    });
+    box.hidden = !links.children.length;
+  }
   function renderLb() {
     const p = lbList[lbIndex], token = ++lbToken, img = $('.pg-lb-frame img', lb);
     img.alt = label(p, lbIndex);
@@ -141,6 +163,7 @@
     $('.pg-lb-caption', lb).textContent = [p.caption, p.location].filter(Boolean).join(' · ');
     $('.pg-lb-counter', lb).textContent = `${pad(lbIndex + 1)} / ${pad(lbList.length)}`;
     renderMeta(p);
+    renderShop(p);
     img.src = p.thumbUrl;                       // instant, already cached
     lb.classList.add('is-loading');
     const full = new Image();
@@ -166,6 +189,7 @@
     featured: (p) => p.featured,
     bw: (p) => p.black_and_white,
     colour: (p) => !p.black_and_white,
+    forsale: (p) => shopLinks(p).length > 0,
   };
   const ratio = (p) => p.thumb.height / p.thumb.width;
   const shuffle = (a) => {
@@ -223,7 +247,8 @@
       fig.innerHTML = `<img src="${p.thumbUrl}" alt="" loading="lazy" decoding="async"
           width="${p.thumb.width}" height="${p.thumb.height}">
         <div class="pg-overlay"><span class="pg-num">№ ${p.id}</span>
-        ${p.title ? `<span class="pg-name"></span>` : ''}<span class="pg-exp"></span></div>`;
+        ${p.title ? `<span class="pg-name"></span>` : ''}<span class="pg-exp"></span></div>
+        ${shopLinks(p).length ? '<span class="pg-sale-tag">Print available</span>' : ''}`;
       $('img', fig).alt = label(p, i);
       if (p.title) $('.pg-name', fig).textContent = p.title;
       // exposure line on hover: f/5.6 · 1/250 s · ISO 200
