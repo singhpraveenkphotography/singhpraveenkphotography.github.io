@@ -2230,7 +2230,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/640 s",
       "iso": 800,
-      "date_taken": "2025-11-02T17:31:39"
+      "date_taken": "2025-11-02T17:31:39",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Echoes-at-Dusk/3063431/14141195/view"
+      }
     },
     {
       "id": "063",
@@ -2737,5 +2740,5 @@
       "date_taken": "2026-09-26T21:39:14"
     }
   ],
-  "updated": "2026-10-31T04:36:19"
+  "updated": "2026-10-31T05:01:18"
 }
