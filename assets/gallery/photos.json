@@ -264,10 +264,7 @@
       "aperture": "f/11",
       "shutter_speed": "1/800 s",
       "iso": 400,
-      "date_taken": "2026-05-02T16:15:13",
-      "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/art/Photography-Feuerstelle-Lumbini-Looking-Towards-World-Peace-Pagoda/3063431/14141493/view"
-      }
+      "date_taken": "2026-05-02T16:15:13"
     },
     {
       "id": "008",
@@ -2129,7 +2126,10 @@
       "aperture": "f/4",
       "shutter_speed": "1/320 s",
       "iso": 100,
-      "date_taken": "2025-10-18T16:52:52"
+      "date_taken": "2025-10-18T16:52:52",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Feuerstelle-Lumbini-Looking-Towards-World-Peace-Pagoda/3063431/14141493/view"
+      }
     },
     {
       "id": "057",
@@ -2916,5 +2916,5 @@
       }
     }
   ],
-  "updated": "2026-10-31T18:28:35"
+  "updated": "2026-10-31T18:34:17"
 }
