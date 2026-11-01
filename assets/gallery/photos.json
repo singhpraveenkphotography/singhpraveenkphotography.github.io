@@ -2,7 +2,7 @@
   "photos": [
     {
       "id": "001",
-      "file": "001.png",
+      "file": "001.jpg",
       "original_name": "DSC_0041.png",
       "source_sha1": "961229fa5f78461a491f8621ebc09856138de91c",
       "title": "",
@@ -13,20 +13,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/001.png",
+        "src": "full/001.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 3772043,
-        "format": "png",
-        "quality": null
+        "bytes": 1207909,
+        "format": "jpg",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/001.png",
+        "src": "thumbs/001.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 639313,
-        "format": "png",
-        "quality": null
+        "bytes": 190819,
+        "format": "jpg",
+        "quality": 92
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -40,7 +40,7 @@
     },
     {
       "id": "002",
-      "file": "002.png",
+      "file": "002.jpg",
       "original_name": "DSC_0086.png",
       "source_sha1": "27d351644bf2185aaf84752a993514a45f2840a4",
       "title": "",
@@ -51,20 +51,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/002.png",
+        "src": "full/002.jpg",
         "width": 1500,
         "height": 2000,
-        "bytes": 2450228,
-        "format": "png",
-        "quality": null
+        "bytes": 1789354,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/002.png",
+        "src": "thumbs/002.jpg",
         "width": 600,
         "height": 800,
-        "bytes": 369879,
-        "format": "png",
-        "quality": null
+        "bytes": 259243,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -78,7 +78,7 @@
     },
     {
       "id": "003",
-      "file": "003.png",
+      "file": "003.jpg",
       "original_name": "DSC_0089.png",
       "source_sha1": "d5fc1590d2d8173f9972ac826c2c47b7a0b5b63d",
       "title": "",
@@ -89,20 +89,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/003.png",
+        "src": "full/003.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 1688791,
-        "format": "png",
-        "quality": null
+        "bytes": 1031919,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/003.png",
+        "src": "thumbs/003.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 265761,
-        "format": "png",
-        "quality": null
+        "bytes": 163325,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -116,7 +116,7 @@
     },
     {
       "id": "004",
-      "file": "004.png",
+      "file": "004.jpg",
       "original_name": "DSC_0096.png",
       "source_sha1": "fc045bb0a4c0ce50b4537a4e487b7a256b04ab88",
       "title": "",
@@ -127,20 +127,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/004.png",
+        "src": "full/004.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 5464801,
-        "format": "png",
-        "quality": null
+        "bytes": 1885679,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/004.png",
+        "src": "thumbs/004.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 900012,
-        "format": "png",
-        "quality": null
+        "bytes": 320909,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.4999,
       "camera": "Nikon Z5_2",
@@ -154,7 +154,7 @@
     },
     {
       "id": "005",
-      "file": "005.png",
+      "file": "005.jpg",
       "original_name": "DSC_0107.png",
       "source_sha1": "89fbe81128b42c98baf76a84724f247d551728d4",
       "title": "",
@@ -165,20 +165,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/005.png",
+        "src": "full/005.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 4791952,
-        "format": "png",
-        "quality": null
+        "bytes": 1322728,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/005.png",
+        "src": "thumbs/005.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 722523,
-        "format": "png",
-        "quality": null
+        "bytes": 236701,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -192,7 +192,7 @@
     },
     {
       "id": "006",
-      "file": "006.png",
+      "file": "006.jpg",
       "original_name": "DSC_0112.png",
       "source_sha1": "7591a5603d402783dca155e66478f50496ac01f4",
       "title": "",
@@ -203,20 +203,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/006.png",
+        "src": "full/006.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 5688807,
-        "format": "png",
-        "quality": null
+        "bytes": 1785389,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/006.png",
+        "src": "thumbs/006.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 925223,
-        "format": "png",
-        "quality": null
+        "bytes": 295772,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.2499,
       "camera": "Nikon Z5_2",
@@ -230,7 +230,7 @@
     },
     {
       "id": "007",
-      "file": "007.png",
+      "file": "007.jpg",
       "original_name": "DSC_0123.png",
       "source_sha1": "9baa8565d73e03f108ae699280f692df28ea1373",
       "title": "",
@@ -241,20 +241,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/007.png",
+        "src": "full/007.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 3876293,
-        "format": "png",
-        "quality": null
+        "bytes": 1171765,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/007.png",
+        "src": "thumbs/007.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 726425,
-        "format": "png",
-        "quality": null
+        "bytes": 251479,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -268,7 +268,7 @@
     },
     {
       "id": "008",
-      "file": "008.png",
+      "file": "008.jpg",
       "original_name": "DSC_0130.png",
       "source_sha1": "f7e247a7a2cdcf5cd0c0bce0aef751a9e29df5f8",
       "title": "",
@@ -279,20 +279,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/008.png",
+        "src": "full/008.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 3800619,
-        "format": "png",
-        "quality": null
+        "bytes": 1169436,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/008.png",
+        "src": "thumbs/008.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 661426,
-        "format": "png",
-        "quality": null
+        "bytes": 241594,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -306,7 +306,7 @@
     },
     {
       "id": "009",
-      "file": "009.png",
+      "file": "009.jpg",
       "original_name": "DSC_0148.png",
       "source_sha1": "fd93b25a77426f4207e0ad257ad96ebf1bb361e9",
       "title": "",
@@ -317,20 +317,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/009.png",
+        "src": "full/009.jpg",
         "width": 1333,
         "height": 2000,
-        "bytes": 4513637,
-        "format": "png",
-        "quality": null
+        "bytes": 1439594,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/009.png",
+        "src": "thumbs/009.jpg",
         "width": 533,
         "height": 800,
-        "bytes": 729380,
-        "format": "png",
-        "quality": null
+        "bytes": 247246,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.6667,
       "camera": "Nikon Z5_2",
@@ -344,7 +344,7 @@
     },
     {
       "id": "010",
-      "file": "010.png",
+      "file": "010.jpg",
       "original_name": "DSC_0157.png",
       "source_sha1": "2cf38fc361bb1283a9347b4de4da91e979276486",
       "title": "",
@@ -355,20 +355,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/010.png",
+        "src": "full/010.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 5368847,
-        "format": "png",
-        "quality": null
+        "bytes": 1704957,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/010.png",
+        "src": "thumbs/010.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 826875,
-        "format": "png",
-        "quality": null
+        "bytes": 283463,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -382,7 +382,7 @@
     },
     {
       "id": "011",
-      "file": "011.png",
+      "file": "011.jpg",
       "original_name": "DSC_0158.png",
       "source_sha1": "17098acb98790709ce95e82608749403f27aaf7e",
       "title": "",
@@ -393,20 +393,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/011.png",
+        "src": "full/011.jpg",
         "width": 1600,
         "height": 2000,
-        "bytes": 4868740,
-        "format": "png",
-        "quality": null
+        "bytes": 1538709,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/011.png",
+        "src": "thumbs/011.jpg",
         "width": 640,
         "height": 800,
-        "bytes": 762070,
-        "format": "png",
-        "quality": null
+        "bytes": 271779,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -420,7 +420,7 @@
     },
     {
       "id": "012",
-      "file": "012.png",
+      "file": "012.jpg",
       "original_name": "DSC_0264.png",
       "source_sha1": "d0109cac31bd2ee79a496dda830b6ebefe23fe18",
       "title": "",
@@ -431,20 +431,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/012.png",
+        "src": "full/012.jpg",
         "width": 1317,
         "height": 1646,
-        "bytes": 2434152,
-        "format": "png",
-        "quality": null
+        "bytes": 691725,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/012.png",
+        "src": "thumbs/012.jpg",
         "width": 640,
         "height": 800,
-        "bytes": 682751,
-        "format": "png",
-        "quality": null
+        "bytes": 215394,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -458,7 +458,7 @@
     },
     {
       "id": "013",
-      "file": "013.png",
+      "file": "013.jpg",
       "original_name": "DSC_0272.png",
       "source_sha1": "bb57b88b5e2fcb4674d2a1d4cb75707a30be376e",
       "title": "",
@@ -469,20 +469,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/013.png",
+        "src": "full/013.jpg",
         "width": 1600,
         "height": 2000,
-        "bytes": 3323923,
-        "format": "png",
-        "quality": null
+        "bytes": 773637,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/013.png",
+        "src": "thumbs/013.jpg",
         "width": 640,
         "height": 800,
-        "bytes": 522537,
-        "format": "png",
-        "quality": null
+        "bytes": 146905,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.7999,
       "camera": "Nikon Z5_2",
@@ -496,7 +496,7 @@
     },
     {
       "id": "014",
-      "file": "014.png",
+      "file": "014.jpg",
       "original_name": "DSC_0274.png",
       "source_sha1": "8e3b72caadca8a7b239a89b8e030d96e6b967969",
       "title": "",
@@ -507,20 +507,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/014.png",
+        "src": "full/014.jpg",
         "width": 1333,
         "height": 2000,
-        "bytes": 4324460,
-        "format": "png",
-        "quality": null
+        "bytes": 1370839,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/014.png",
+        "src": "thumbs/014.jpg",
         "width": 533,
         "height": 800,
-        "bytes": 657554,
-        "format": "png",
-        "quality": null
+        "bytes": 235152,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.6667,
       "camera": "Nikon Z5_2",
@@ -534,7 +534,7 @@
     },
     {
       "id": "015",
-      "file": "015.png",
+      "file": "015.jpg",
       "original_name": "DSC_0293.png",
       "source_sha1": "1ffe9c39f8e89466673fe540571c6a1d70bb39e3",
       "title": "",
@@ -545,20 +545,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/015.png",
+        "src": "full/015.jpg",
         "width": 1600,
         "height": 2000,
-        "bytes": 4891627,
-        "format": "png",
-        "quality": null
+        "bytes": 1814441,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/015.png",
+        "src": "thumbs/015.jpg",
         "width": 640,
         "height": 800,
-        "bytes": 865080,
-        "format": "png",
-        "quality": null
+        "bytes": 352738,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -572,7 +572,7 @@
     },
     {
       "id": "016",
-      "file": "016.png",
+      "file": "016.jpg",
       "original_name": "DSC_0030.png",
       "source_sha1": "7dd2fd1408bf9635b4023ddb22b663c6c55ffd58",
       "title": "",
@@ -583,20 +583,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/016.png",
+        "src": "full/016.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 5049099,
-        "format": "png",
-        "quality": null
+        "bytes": 1696492,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/016.png",
+        "src": "thumbs/016.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 892294,
-        "format": "png",
-        "quality": null
+        "bytes": 324360,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -610,7 +610,7 @@
     },
     {
       "id": "017",
-      "file": "017.png",
+      "file": "017.jpg",
       "original_name": "DSC_0218.png",
       "source_sha1": "408fa256f2dbf7fe5d78d8ccd551b4d19fce4bef",
       "title": "",
@@ -621,20 +621,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/017.png",
+        "src": "full/017.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4551648,
-        "format": "png",
-        "quality": null
+        "bytes": 1455179,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/017.png",
+        "src": "thumbs/017.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 761197,
-        "format": "png",
-        "quality": null
+        "bytes": 259039,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -648,7 +648,7 @@
     },
     {
       "id": "018",
-      "file": "018.png",
+      "file": "018.jpg",
       "original_name": "DSC_0379.png",
       "source_sha1": "79c0d2ccb7cf4e1d2bcec4affd5c73eb4863e944",
       "title": "",
@@ -659,20 +659,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/018.png",
+        "src": "full/018.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 5849237,
-        "format": "png",
-        "quality": null
+        "bytes": 1925048,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/018.png",
+        "src": "thumbs/018.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 912168,
-        "format": "png",
-        "quality": null
+        "bytes": 309026,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.2501,
       "camera": "Nikon Z5_2",
@@ -686,7 +686,7 @@
     },
     {
       "id": "019",
-      "file": "019.png",
+      "file": "019.jpg",
       "original_name": "DSC_2383.png",
       "source_sha1": "09ddf969645fe62ca5b1da8926c6f363b31a236d",
       "title": "",
@@ -697,20 +697,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/019.png",
+        "src": "full/019.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 5486300,
-        "format": "png",
-        "quality": null
+        "bytes": 1856304,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/019.png",
+        "src": "thumbs/019.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 869450,
-        "format": "png",
-        "quality": null
+        "bytes": 300853,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -724,7 +724,7 @@
     },
     {
       "id": "020",
-      "file": "020.png",
+      "file": "020.jpg",
       "original_name": "DSC_0425.png",
       "source_sha1": "e8594a7974a6f7e53750c208eb508f81796e517a",
       "title": "",
@@ -735,20 +735,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/020.png",
+        "src": "full/020.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 4686002,
-        "format": "png",
-        "quality": null
+        "bytes": 1636967,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/020.png",
+        "src": "thumbs/020.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 761426,
-        "format": "png",
-        "quality": null
+        "bytes": 261847,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.4998,
       "camera": "Nikon Z5_2",
@@ -762,7 +762,7 @@
     },
     {
       "id": "021",
-      "file": "021.png",
+      "file": "021.jpg",
       "original_name": "DSC_0628.png",
       "source_sha1": "58b752490969b27e6c812890b3b7bbfcd376a85c",
       "title": "",
@@ -773,20 +773,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/021.png",
+        "src": "full/021.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4584212,
-        "format": "png",
-        "quality": null
+        "bytes": 1722935,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/021.png",
+        "src": "thumbs/021.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 833170,
-        "format": "png",
-        "quality": null
+        "bytes": 343989,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -800,7 +800,7 @@
     },
     {
       "id": "022",
-      "file": "022.png",
+      "file": "022.jpg",
       "original_name": "DSC_0658.png",
       "source_sha1": "b0c16bef5ff90654a91e7da0616d98aae128ba47",
       "title": "",
@@ -811,20 +811,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/022.png",
+        "src": "full/022.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3294750,
-        "format": "png",
-        "quality": null
+        "bytes": 872048,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/022.png",
+        "src": "thumbs/022.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 489953,
-        "format": "png",
-        "quality": null
+        "bytes": 153070,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -838,7 +838,7 @@
     },
     {
       "id": "023",
-      "file": "023.png",
+      "file": "023.jpg",
       "original_name": "DSC_0669.png",
       "source_sha1": "5521087e901a2c429b9da46fcf9cf3d5007fa9a7",
       "title": "",
@@ -849,20 +849,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/023.png",
+        "src": "full/023.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3467356,
-        "format": "png",
-        "quality": null
+        "bytes": 1008434,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/023.png",
+        "src": "thumbs/023.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 546240,
-        "format": "png",
-        "quality": null
+        "bytes": 204149,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -876,7 +876,7 @@
     },
     {
       "id": "024",
-      "file": "024.png",
+      "file": "024.jpg",
       "original_name": "DSC_1060.png",
       "source_sha1": "b6aa781f0307531faa2e2bfe5053ebd77318fdfb",
       "title": "",
@@ -887,20 +887,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/024.png",
+        "src": "full/024.jpg",
         "width": 2000,
         "height": 1125,
-        "bytes": 2762306,
-        "format": "png",
-        "quality": null
+        "bytes": 1102622,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/024.png",
+        "src": "thumbs/024.jpg",
         "width": 800,
         "height": 450,
-        "bytes": 464880,
-        "format": "png",
-        "quality": null
+        "bytes": 194042,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.7778,
       "camera": "Nikon Z5_2",
@@ -914,7 +914,7 @@
     },
     {
       "id": "025",
-      "file": "025.png",
+      "file": "025.jpg",
       "original_name": "DSC_1125.png",
       "source_sha1": "5b5a0f68e5359f2bbaf09201498fe62be99755a2",
       "title": "",
@@ -925,20 +925,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/025.png",
+        "src": "full/025.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 5660536,
-        "format": "png",
-        "quality": null
+        "bytes": 1844033,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/025.png",
+        "src": "thumbs/025.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 985767,
-        "format": "png",
-        "quality": null
+        "bytes": 358191,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -952,7 +952,7 @@
     },
     {
       "id": "026",
-      "file": "026.png",
+      "file": "026.jpg",
       "original_name": "DSC_1128.png",
       "source_sha1": "bd475f002dc3314296775297e8dc61a517dfcae8",
       "title": "",
@@ -963,20 +963,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/026.png",
+        "src": "full/026.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4039450,
-        "format": "png",
-        "quality": null
+        "bytes": 1438394,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/026.png",
+        "src": "thumbs/026.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 720656,
-        "format": "png",
-        "quality": null
+        "bytes": 274246,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -990,7 +990,7 @@
     },
     {
       "id": "027",
-      "file": "027.png",
+      "file": "027.jpg",
       "original_name": "DSC_1150.png",
       "source_sha1": "31b1350a524ec761cbab1d87b516297ffb85bf10",
       "title": "",
@@ -1001,20 +1001,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/027.png",
+        "src": "full/027.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4724852,
-        "format": "png",
-        "quality": null
+        "bytes": 1497591,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/027.png",
+        "src": "thumbs/027.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 778075,
-        "format": "png",
-        "quality": null
+        "bytes": 265222,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "028",
-      "file": "028.png",
+      "file": "028.jpg",
       "original_name": "DSC_1226.png",
       "source_sha1": "99e97107e851f55e2cd8e3ae9c5e39022cf13aa8",
       "title": "",
@@ -1039,20 +1039,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/028.png",
+        "src": "full/028.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3960195,
-        "format": "png",
-        "quality": null
+        "bytes": 1207440,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/028.png",
+        "src": "thumbs/028.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 672240,
-        "format": "png",
-        "quality": null
+        "bytes": 242125,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "029",
-      "file": "029.png",
+      "file": "029.jpg",
       "original_name": "DSC_1229.png",
       "source_sha1": "3925b3d1f811ffeee7011ca221faf71db47e6077",
       "title": "",
@@ -1077,20 +1077,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/029.png",
+        "src": "full/029.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3572819,
-        "format": "png",
-        "quality": null
+        "bytes": 1091979,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/029.png",
+        "src": "thumbs/029.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 616639,
-        "format": "png",
-        "quality": null
+        "bytes": 210106,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "030",
-      "file": "030.png",
+      "file": "030.jpg",
       "original_name": "DSC_1249.png",
       "source_sha1": "e27c4af71599e72dee4816e8bc871370aa1d22ff",
       "title": "",
@@ -1115,20 +1115,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/030.png",
+        "src": "full/030.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4929538,
-        "format": "png",
-        "quality": null
+        "bytes": 1591120,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/030.png",
+        "src": "thumbs/030.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 815427,
-        "format": "png",
-        "quality": null
+        "bytes": 272840,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "031",
-      "file": "031.png",
+      "file": "031.jpg",
       "original_name": "DSC_1272.png",
       "source_sha1": "c3c0d2250a9c40413e26583488e1ee35cdeefe1b",
       "title": "",
@@ -1153,20 +1153,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/031.png",
+        "src": "full/031.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 5972106,
-        "format": "png",
-        "quality": null
+        "bytes": 2240102,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/031.png",
+        "src": "thumbs/031.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 1016669,
-        "format": "png",
-        "quality": null
+        "bytes": 369947,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -1180,7 +1180,7 @@
     },
     {
       "id": "032",
-      "file": "032.png",
+      "file": "032.jpg",
       "original_name": "DSC_1295.png",
       "source_sha1": "7d79328abe9a75046bbb1d3e0750ae6656327b2a",
       "title": "",
@@ -1191,20 +1191,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/032.png",
+        "src": "full/032.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4512507,
-        "format": "png",
-        "quality": null
+        "bytes": 1473625,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/032.png",
+        "src": "thumbs/032.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 667895,
-        "format": "png",
-        "quality": null
+        "bytes": 205017,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -1218,7 +1218,7 @@
     },
     {
       "id": "033",
-      "file": "033.png",
+      "file": "033.jpg",
       "original_name": "DSC_1308.png",
       "source_sha1": "2e0f7aa385bb5dd7db10ffdfd251de0ccb0324cd",
       "title": "",
@@ -1229,20 +1229,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/033.png",
+        "src": "full/033.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 2823584,
-        "format": "png",
-        "quality": null
+        "bytes": 863898,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/033.png",
+        "src": "thumbs/033.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 617113,
-        "format": "png",
-        "quality": null
+        "bytes": 214582,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -1256,7 +1256,7 @@
     },
     {
       "id": "034",
-      "file": "034.png",
+      "file": "034.jpg",
       "original_name": "DSC_1402.png",
       "source_sha1": "0caf76032013b99714b518afc9942e862fbeebad",
       "title": "",
@@ -1267,20 +1267,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/034.png",
+        "src": "full/034.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3276980,
-        "format": "png",
-        "quality": null
+        "bytes": 1161528,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/034.png",
+        "src": "thumbs/034.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 574510,
-        "format": "png",
-        "quality": null
+        "bytes": 177999,
+        "format": "jpg",
+        "quality": 93
       },
       "aspect_ratio": 1.3331,
       "camera": "Nikon Z5_2",
@@ -1294,7 +1294,7 @@
     },
     {
       "id": "035",
-      "file": "035.png",
+      "file": "035.jpg",
       "original_name": "DSC_1427.png",
       "source_sha1": "be41728ac5b7c546aff32055e2b13e3fb28eb347",
       "title": "",
@@ -1305,20 +1305,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/035.png",
+        "src": "full/035.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 5098121,
-        "format": "png",
-        "quality": null
+        "bytes": 2104972,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/035.png",
+        "src": "thumbs/035.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 928130,
-        "format": "png",
-        "quality": null
+        "bytes": 398872,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3331,
       "camera": "Nikon Z5_2",
@@ -1332,7 +1332,7 @@
     },
     {
       "id": "036",
-      "file": "036.png",
+      "file": "036.jpg",
       "original_name": "DSC_1486.png",
       "source_sha1": "45144941f24cc8f7feb28243082a33adf70b2cfa",
       "title": "",
@@ -1343,20 +1343,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/036.png",
+        "src": "full/036.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 4501185,
-        "format": "png",
-        "quality": null
+        "bytes": 1300605,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/036.png",
+        "src": "thumbs/036.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 629534,
-        "format": "png",
-        "quality": null
+        "bytes": 186291,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "037",
-      "file": "037.png",
+      "file": "037.jpg",
       "original_name": "DSC_1498.png",
       "source_sha1": "5a52bd23192aec681b4fce8f488e9bdc3839a3d2",
       "title": "",
@@ -1381,20 +1381,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/037.png",
+        "src": "full/037.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 4587519,
-        "format": "png",
-        "quality": null
+        "bytes": 1342413,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/037.png",
+        "src": "thumbs/037.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 673469,
-        "format": "png",
-        "quality": null
+        "bytes": 201617,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1408,7 +1408,7 @@
     },
     {
       "id": "038",
-      "file": "038.png",
+      "file": "038.jpg",
       "original_name": "DSC_1537.png",
       "source_sha1": "b8d39e3db89b72c41a737777b11f0c4de31fc77b",
       "title": "",
@@ -1419,20 +1419,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/038.png",
+        "src": "full/038.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 5088020,
-        "format": "png",
-        "quality": null
+        "bytes": 1522710,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/038.png",
+        "src": "thumbs/038.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 809308,
-        "format": "png",
-        "quality": null
+        "bytes": 260030,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3331,
       "camera": "Nikon Z5_2",
@@ -1446,7 +1446,7 @@
     },
     {
       "id": "039",
-      "file": "039.png",
+      "file": "039.jpg",
       "original_name": "DSC_1538.png",
       "source_sha1": "af3494c8e55aac19ad4f8ed7bba7394e13f394cc",
       "title": "",
@@ -1457,20 +1457,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/039.png",
+        "src": "full/039.jpg",
         "width": 2000,
         "height": 1497,
-        "bytes": 5061555,
-        "format": "png",
-        "quality": null
+        "bytes": 1519820,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/039.png",
+        "src": "thumbs/039.jpg",
         "width": 800,
         "height": 599,
-        "bytes": 824260,
-        "format": "png",
-        "quality": null
+        "bytes": 265391,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3361,
       "camera": "Nikon Z5_2",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": "040",
-      "file": "040.png",
+      "file": "040.jpg",
       "original_name": "DSC_1540.png",
       "source_sha1": "6c8e7269f6bfc916f9f67d4cd09ace6ab2651269",
       "title": "",
@@ -1495,20 +1495,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/040.png",
+        "src": "full/040.jpg",
         "width": 2000,
         "height": 1497,
-        "bytes": 4750700,
-        "format": "png",
-        "quality": null
+        "bytes": 1386090,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/040.png",
+        "src": "thumbs/040.jpg",
         "width": 800,
         "height": 599,
-        "bytes": 753271,
-        "format": "png",
-        "quality": null
+        "bytes": 233687,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3361,
       "camera": "Nikon Z5_2",
@@ -1522,7 +1522,7 @@
     },
     {
       "id": "041",
-      "file": "041.png",
+      "file": "041.jpg",
       "original_name": "DSC_1541.png",
       "source_sha1": "955bece08af2d94aa75647a3441021ab36662757",
       "title": "",
@@ -1533,20 +1533,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/041.png",
+        "src": "full/041.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 5482204,
-        "format": "png",
-        "quality": null
+        "bytes": 1746670,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/041.png",
+        "src": "thumbs/041.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 839607,
-        "format": "png",
-        "quality": null
+        "bytes": 281144,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3335,
       "camera": "Nikon Z5_2",
@@ -1560,7 +1560,7 @@
     },
     {
       "id": "042",
-      "file": "042.png",
+      "file": "042.jpg",
       "original_name": "DSC_1591.png",
       "source_sha1": "dcec756e69ff4917a790dfd800adf428d1cf796b",
       "title": "",
@@ -1571,20 +1571,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/042.png",
+        "src": "full/042.jpg",
         "width": 1333,
         "height": 2000,
-        "bytes": 4399089,
-        "format": "png",
-        "quality": null
+        "bytes": 1360034,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/042.png",
+        "src": "thumbs/042.jpg",
         "width": 533,
         "height": 800,
-        "bytes": 663879,
-        "format": "png",
-        "quality": null
+        "bytes": 218945,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.6667,
       "camera": "Nikon Z5_2",
@@ -1598,7 +1598,7 @@
     },
     {
       "id": "043",
-      "file": "043.png",
+      "file": "043.jpg",
       "original_name": "DSC_1628.png",
       "source_sha1": "78d883f1e4c044ac1608b380a0ae82171715b67e",
       "title": "",
@@ -1609,20 +1609,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/043.png",
+        "src": "full/043.jpg",
         "width": 1497,
         "height": 2000,
-        "bytes": 3848617,
-        "format": "png",
-        "quality": null
+        "bytes": 995120,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/043.png",
+        "src": "thumbs/043.jpg",
         "width": 599,
         "height": 800,
-        "bytes": 570743,
-        "format": "png",
-        "quality": null
+        "bytes": 165018,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.7485,
       "camera": "Nikon Z5_2",
@@ -1636,7 +1636,7 @@
     },
     {
       "id": "044",
-      "file": "044.png",
+      "file": "044.jpg",
       "original_name": "DSC_1645.png",
       "source_sha1": "8c44d51bbdf3a68fa313d45242821236e65edb47",
       "title": "",
@@ -1647,20 +1647,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/044.png",
+        "src": "full/044.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 5551531,
-        "format": "png",
-        "quality": null
+        "bytes": 1905649,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/044.png",
+        "src": "thumbs/044.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 870406,
-        "format": "png",
-        "quality": null
+        "bytes": 316513,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -1674,7 +1674,7 @@
     },
     {
       "id": "045",
-      "file": "045.png",
+      "file": "045.jpg",
       "original_name": "DSC_1662.png",
       "source_sha1": "8cf4549bfcb63406aa8b176f6868d5199a326c66",
       "title": "",
@@ -1685,20 +1685,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/045.png",
+        "src": "full/045.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 3101691,
-        "format": "png",
-        "quality": null
+        "bytes": 850843,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/045.png",
+        "src": "thumbs/045.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 588865,
-        "format": "png",
-        "quality": null
+        "bytes": 192678,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1712,7 +1712,7 @@
     },
     {
       "id": "046",
-      "file": "046.png",
+      "file": "046.jpg",
       "original_name": "DSC_1694.png",
       "source_sha1": "a57f3144188db0e868c2739f9505b18078301008",
       "title": "",
@@ -1723,20 +1723,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/046.png",
+        "src": "full/046.jpg",
         "width": 1500,
         "height": 2000,
-        "bytes": 5903721,
-        "format": "png",
-        "quality": null
+        "bytes": 2210290,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/046.png",
+        "src": "thumbs/046.jpg",
         "width": 600,
         "height": 800,
-        "bytes": 1028295,
-        "format": "png",
-        "quality": null
+        "bytes": 407026,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.75,
       "camera": "Nikon Z5_2",
@@ -1750,7 +1750,7 @@
     },
     {
       "id": "047",
-      "file": "047.png",
+      "file": "047.jpg",
       "original_name": "DSC_1737.png",
       "source_sha1": "643a31ddd8e5e0504a234ce77e2552aa5f539ff9",
       "title": "",
@@ -1761,20 +1761,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/047.png",
+        "src": "full/047.jpg",
         "width": 1500,
         "height": 2000,
-        "bytes": 5475833,
-        "format": "png",
-        "quality": null
+        "bytes": 2071408,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/047.png",
+        "src": "thumbs/047.jpg",
         "width": 600,
         "height": 800,
-        "bytes": 1055961,
-        "format": "png",
-        "quality": null
+        "bytes": 451405,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.75,
       "camera": "Nikon Z5_2",
@@ -1788,7 +1788,7 @@
     },
     {
       "id": "048",
-      "file": "048.png",
+      "file": "048.jpg",
       "original_name": "DSC_1754.png",
       "source_sha1": "c99185f029f91d73359a980c619a5fbc24888de4",
       "title": "",
@@ -1799,20 +1799,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/048.png",
+        "src": "full/048.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4774036,
-        "format": "png",
-        "quality": null
+        "bytes": 1719344,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/048.png",
+        "src": "thumbs/048.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 837192,
-        "format": "png",
-        "quality": null
+        "bytes": 336179,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "049",
-      "file": "049.png",
+      "file": "049.jpg",
       "original_name": "DSC_1758.png",
       "source_sha1": "9998de9fedaf66dd0b49a0c8e7c3c5ae05611067",
       "title": "",
@@ -1837,20 +1837,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/049.png",
+        "src": "full/049.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 3848865,
-        "format": "png",
-        "quality": null
+        "bytes": 1417945,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/049.png",
+        "src": "thumbs/049.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 716994,
-        "format": "png",
-        "quality": null
+        "bytes": 292882,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1864,7 +1864,7 @@
     },
     {
       "id": "050",
-      "file": "050.png",
+      "file": "050.jpg",
       "original_name": "DSC_1849.png",
       "source_sha1": "bb86f16aaa1e53bdabd3d398276ccde60123e38e",
       "title": "",
@@ -1875,20 +1875,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/050.png",
+        "src": "full/050.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 5948161,
-        "format": "png",
-        "quality": null
+        "bytes": 2554700,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/050.png",
+        "src": "thumbs/050.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 1047224,
-        "format": "png",
-        "quality": null
+        "bytes": 481933,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -1902,7 +1902,7 @@
     },
     {
       "id": "051",
-      "file": "051.png",
+      "file": "051.jpg",
       "original_name": "DSC_1899.png",
       "source_sha1": "7b10201fb5ce195f97f29d3415a30e703a97a26e",
       "title": "",
@@ -1913,20 +1913,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/051.png",
+        "src": "full/051.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4858567,
-        "format": "png",
-        "quality": null
+        "bytes": 1985185,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/051.png",
+        "src": "thumbs/051.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 818349,
-        "format": "png",
-        "quality": null
+        "bytes": 361109,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3335,
       "camera": "Nikon Z5_2",
@@ -1940,7 +1940,7 @@
     },
     {
       "id": "052",
-      "file": "052.png",
+      "file": "052.jpg",
       "original_name": "DSC_0315.png",
       "source_sha1": "2efabf5f5cac613a2a0bcd6e632c1b59aa2e4c1e",
       "title": "",
@@ -1951,20 +1951,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/052.png",
+        "src": "full/052.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 3212200,
-        "format": "png",
-        "quality": null
+        "bytes": 1015899,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/052.png",
+        "src": "thumbs/052.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 486880,
-        "format": "png",
-        "quality": null
+        "bytes": 142224,
+        "format": "jpg",
+        "quality": 93
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1978,7 +1978,7 @@
     },
     {
       "id": "053",
-      "file": "053.png",
+      "file": "053.jpg",
       "original_name": "DSC_0321.png",
       "source_sha1": "35397bd3a6f5b1bc00018f3c8c6257f751c22009",
       "title": "",
@@ -1989,20 +1989,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/053.png",
+        "src": "full/053.jpg",
         "width": 1500,
         "height": 2000,
-        "bytes": 2209025,
-        "format": "png",
-        "quality": null
+        "bytes": 834975,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/053.png",
+        "src": "thumbs/053.jpg",
         "width": 600,
         "height": 800,
-        "bytes": 337883,
-        "format": "png",
-        "quality": null
+        "bytes": 121551,
+        "format": "jpg",
+        "quality": 93
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -2016,7 +2016,7 @@
     },
     {
       "id": "054",
-      "file": "054.png",
+      "file": "054.jpg",
       "original_name": "DSC_0329.png",
       "source_sha1": "d98c43fa90ce9c5e56da254e01d4fc406e0070fa",
       "title": "",
@@ -2027,20 +2027,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/054.png",
+        "src": "full/054.jpg",
         "width": 2000,
         "height": 1908,
-        "bytes": 3215712,
-        "format": "png",
-        "quality": null
+        "bytes": 984174,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/054.png",
+        "src": "thumbs/054.jpg",
         "width": 800,
         "height": 763,
-        "bytes": 495466,
-        "format": "png",
-        "quality": null
+        "bytes": 178940,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.0483,
       "camera": "Nikon Z5_2",
@@ -2054,7 +2054,7 @@
     },
     {
       "id": "055",
-      "file": "055.png",
+      "file": "055.jpg",
       "original_name": "DSC_0360.png",
       "source_sha1": "d552bd59e8c6479f42e3f9a8a8ce41e4cbff9271",
       "title": "",
@@ -2065,20 +2065,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/055.png",
+        "src": "full/055.jpg",
         "width": 1975,
         "height": 2000,
-        "bytes": 4718792,
-        "format": "png",
-        "quality": null
+        "bytes": 1395672,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/055.png",
+        "src": "thumbs/055.jpg",
         "width": 790,
         "height": 800,
-        "bytes": 676848,
-        "format": "png",
-        "quality": null
+        "bytes": 213547,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.9874,
       "camera": "Nikon Z5_2",
@@ -2092,7 +2092,7 @@
     },
     {
       "id": "056",
-      "file": "056.png",
+      "file": "056.jpg",
       "original_name": "DSC_0701.png",
       "source_sha1": "7524701833643145eb535cf0ddd72f6f4ae7adb5",
       "title": "",
@@ -2103,20 +2103,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/056.png",
+        "src": "full/056.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4950257,
-        "format": "png",
-        "quality": null
+        "bytes": 1816715,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/056.png",
+        "src": "thumbs/056.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 820326,
-        "format": "png",
-        "quality": null
+        "bytes": 333057,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -2133,7 +2133,7 @@
     },
     {
       "id": "057",
-      "file": "057.png",
+      "file": "057.jpg",
       "original_name": "DSC_0742.png",
       "source_sha1": "7a59f935bbfe065fb083c5b89fb3651cd22e0dff",
       "title": "",
@@ -2144,20 +2144,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/057.png",
+        "src": "full/057.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 3264476,
-        "format": "png",
-        "quality": null
+        "bytes": 974292,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/057.png",
+        "src": "thumbs/057.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 486550,
-        "format": "png",
-        "quality": null
+        "bytes": 175763,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -2174,7 +2174,7 @@
     },
     {
       "id": "058",
-      "file": "058.png",
+      "file": "058.jpg",
       "original_name": "DSC_0755.png",
       "source_sha1": "f12f366d2ace67c988e0048bd6e451ca41733329",
       "title": "",
@@ -2185,20 +2185,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/058.png",
+        "src": "full/058.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4631186,
-        "format": "png",
-        "quality": null
+        "bytes": 1947502,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/058.png",
+        "src": "thumbs/058.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 805953,
-        "format": "png",
-        "quality": null
+        "bytes": 347152,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2215,7 +2215,7 @@
     },
     {
       "id": "059",
-      "file": "059.png",
+      "file": "059.jpg",
       "original_name": "DSC_0830.png",
       "source_sha1": "a9af5a20b93563ae894eefff5a1b88bc8b548403",
       "title": "",
@@ -2226,20 +2226,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/059.png",
+        "src": "full/059.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4537504,
-        "format": "png",
-        "quality": null
+        "bytes": 1438276,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/059.png",
+        "src": "thumbs/059.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 842573,
-        "format": "png",
-        "quality": null
+        "bytes": 308167,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -2253,7 +2253,7 @@
     },
     {
       "id": "060",
-      "file": "060.png",
+      "file": "060.jpg",
       "original_name": "DSC_1062.png",
       "source_sha1": "e677a0dc41b693d5c1e8797230f5e0185b846016",
       "title": "",
@@ -2264,20 +2264,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/060.png",
+        "src": "full/060.jpg",
         "width": 1448,
         "height": 1931,
-        "bytes": 4914033,
-        "format": "png",
-        "quality": null
+        "bytes": 1640559,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/060.png",
+        "src": "thumbs/060.jpg",
         "width": 600,
         "height": 800,
-        "bytes": 833699,
-        "format": "png",
-        "quality": null
+        "bytes": 279781,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -2291,7 +2291,7 @@
     },
     {
       "id": "061",
-      "file": "061.png",
+      "file": "061.jpg",
       "original_name": "DSC_1264.png",
       "source_sha1": "3d1ba241692523ebe442ad72e01bd434d1f66f74",
       "title": "",
@@ -2302,20 +2302,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/061.png",
+        "src": "full/061.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4199703,
-        "format": "png",
-        "quality": null
+        "bytes": 1232232,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/061.png",
+        "src": "thumbs/061.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 689245,
-        "format": "png",
-        "quality": null
+        "bytes": 210905,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -2329,7 +2329,7 @@
     },
     {
       "id": "062",
-      "file": "062.png",
+      "file": "062.jpg",
       "original_name": "DSC_1299.png",
       "source_sha1": "fb42dd4cf07ca1c4777766254b6396f3f5b0f513",
       "title": "Echoes at Dusk",
@@ -2340,20 +2340,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/062.png",
+        "src": "full/062.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 2102460,
-        "format": "png",
-        "quality": null
+        "bytes": 494653,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/062.png",
+        "src": "thumbs/062.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 339571,
-        "format": "png",
-        "quality": null
+        "bytes": 69116,
+        "format": "jpg",
+        "quality": 91
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -2370,7 +2370,7 @@
     },
     {
       "id": "063",
-      "file": "063.png",
+      "file": "063.jpg",
       "original_name": "DSC_1623.png",
       "source_sha1": "0cf017dfc4aa4c846873cf0db2d466dc965a4421",
       "title": "",
@@ -2381,20 +2381,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/063.png",
+        "src": "full/063.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 6177653,
-        "format": "png",
-        "quality": null
+        "bytes": 2632601,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/063.png",
+        "src": "thumbs/063.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 1045097,
-        "format": "png",
-        "quality": null
+        "bytes": 460495,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -2408,7 +2408,7 @@
     },
     {
       "id": "064",
-      "file": "064.png",
+      "file": "064.jpg",
       "original_name": "DSC_0023.png",
       "source_sha1": "97dc528877d135caa44a137d07cfa9bee65269d2",
       "title": "",
@@ -2419,20 +2419,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/064.png",
+        "src": "full/064.jpg",
         "width": 1333,
         "height": 2000,
-        "bytes": 5638742,
-        "format": "png",
-        "quality": null
+        "bytes": 2140833,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/064.png",
+        "src": "thumbs/064.jpg",
         "width": 533,
         "height": 800,
-        "bytes": 954284,
-        "format": "png",
-        "quality": null
+        "bytes": 327509,
+        "format": "jpg",
+        "quality": 93
       },
       "aspect_ratio": 0.6666,
       "camera": "Nikon Z5_2",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": "065",
-      "file": "065.png",
+      "file": "065.jpg",
       "original_name": "DSC_0024.png",
       "source_sha1": "600710bbcbf4de120131a3e9a354f2cb1139d3f2",
       "title": "",
@@ -2457,20 +2457,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/065.png",
+        "src": "full/065.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 7604209,
-        "format": "png",
-        "quality": null
+        "bytes": 3022299,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/065.png",
+        "src": "thumbs/065.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 1256321,
-        "format": "png",
-        "quality": null
+        "bytes": 408273,
+        "format": "jpg",
+        "quality": 92
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -2484,7 +2484,7 @@
     },
     {
       "id": "066",
-      "file": "066.png",
+      "file": "066.jpg",
       "original_name": "DSC_0029.png",
       "source_sha1": "e64bd7228f0573deae69218d8f16da9793fa31c7",
       "title": "",
@@ -2495,20 +2495,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/066.png",
+        "src": "full/066.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 5128407,
-        "format": "png",
-        "quality": null
+        "bytes": 1565974,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/066.png",
+        "src": "thumbs/066.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 1015330,
-        "format": "png",
-        "quality": null
+        "bytes": 320564,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.2501,
       "camera": "Nikon Z5_2",
@@ -2522,7 +2522,7 @@
     },
     {
       "id": "067",
-      "file": "067.png",
+      "file": "067.jpg",
       "original_name": "DSC_0036.png",
       "source_sha1": "7cdeb67edbf38b3554636f8b1d4d8921a7a4538c",
       "title": "",
@@ -2533,20 +2533,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/067.png",
+        "src": "full/067.jpg",
         "width": 1500,
         "height": 2000,
-        "bytes": 2540302,
-        "format": "png",
-        "quality": null
+        "bytes": 700179,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/067.png",
+        "src": "thumbs/067.jpg",
         "width": 600,
         "height": 800,
-        "bytes": 422503,
-        "format": "png",
-        "quality": null
+        "bytes": 93548,
+        "format": "jpg",
+        "quality": 89
       },
       "aspect_ratio": 0.75,
       "camera": "Nikon Z5_2",
@@ -2560,7 +2560,7 @@
     },
     {
       "id": "068",
-      "file": "068.png",
+      "file": "068.jpg",
       "original_name": "DSC_0066.png",
       "source_sha1": "a4c8886949cc06e4d118cf654faf304625ef7250",
       "title": "",
@@ -2571,20 +2571,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/068.png",
+        "src": "full/068.jpg",
         "width": 2000,
         "height": 1600,
-        "bytes": 4366140,
-        "format": "png",
-        "quality": null
+        "bytes": 1188585,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/068.png",
+        "src": "thumbs/068.jpg",
         "width": 800,
         "height": 640,
-        "bytes": 807922,
-        "format": "png",
-        "quality": null
+        "bytes": 227716,
+        "format": "jpg",
+        "quality": 94
       },
       "aspect_ratio": 1.2499,
       "camera": "Nikon Z5_2",
@@ -2598,7 +2598,7 @@
     },
     {
       "id": "069",
-      "file": "069.png",
+      "file": "069.jpg",
       "original_name": "DSC_0184.png",
       "source_sha1": "4823fbe25c1b97d3bf7b99134bcc989df447127b",
       "title": "",
@@ -2609,20 +2609,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/069.png",
+        "src": "full/069.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 4140717,
-        "format": "png",
-        "quality": null
+        "bytes": 1249523,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/069.png",
+        "src": "thumbs/069.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 531990,
-        "format": "png",
-        "quality": null
+        "bytes": 169817,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.4998,
       "camera": "Nikon Z5_2",
@@ -2636,7 +2636,7 @@
     },
     {
       "id": "070",
-      "file": "070.png",
+      "file": "070.jpg",
       "original_name": "DSC_0295.png",
       "source_sha1": "824c5d8818a01d8614fdf071366f8a59a205be2b",
       "title": "",
@@ -2647,20 +2647,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/070.png",
+        "src": "full/070.jpg",
         "width": 1600,
         "height": 2000,
-        "bytes": 5027035,
-        "format": "png",
-        "quality": null
+        "bytes": 1416175,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/070.png",
+        "src": "thumbs/070.jpg",
         "width": 640,
         "height": 800,
-        "bytes": 710439,
-        "format": "png",
-        "quality": null
+        "bytes": 203903,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.8,
       "camera": "Nikon Z5_2",
@@ -2674,7 +2674,7 @@
     },
     {
       "id": "071",
-      "file": "071.png",
+      "file": "071.jpg",
       "original_name": "DSC_0331.png",
       "source_sha1": "8bc3c43a90ef19c193ce836842ec2b21ad19a1b9",
       "title": "",
@@ -2685,20 +2685,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/071.png",
+        "src": "full/071.jpg",
         "width": 2000,
         "height": 1333,
-        "bytes": 2875980,
-        "format": "png",
-        "quality": null
+        "bytes": 822916,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/071.png",
+        "src": "thumbs/071.jpg",
         "width": 800,
         "height": 533,
-        "bytes": 413087,
-        "format": "png",
-        "quality": null
+        "bytes": 113145,
+        "format": "jpg",
+        "quality": 93
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -2712,7 +2712,7 @@
     },
     {
       "id": "072",
-      "file": "072.png",
+      "file": "072.jpg",
       "original_name": "DSC_0618.png",
       "source_sha1": "9de2e964c3bf3da2caeab3114cb6aa63a8aa9033",
       "title": "",
@@ -2723,20 +2723,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/072.png",
+        "src": "full/072.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 4679040,
-        "format": "png",
-        "quality": null
+        "bytes": 1691533,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/072.png",
+        "src": "thumbs/072.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 833659,
-        "format": "png",
-        "quality": null
+        "bytes": 328856,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2753,31 +2753,31 @@
     },
     {
       "id": "073",
-      "file": "073.png",
+      "file": "073.jpg",
       "original_name": "DSC_0623.png",
       "source_sha1": "79adac7f667ea966db109bcb7bbe8339c4e9a75e",
       "title": "",
       "caption": "",
       "location": "",
       "featured": true,
-      "black_and_white": true,
+      "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/073.png",
+        "src": "full/073.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3785376,
-        "format": "png",
-        "quality": null
+        "bytes": 1163629,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/073.png",
+        "src": "thumbs/073.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 664722,
-        "format": "png",
-        "quality": null
+        "bytes": 212597,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2794,7 +2794,7 @@
     },
     {
       "id": "074",
-      "file": "074.png",
+      "file": "074.jpg",
       "original_name": "DSC_0638.png",
       "source_sha1": "ce52a2a0a3ebc76b19b26beb2af03c6837540099",
       "title": "",
@@ -2805,20 +2805,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/074.png",
+        "src": "full/074.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3235840,
-        "format": "png",
-        "quality": null
+        "bytes": 1340762,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/074.png",
+        "src": "thumbs/074.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 584283,
-        "format": "png",
-        "quality": null
+        "bytes": 272147,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2835,7 +2835,7 @@
     },
     {
       "id": "075",
-      "file": "075.png",
+      "file": "075.jpg",
       "original_name": "DSC_1448.png",
       "source_sha1": "971be4f13a0bd5e159dc0183d01474ded5330237",
       "title": "",
@@ -2846,20 +2846,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/075.png",
+        "src": "full/075.jpg",
         "width": 1500,
         "height": 2000,
-        "bytes": 3763202,
-        "format": "png",
-        "quality": null
+        "bytes": 1226081,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/075.png",
+        "src": "thumbs/075.jpg",
         "width": 600,
         "height": 800,
-        "bytes": 624175,
-        "format": "png",
-        "quality": null
+        "bytes": 226551,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 0.7501,
       "camera": "Nikon Z5_2",
@@ -2876,7 +2876,7 @@
     },
     {
       "id": "076",
-      "file": "076.png",
+      "file": "076.jpg",
       "original_name": "DSC_1462.png",
       "source_sha1": "9f8e2510aa06eaf687c11938da80ffd57c694a38",
       "title": "",
@@ -2887,20 +2887,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/076.png",
+        "src": "full/076.jpg",
         "width": 2000,
         "height": 1500,
-        "bytes": 3909791,
-        "format": "png",
-        "quality": null
+        "bytes": 1256690,
+        "format": "jpg",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/076.png",
+        "src": "thumbs/076.jpg",
         "width": 800,
         "height": 600,
-        "bytes": 657722,
-        "format": "png",
-        "quality": null
+        "bytes": 240364,
+        "format": "jpg",
+        "quality": 95
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2916,5 +2916,5 @@
       }
     }
   ],
-  "updated": "2026-11-01T01:09:25"
+  "updated": "2026-11-01T02:29:22"
 }
