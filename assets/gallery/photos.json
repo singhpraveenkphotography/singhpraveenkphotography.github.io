@@ -195,7 +195,7 @@
       "file": "006.jpg",
       "original_name": "DSC_0527.png",
       "source_sha1": "3d779e10dec949167171441a11f7400ff824a7b2",
-      "title": "",
+      "title": "Whispers of Light",
       "caption": "",
       "location": "Gorakhpur, India",
       "featured": true,
@@ -226,14 +226,17 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/250 s",
       "iso": 100,
-      "date_taken": "2025-10-11T10:28:04"
+      "date_taken": "2025-10-11T10:28:04",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Whispers-of-Light/3063431/14131289/view"
+      }
     },
     {
       "id": "007",
       "file": "007.jpg",
       "original_name": "DSC_0531.png",
       "source_sha1": "f5db355cff77cb7d5609e12c279ce772faffb046",
-      "title": "",
+      "title": "Delicate Moths on a Purple Wildflower",
       "caption": "",
       "location": "Gorakhpur, India",
       "featured": false,
@@ -264,7 +267,10 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/640 s",
       "iso": 100,
-      "date_taken": "2025-10-11T10:31:06"
+      "date_taken": "2025-10-11T10:31:06",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Delicate-Moths-on-a-Purple-Wildflower/3063431/14132183/view"
+      }
     },
     {
       "id": "008",
@@ -423,7 +429,7 @@
       "file": "012.jpg",
       "original_name": "DSC_0742.png",
       "source_sha1": "7a59f935bbfe065fb083c5b89fb3651cd22e0dff",
-      "title": "",
+      "title": "Sacred Night at Maya Devi Temple, Lumbini",
       "caption": "",
       "location": "Lumbini, Nepal",
       "featured": false,
@@ -454,14 +460,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/5 s",
       "iso": 6400,
-      "date_taken": "2025-10-18T17:52:13"
+      "date_taken": "2025-10-18T17:52:13",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacred-Night-at-Maya-Devi-Temple-Lumbini/3063431/14132249/view"
+      }
     },
     {
       "id": "013",
       "file": "013.jpg",
       "original_name": "DSC_0755.png",
       "source_sha1": "f12f366d2ace67c988e0048bd6e451ca41733329",
-      "title": "",
+      "title": "Meditating Monk Under a Sacred Tree at Dusk",
       "caption": "",
       "location": "Lumbini, Nepal",
       "featured": false,
@@ -492,7 +501,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/2 s",
       "iso": 6400,
-      "date_taken": "2025-10-18T17:57:51"
+      "date_taken": "2025-10-18T17:57:51",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Meditating-Monk-Under-a-Sacred-Tree-at-Dusk/3063431/14131345/view"
+      }
     },
     {
       "id": "014",
@@ -1715,9 +1727,9 @@
       "file": "046.jpg",
       "original_name": "DSC_9123.png",
       "source_sha1": "13dbd1e842c14b5a8401ed6f2bbff64db4528023",
-      "title": "",
+      "title": "Eiffel Tower and Seine River in Evening Glow",
       "caption": "",
-      "location": "",
+      "location": "7th Arrondissement, Paris, France",
       "featured": true,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -1746,7 +1758,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/20 s",
       "iso": 100,
-      "date_taken": "2026-07-17T21:29:11"
+      "date_taken": "2026-07-17T21:29:11",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-and-Seine-River-in-Evening-Glow/3063431/14130565/view"
+      }
     },
     {
       "id": "047",
@@ -2095,9 +2110,9 @@
       "file": "056.jpg",
       "original_name": "DSC_0618.png",
       "source_sha1": "9de2e964c3bf3da2caeab3114cb6aa63a8aa9033",
-      "title": "",
+      "title": "Sacré-Cœur Basilique from Rue de l'Abreuvoir in Night, Paris",
       "caption": "",
-      "location": "",
+      "location": "Montmartre, Paris, France",
       "featured": true,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -2126,16 +2141,19 @@
       "aperture": "f/16",
       "shutter_speed": "25 s",
       "iso": 100,
-      "date_taken": "2026-08-07T21:45:26"
+      "date_taken": "2026-08-07T21:45:26",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-Paris/3063431/14141877/view"
+      }
     },
     {
       "id": "057",
       "file": "057.jpg",
       "original_name": "DSC_0623.png",
       "source_sha1": "79adac7f667ea966db109bcb7bbe8339c4e9a75e",
-      "title": "",
+      "title": "Sacré-Cœur Basilique from Rue de l'Abreuvoir in Night (BW), Paris",
       "caption": "",
-      "location": "",
+      "location": "Montmartre, Paris, France",
       "featured": false,
       "black_and_white": true,
       "copyright_year": 2026,
@@ -2164,7 +2182,10 @@
       "aperture": "f/13",
       "shutter_speed": "25 s",
       "iso": 100,
-      "date_taken": "2026-08-07T21:52:50"
+      "date_taken": "2026-08-07T21:52:50",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-BW-Paris/3063431/14142801/view"
+      }
     },
     {
       "id": "058",
@@ -2173,7 +2194,7 @@
       "source_sha1": "58b752490969b27e6c812890b3b7bbfcd376a85c",
       "title": "",
       "caption": "",
-      "location": "",
+      "location": "Montmartre, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -2211,7 +2232,7 @@
       "source_sha1": "ce52a2a0a3ebc76b19b26beb2af03c6837540099",
       "title": "",
       "caption": "",
-      "location": "",
+      "location": "Montmartre, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -3200,9 +3221,9 @@
       "file": "085.jpg",
       "original_name": "DSC_1448.png",
       "source_sha1": "971be4f13a0bd5e159dc0183d01474ded5330237",
-      "title": "",
+      "title": "Notre-Dame de Paris glowing under the moon",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -3231,16 +3252,19 @@
       "aperture": "f/13",
       "shutter_speed": "30 s",
       "iso": 100,
-      "date_taken": "2026-09-26T21:14:30"
+      "date_taken": "2026-09-26T21:14:30",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Notre-Dame-de-Paris-glowing-under-the-moon/3063431/14274179/view"
+      }
     },
     {
       "id": "086",
       "file": "086.jpg",
       "original_name": "DSC_1462.png",
       "source_sha1": "9f8e2510aa06eaf687c11938da80ffd57c694a38",
-      "title": "",
+      "title": "Illuminated Notre-Dame and Seine River Paris",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -3269,7 +3293,10 @@
       "aperture": "f/16",
       "shutter_speed": "30 s",
       "iso": 100,
-      "date_taken": "2026-09-26T21:39:14"
+      "date_taken": "2026-09-26T21:39:14",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Illuminated-Notre-Dame-and-Seine-River-Paris/3063431/14292111/view"
+      }
     },
     {
       "id": "087",
@@ -3880,5 +3907,5 @@
       "date_taken": "2026-10-17T17:48:40"
     }
   ],
-  "updated": "2026-11-01T23:46:48"
+  "updated": "2026-11-02T00:43:17"
 }
