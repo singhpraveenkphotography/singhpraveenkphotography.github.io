@@ -1,0 +1,25 @@
+Copyright (c) 2026 Praveen Kumar Singh. All rights reserved.
+
+This repository holds two kinds of material, licensed differently.
+
+1. PHOTOGRAPHS AND ARTWORK — all rights reserved
+   Every photograph (assets/gallery/, assets/images/, certificates/ and any
+   other image in this repository), the logo, the badge and the text of the
+   website are the copyright of Praveen Kumar Singh. Each photograph is
+   protected from the year it was taken, as stated in its metadata and in
+   assets/gallery/photos.json.
+
+   No licence is granted. Without prior written permission you may not copy,
+   download, reproduce, print, sell, modify, publish, distribute or display
+   them, or use them in any dataset or to train, fine-tune or test any
+   artificial-intelligence or machine-learning system. Being publicly visible
+   on GitHub or on singhpraveenkphotography.github.io does not make them free
+   to use.
+
+   Licensing and prints: singhpraveenk.photography@gmail.com
+
+2. WEBSITE CODE — also all rights reserved
+   The Quarto files, stylesheets, scripts and process_photos.py are
+   published so that the website can be built and hosted. They are not
+   open source. Viewing the code to learn from it is fine; copying the
+   site's design or reusing the code requires permission.
