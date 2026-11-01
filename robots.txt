@@ -28,3 +28,5 @@ Disallow: /
 # Everyone else (Google, Bing, DuckDuckGo …)
 User-agent: *
 Allow: /
+
+Sitemap: https://singhpraveenkphotography.github.io/sitemap.xml

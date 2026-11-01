@@ -46,6 +46,13 @@
     return cache[base];
   }
   const label = (p, i) => p.title || `Photograph ${pad(i + 1)}`;
+  // descriptive alt text (search engines and screen readers):
+  // "Snowfall on Rue X, Montreal, 2026 — photograph by Praveen Kumar Singh"
+  const altText = (p) => {
+    const year = (p.date_taken || '').slice(0, 4) || (p.copyright_year ? String(p.copyright_year) : '');
+    if (!p.title && !p.location) return [`Photograph № ${p.id}`, year].filter(Boolean).join(', ') + ', by Praveen Kumar Singh';
+    return `${[p.title, p.location, year].filter(Boolean).join(', ')} — photograph by Praveen Kumar Singh`;
+  };
   // "shop" in photos.json: { "Saatchi Art": "https://…", "Artfinder": { "url": "https://…", "note": "Limited edition of 15" } }
   const shopLinks = (p) => Object.entries(p.shop || {})
     .map(([name, v]) => (typeof v === 'string' ? { name, url: v } : { name, url: v && v.url, note: v && v.note }))
@@ -166,7 +173,7 @@
   }
   function renderLb() {
     const p = lbList[lbIndex], token = ++lbToken, img = $('.pg-lb-frame img', lb);
-    img.alt = label(p, lbIndex);
+    img.alt = altText(p);
     $('.pg-lb-title', lb).textContent = p.title || '';
     $('.pg-lb-caption', lb).textContent = [p.caption, p.location].filter(Boolean).join(' · ');
     $('.pg-lb-counter', lb).textContent = `${pad(lbIndex + 1)} / ${pad(lbList.length)}`;
@@ -258,7 +265,7 @@
         <div class="pg-overlay"><span class="pg-num">№ ${p.id}</span>
         ${p.title ? `<span class="pg-name"></span>` : ''}<span class="pg-exp"></span></div>
         ${shopLinks(p).length ? '<span class="pg-sale-tag">Print available</span>' : ''}`;
-      $('img', fig).alt = label(p, i);
+      $('img', fig).alt = altText(p);
       if (p.title) $('.pg-name', fig).textContent = p.title;
       // exposure line on hover: f/5.6 · 1/250 s · ISO 200
       $('.pg-exp', fig).textContent = [p.aperture, p.shutter_speed, p.iso ? `ISO ${p.iso}` : null].filter(Boolean).join('  ·  ');
@@ -341,7 +348,7 @@
     const imgs = slides.map((p, i) => {
       const img = document.createElement('img');
       img.className = 'pg-slide';
-      img.alt = label(p, i);
+      img.alt = altText(p);
       img.decoding = 'async';
       if (i === 0) img.fetchPriority = 'high';
       if (i === 0) img.src = p.fullUrl;             // later slides load just before they show
