@@ -344,13 +344,17 @@
     if (hero.dataset.random === 'true') slides = shuffle(slides);
     const interval = parseInt(hero.dataset.interval || '6500', 10);
     const caption = $('.hero__caption', hero);
-    const staticImg = $('img', hero);
+    // the photo written into the page (assets/images/hero.jpg): it shows instantly
+    // and is the first slide; the featured photos follow with the normal crossfade
+    const staticImg = $('img:not(.pg-slide)', hero);
+    const staticOk = !!staticImg && !(staticImg.complete && !staticImg.naturalWidth);   // missing file -> skip it
+    if (staticOk && reduceMotion) return;           // no slideshow wanted: keep the opening photo
     const imgs = slides.map((p, i) => {
       const img = document.createElement('img');
       img.className = 'pg-slide';
       img.alt = altText(p);
       img.decoding = 'async';
-      if (i === 0) img.fetchPriority = 'high';
+      if (i === 0 && !staticOk) img.fetchPriority = 'high';
       if (i === 0) img.src = p.fullUrl;             // later slides load just before they show
       hero.insertBefore(img, staticImg ? staticImg.nextSibling : hero.firstChild);
       return img;
@@ -359,6 +363,7 @@
       const p = slides[i];
       if (!imgs[i].getAttribute('src')) imgs[i].src = p.fullUrl;
       imgs.forEach((im, k) => im.classList.toggle('is-active', k === i));
+      if (staticImg) staticImg.classList.remove('is-active');
       if (caption) {
         caption.classList.add('is-changing');
         setTimeout(() => { caption.textContent = place(p); caption.classList.remove('is-changing'); }, 300);
@@ -366,16 +371,24 @@
       const n = (i + 1) % slides.length;           // preload the next one
       if (!imgs[n].getAttribute('src')) imgs[n].src = slides[n].fullUrl;
     };
-    const start = () => {
-      show(0);
-      if (staticImg) staticImg.style.display = 'none';
+    let current = -1;
+    const advance = () => { current = (current + 1) % slides.length; show(current); };
+    const run = () => {                              // show the first featured photo, then rotate
+      advance();
       if (slides.length > 1 && !reduceMotion) {
-        let i = 0;
-        setInterval(() => { if (!document.hidden) { i = (i + 1) % slides.length; show(i); } }, interval);
+        setInterval(() => { if (!document.hidden) advance(); }, interval);
       }
     };
-    const first = imgs[0];
-    first.decode ? first.decode().then(start, start) : (first.onload = start);
+    const whenReady = (img, fn) => (img.decode ? img.decode().then(fn, fn) : (img.complete ? fn() : (img.onload = img.onerror = fn)));
+    if (staticOk) {
+      staticImg.classList.add('pg-slide', 'is-active');   // same fade and slow zoom as the other slides
+      let started = false;
+      const begin = () => { if (!started) { started = true; whenReady(imgs[0], run); } };
+      const timer = setTimeout(begin, interval);
+      staticImg.addEventListener('error', () => { clearTimeout(timer); begin(); }, { once: true });
+    } else {
+      whenReady(imgs[0], () => { if (staticImg) staticImg.style.display = 'none'; run(); });
+    }
   }
   $$('.pg-hero').forEach(initHero);
 
