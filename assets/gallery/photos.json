@@ -277,7 +277,7 @@
       "file": "008.jpg",
       "original_name": "DSC_0564.png",
       "source_sha1": "792131421f619998c43f4230b73f1cfcf4325b65",
-      "title": "",
+      "title": "Suspended Light: A Golden Wing Against a Green Silence",
       "caption": "",
       "location": "Gorakhpur, India",
       "featured": false,
@@ -308,7 +308,10 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/640 s",
       "iso": 100,
-      "date_taken": "2025-10-11T10:44:49"
+      "date_taken": "2025-10-11T10:44:49",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Suspended-Light-A-Golden-Wing-Against-a-Green-Silence/3063431/14196721/view"
+      }
     },
     {
       "id": "009",
@@ -391,7 +394,7 @@
       "file": "011.jpg",
       "original_name": "DSC_0701.png",
       "source_sha1": "7524701833643145eb535cf0ddd72f6f4ae7adb5",
-      "title": "",
+      "title": "Feuerstelle Lumbini Looking Towards World Peace Pagoda",
       "caption": "",
       "location": "Lumbini, Nepal",
       "featured": true,
@@ -422,7 +425,10 @@
       "aperture": "f/4",
       "shutter_speed": "1/320 s",
       "iso": 100,
-      "date_taken": "2025-10-18T16:52:52"
+      "date_taken": "2025-10-18T16:52:52",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Feuerstelle-Lumbini-Looking-Towards-World-Peace-Pagoda/3063431/14141493/view"
+      }
     },
     {
       "id": "012",
@@ -663,7 +669,7 @@
       "file": "018.jpg",
       "original_name": "DSC_1299.png",
       "source_sha1": "fb42dd4cf07ca1c4777766254b6396f3f5b0f513",
-      "title": "",
+      "title": "Echoes at Dusk",
       "caption": "",
       "location": "Hyderabad, India",
       "featured": true,
@@ -694,7 +700,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/640 s",
       "iso": 800,
-      "date_taken": "2025-11-02T17:31:39"
+      "date_taken": "2025-11-02T17:31:39",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Echoes-at-Dusk/3063431/14141195/view"
+      }
     },
     {
       "id": "019",
@@ -931,7 +940,7 @@
       "source_sha1": "27d351644bf2185aaf84752a993514a45f2840a4",
       "title": "",
       "caption": "",
-      "location": "",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": true,
       "copyright_year": 2026,
@@ -969,7 +978,7 @@
       "source_sha1": "d5fc1590d2d8173f9972ac826c2c47b7a0b5b63d",
       "title": "",
       "caption": "",
-      "location": "",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": true,
       "copyright_year": 2026,
@@ -1005,9 +1014,9 @@
       "file": "027.jpg",
       "original_name": "DSC_0096.png",
       "source_sha1": "fc045bb0a4c0ce50b4537a4e487b7a256b04ab88",
-      "title": "",
+      "title": "Seine River and Paris Cityscape",
       "caption": "",
-      "location": "",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -1045,7 +1054,7 @@
       "source_sha1": "7591a5603d402783dca155e66478f50496ac01f4",
       "title": "",
       "caption": "",
-      "location": "",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -1083,7 +1092,7 @@
       "source_sha1": "9baa8565d73e03f108ae699280f692df28ea1373",
       "title": "",
       "caption": "",
-      "location": "",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -1651,7 +1660,7 @@
       "file": "044.jpg",
       "original_name": "DSC_9096.png",
       "source_sha1": "9dc6805825ceafa7fe3fdccf17dbad4a04932c94",
-      "title": "",
+      "title": "Eiffel Tower at Golden Hour in Paris",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -1682,7 +1691,10 @@
       "aperture": "f/1.8",
       "shutter_speed": "1/8000 s",
       "iso": 800,
-      "date_taken": "2026-07-17T21:07:30"
+      "date_taken": "2026-07-17T21:07:30",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-at-Golden-Hour-in-Paris/3063431/14150375/view"
+      }
     },
     {
       "id": "045",
@@ -1809,7 +1821,7 @@
       "file": "048.jpg",
       "original_name": "DSC_0164.png",
       "source_sha1": "91abfb6c5ecba814e6f8825e8127156613620721",
-      "title": "",
+      "title": "Long-Exposure Photography of Eiffel Tower at Night, Paris",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -1840,7 +1852,10 @@
       "aperture": "f/11",
       "shutter_speed": "20 s",
       "iso": 100,
-      "date_taken": "2026-07-17T22:24:55"
+      "date_taken": "2026-07-17T22:24:55",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Long-Exposure-Photography-of-Eiffel-Tower-in-Night-Paris/3063431/14142703/view"
+      }
     },
     {
       "id": "049",
@@ -2236,7 +2251,7 @@
       "file": "059.jpg",
       "original_name": "DSC_0638.png",
       "source_sha1": "ce52a2a0a3ebc76b19b26beb2af03c6837540099",
-      "title": "",
+      "title": "Montmartre Nocturne",
       "caption": "",
       "location": "Montmartre, Paris, France",
       "featured": false,
@@ -2267,16 +2282,19 @@
       "aperture": "f/18",
       "shutter_speed": "5 s",
       "iso": 800,
-      "date_taken": "2026-08-07T22:14:11"
+      "date_taken": "2026-08-07T22:14:11",
+      "shop": {
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Montmartre-Nocturne/3063431/14233283/view"
+      }
     },
     {
       "id": "060",
       "file": "060.jpg",
       "original_name": "DSC_0658.png",
       "source_sha1": "b0c16bef5ff90654a91e7da0616d98aae128ba47",
-      "title": "",
+      "title": "The River Seine and the Moon",
       "caption": "",
-      "location": "",
+      "location": "Pont de Neuilly, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -2312,9 +2330,9 @@
       "file": "061.jpg",
       "original_name": "DSC_0669.png",
       "source_sha1": "5521087e901a2c429b9da46fcf9cf3d5007fa9a7",
-      "title": "",
+      "title": "Grande Arche and skyscrapers at La Défense",
       "caption": "",
-      "location": "",
+      "location": "La Défense, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -2428,7 +2446,7 @@
       "source_sha1": "bf7a512f7f9d6a3a25e554290d05b874ce8fc68f",
       "title": "Under the Green Canopy: Quiet Moments on the Banks of the Seine",
       "caption": "",
-      "location": "Cathédrale Notre-Dame de Paris, France",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -3229,7 +3247,7 @@
       "source_sha1": "971be4f13a0bd5e159dc0183d01474ded5330237",
       "title": "Notre-Dame de Paris glowing under the moon",
       "caption": "",
-      "location": "7th Arrondissement, Paris, France",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -3270,7 +3288,7 @@
       "source_sha1": "9f8e2510aa06eaf687c11938da80ffd57c694a38",
       "title": "Illuminated Notre-Dame and Seine River Paris",
       "caption": "",
-      "location": "7th Arrondissement, Paris, France",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
@@ -3913,5 +3931,5 @@
       "date_taken": "2026-10-17T17:48:40"
     }
   ],
-  "updated": "2026-11-02T01:37:35"
+  "updated": "2026-11-02T02:03:06"
 }
