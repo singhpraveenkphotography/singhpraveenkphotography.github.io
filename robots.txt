@@ -1,4 +1,4 @@
-# robots.txt — singhpraveenkphotography.github.io
+# robots.txt — writtenwithlight.com
 # Search engines are welcome: they index the pages and photos so people can find the work.
 # Crawlers that collect AI-training data are blocked. AI *search* tools that link
 # back to the site stay allowed, so people can still find the work.
@@ -29,4 +29,4 @@ Disallow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://singhpraveenkphotography.github.io/sitemap.xml
+Sitemap: https://writtenwithlight.com/sitemap.xml

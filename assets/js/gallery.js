@@ -1,5 +1,5 @@
 /* ==========================================================================
-   gallery.js — photo engine for singhpraveenkphotography.github.io
+   gallery.js — photo engine for writtenwithlight.com
    Reads photos.json written by process_photos.py and builds:
 
    • the homepage hero slideshow
