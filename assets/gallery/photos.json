@@ -2,7 +2,7 @@
   "photos": [
     {
       "id": "001",
-      "file": "001.jpg",
+      "file": "001.webp",
       "original_name": "DSC_0315.png",
       "source_sha1": "2efabf5f5cac613a2a0bcd6e632c1b59aa2e4c1e",
       "title": "Clock Tower during the Rush Hour at Night",
@@ -13,20 +13,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/001.jpg",
+        "src": "full/001.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1015197,
-        "format": "jpg",
+        "bytes": 488758,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/001.jpg",
+        "src": "thumbs/001.webp",
         "width": 800,
         "height": 533,
-        "bytes": 142248,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 70278,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -36,11 +36,15 @@
       "aperture": "f/8",
       "shutter_speed": "1/13 s",
       "iso": 3200,
-      "date_taken": "2025-09-23T20:28:50"
+      "date_taken": "2025-09-23T20:28:50",
+      "tags": [
+        "night",
+        "street"
+      ]
     },
     {
       "id": "002",
-      "file": "002.jpg",
+      "file": "002.webp",
       "original_name": "DSC_0321.png",
       "source_sha1": "35397bd3a6f5b1bc00018f3c8c6257f751c22009",
       "title": "Clock Tower at Night",
@@ -51,20 +55,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/002.jpg",
+        "src": "full/002.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 834975,
-        "format": "jpg",
+        "bytes": 434686,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/002.jpg",
+        "src": "thumbs/002.webp",
         "width": 600,
         "height": 800,
-        "bytes": 121551,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 45248,
+        "format": "webp",
+        "quality": 84
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -74,11 +78,14 @@
       "aperture": "f/8",
       "shutter_speed": "1/13 s",
       "iso": 3200,
-      "date_taken": "2025-09-23T20:31:52"
+      "date_taken": "2025-09-23T20:31:52",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "003",
-      "file": "003.jpg",
+      "file": "003.webp",
       "original_name": "DSC_0329.png",
       "source_sha1": "d98c43fa90ce9c5e56da254e01d4fc406e0070fa",
       "title": "Rumi Darwaza at Night",
@@ -89,20 +96,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/003.jpg",
+        "src": "full/003.webp",
         "width": 2000,
         "height": 1908,
-        "bytes": 984174,
-        "format": "jpg",
+        "bytes": 678132,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/003.jpg",
+        "src": "thumbs/003.webp",
         "width": 800,
         "height": 763,
-        "bytes": 178940,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 82400,
+        "format": "webp",
+        "quality": 92
       },
       "aspect_ratio": 1.0483,
       "camera": "Nikon Z5_2",
@@ -112,14 +119,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/20 s",
       "iso": 3200,
-      "date_taken": "2025-09-23T20:40:45"
+      "date_taken": "2025-09-23T20:40:45",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "004",
-      "file": "004.jpg",
+      "file": "004.webp",
       "original_name": "DSC_0360.png",
       "source_sha1": "d552bd59e8c6479f42e3f9a8a8ce41e4cbff9271",
-      "title": "",
+      "title": "Illuminated Cruise Boat Reflected on the Lake at Night",
       "caption": "",
       "location": "Gorakhpur, India",
       "featured": false,
@@ -127,19 +137,19 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/004.jpg",
+        "src": "full/004.webp",
         "width": 1975,
         "height": 2000,
-        "bytes": 1395672,
-        "format": "jpg",
+        "bytes": 884040,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/004.jpg",
+        "src": "thumbs/004.webp",
         "width": 790,
         "height": 800,
-        "bytes": 213547,
-        "format": "jpg",
+        "bytes": 107524,
+        "format": "webp",
         "quality": 95
       },
       "aspect_ratio": 0.9874,
@@ -150,14 +160,17 @@
       "aperture": "f/4",
       "shutter_speed": "1/50 s",
       "iso": 6400,
-      "date_taken": "2025-09-29T18:26:01"
+      "date_taken": "2025-09-29T18:26:01",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "005",
-      "file": "005.jpg",
+      "file": "005.webp",
       "original_name": "DSC_0521.png",
       "source_sha1": "3d8f91cd87dbb917c7da7ff2c56d3d2fd4d32b8a",
-      "title": "",
+      "title": "A Window Seat on the Blue Train",
       "caption": "",
       "location": "Gorakhpur, India",
       "featured": false,
@@ -165,20 +178,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/005.jpg",
+        "src": "full/005.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 1041235,
-        "format": "jpg",
+        "bytes": 650744,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/005.jpg",
+        "src": "thumbs/005.webp",
         "width": 640,
         "height": 800,
-        "bytes": 182105,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 83990,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -188,11 +201,14 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/320 s",
       "iso": 100,
-      "date_taken": "2025-10-07T09:25:45"
+      "date_taken": "2025-10-07T09:25:45",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "006",
-      "file": "006.jpg",
+      "file": "006.webp",
       "original_name": "DSC_0527.png",
       "source_sha1": "3d779e10dec949167171441a11f7400ff824a7b2",
       "title": "Whispers of Light",
@@ -203,20 +219,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/006.jpg",
+        "src": "full/006.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 273050,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 134026,
+        "format": "webp",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/006.jpg",
+        "src": "thumbs/006.webp",
         "width": 800,
         "height": 600,
-        "bytes": 43608,
-        "format": "jpg",
-        "quality": 85
+        "bytes": 12578,
+        "format": "webp",
+        "quality": 60
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -233,7 +249,7 @@
     },
     {
       "id": "007",
-      "file": "007.jpg",
+      "file": "007.webp",
       "original_name": "DSC_0531.png",
       "source_sha1": "f5db355cff77cb7d5609e12c279ce772faffb046",
       "title": "Delicate Moths on a Purple Wildflower",
@@ -244,20 +260,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/007.jpg",
+        "src": "full/007.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 467713,
-        "format": "jpg",
+        "bytes": 181224,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/007.jpg",
+        "src": "thumbs/007.webp",
         "width": 800,
         "height": 600,
-        "bytes": 41094,
-        "format": "jpg",
-        "quality": 85
+        "bytes": 14130,
+        "format": "webp",
+        "quality": 61
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -270,11 +286,14 @@
       "date_taken": "2025-10-11T10:31:06",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Delicate-Moths-on-a-Purple-Wildflower/3063431/14132183/view"
-      }
+      },
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "008",
-      "file": "008.jpg",
+      "file": "008.webp",
       "original_name": "DSC_0564.png",
       "source_sha1": "792131421f619998c43f4230b73f1cfcf4325b65",
       "title": "Suspended Light: A Golden Wing Against a Green Silence",
@@ -285,20 +304,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/008.jpg",
+        "src": "full/008.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 683414,
-        "format": "jpg",
+        "bytes": 338356,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/008.jpg",
+        "src": "thumbs/008.webp",
         "width": 800,
         "height": 600,
-        "bytes": 108004,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 31414,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -311,14 +330,17 @@
       "date_taken": "2025-10-11T10:44:49",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Suspended-Light-A-Golden-Wing-Against-a-Green-Silence/3063431/14196721/view"
-      }
+      },
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "009",
-      "file": "009.jpg",
+      "file": "009.webp",
       "original_name": "DSC_0601.png",
       "source_sha1": "71bbd3e646ae40d1009702fed5e7c0e695102750",
-      "title": "",
+      "title": "Brown Butterfly Resting on a Variegated Leaf",
       "caption": "",
       "location": "Gorakhpur, India",
       "featured": false,
@@ -326,20 +348,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/009.jpg",
+        "src": "full/009.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1038487,
-        "format": "jpg",
+        "bytes": 757816,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/009.jpg",
+        "src": "thumbs/009.webp",
         "width": 800,
         "height": 600,
-        "bytes": 170024,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 67030,
+        "format": "webp",
+        "quality": 87
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -349,14 +371,17 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/80 s",
       "iso": 400,
-      "date_taken": "2025-10-12T08:03:42"
+      "date_taken": "2025-10-12T08:03:42",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "010",
-      "file": "010.jpg",
+      "file": "010.webp",
       "original_name": "DSC_0652.png",
       "source_sha1": "56d996f455fd16957f4f2b427ae581b934afa4a9",
-      "title": "",
+      "title": "A Quiet Tree-Lined Path in Lumbini",
       "caption": "",
       "location": "Lumbini, Nepal",
       "featured": false,
@@ -364,20 +389,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/010.jpg",
+        "src": "full/010.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 2295798,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1464092,
+        "format": "webp",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/010.jpg",
+        "src": "thumbs/010.webp",
         "width": 600,
         "height": 800,
-        "bytes": 428814,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 187622,
+        "format": "webp",
+        "quality": 85
       },
       "aspect_ratio": 0.75,
       "camera": "Nikon Z5_2",
@@ -391,7 +416,7 @@
     },
     {
       "id": "011",
-      "file": "011.jpg",
+      "file": "011.webp",
       "original_name": "DSC_0701.png",
       "source_sha1": "7524701833643145eb535cf0ddd72f6f4ae7adb5",
       "title": "Feuerstelle Lumbini Looking Towards World Peace Pagoda",
@@ -402,20 +427,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/011.jpg",
+        "src": "full/011.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1816715,
-        "format": "jpg",
+        "bytes": 1152510,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/011.jpg",
+        "src": "thumbs/011.webp",
         "width": 800,
         "height": 600,
-        "bytes": 333057,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 137920,
+        "format": "webp",
+        "quality": 87
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -432,7 +457,7 @@
     },
     {
       "id": "012",
-      "file": "012.jpg",
+      "file": "012.webp",
       "original_name": "DSC_0742.png",
       "source_sha1": "7a59f935bbfe065fb083c5b89fb3651cd22e0dff",
       "title": "Sacred Night at Maya Devi Temple, Lumbini",
@@ -443,20 +468,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/012.jpg",
+        "src": "full/012.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 974292,
-        "format": "jpg",
+        "bytes": 631740,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/012.jpg",
+        "src": "thumbs/012.webp",
         "width": 800,
         "height": 533,
-        "bytes": 175763,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 77540,
+        "format": "webp",
+        "quality": 93
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -469,11 +494,14 @@
       "date_taken": "2025-10-18T17:52:13",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacred-Night-at-Maya-Devi-Temple-Lumbini/3063431/14132249/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "013",
-      "file": "013.jpg",
+      "file": "013.webp",
       "original_name": "DSC_0755.png",
       "source_sha1": "f12f366d2ace67c988e0048bd6e451ca41733329",
       "title": "Meditating Monk Under a Sacred Tree at Dusk",
@@ -484,20 +512,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/013.jpg",
+        "src": "full/013.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1947502,
-        "format": "jpg",
+        "bytes": 1118022,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/013.jpg",
+        "src": "thumbs/013.webp",
         "width": 800,
         "height": 600,
-        "bytes": 347152,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 155180,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -510,11 +538,14 @@
       "date_taken": "2025-10-18T17:57:51",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Meditating-Monk-Under-a-Sacred-Tree-at-Dusk/3063431/14131345/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "014",
-      "file": "014.jpg",
+      "file": "014.webp",
       "original_name": "DSC_0830.png",
       "source_sha1": "a9af5a20b93563ae894eefff5a1b88bc8b548403",
       "title": "Betty's Car",
@@ -525,20 +556,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/014.jpg",
+        "src": "full/014.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1438276,
-        "format": "jpg",
+        "bytes": 940978,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/014.jpg",
+        "src": "thumbs/014.webp",
         "width": 800,
         "height": 600,
-        "bytes": 308167,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 136978,
+        "format": "webp",
+        "quality": 87
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -548,14 +579,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/125 s",
       "iso": 100,
-      "date_taken": "2025-11-01T10:54:56"
+      "date_taken": "2025-11-01T10:54:56",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "015",
-      "file": "015.jpg",
+      "file": "015.webp",
       "original_name": "DSC_0965.png",
       "source_sha1": "31f7ae444de2ec61b01256a170806f5b5a10a1ed",
-      "title": "",
+      "title": "Dancers in White Under the Stage Lights",
       "caption": "",
       "location": "Hyderabad, India",
       "featured": true,
@@ -563,20 +597,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/015.jpg",
+        "src": "full/015.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1377745,
-        "format": "jpg",
+        "bytes": 1019188,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/015.jpg",
+        "src": "thumbs/015.webp",
         "width": 800,
         "height": 600,
-        "bytes": 229889,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 119238,
+        "format": "webp",
+        "quality": 92
       },
       "aspect_ratio": 1.3335,
       "camera": "Nikon Z5_2",
@@ -590,10 +624,10 @@
     },
     {
       "id": "016",
-      "file": "016.jpg",
+      "file": "016.webp",
       "original_name": "DSC_1062.png",
       "source_sha1": "e677a0dc41b693d5c1e8797230f5e0185b846016",
-      "title": "",
+      "title": "Red Lory Among Green Leaves",
       "caption": "",
       "location": "Hyderabad, India",
       "featured": false,
@@ -601,19 +635,19 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/016.jpg",
+        "src": "full/016.webp",
         "width": 1448,
         "height": 1931,
-        "bytes": 1641712,
-        "format": "jpg",
+        "bytes": 1234766,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/016.jpg",
+        "src": "thumbs/016.webp",
         "width": 600,
         "height": 800,
-        "bytes": 279949,
-        "format": "jpg",
+        "bytes": 197964,
+        "format": "webp",
         "quality": 95
       },
       "aspect_ratio": 0.7499,
@@ -624,11 +658,14 @@
       "aperture": "f/4",
       "shutter_speed": "1/640 s",
       "iso": 3200,
-      "date_taken": "2025-11-01T16:35:42"
+      "date_taken": "2025-11-01T16:35:42",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "017",
-      "file": "017.jpg",
+      "file": "017.webp",
       "original_name": "DSC_1264.png",
       "source_sha1": "3d1ba241692523ebe442ad72e01bd434d1f66f74",
       "title": "Charminar",
@@ -639,20 +676,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/017.jpg",
+        "src": "full/017.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1231901,
-        "format": "jpg",
+        "bytes": 785264,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/017.jpg",
+        "src": "thumbs/017.webp",
         "width": 800,
         "height": 600,
-        "bytes": 210878,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 95024,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -666,7 +703,7 @@
     },
     {
       "id": "018",
-      "file": "018.jpg",
+      "file": "018.webp",
       "original_name": "DSC_1299.png",
       "source_sha1": "fb42dd4cf07ca1c4777766254b6396f3f5b0f513",
       "title": "Echoes at Dusk",
@@ -677,20 +714,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/018.jpg",
+        "src": "full/018.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 494653,
-        "format": "jpg",
+        "bytes": 226838,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/018.jpg",
+        "src": "thumbs/018.webp",
         "width": 800,
         "height": 600,
-        "bytes": 69116,
-        "format": "jpg",
-        "quality": 91
+        "bytes": 30438,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -703,14 +740,17 @@
       "date_taken": "2025-11-02T17:31:39",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Echoes-at-Dusk/3063431/14141195/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "019",
-      "file": "019.jpg",
+      "file": "019.webp",
       "original_name": "DSC_1623.png",
       "source_sha1": "0cf017dfc4aa4c846873cf0db2d466dc965a4421",
-      "title": "",
+      "title": "Mustard Field Beneath a Row of Trees at Dusk",
       "caption": "",
       "location": "Roorkee, India",
       "featured": true,
@@ -718,20 +758,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/019.jpg",
+        "src": "full/019.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 2633313,
-        "format": "jpg",
+        "bytes": 1675916,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/019.jpg",
+        "src": "thumbs/019.webp",
         "width": 800,
         "height": 640,
-        "bytes": 460652,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 205210,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -741,14 +781,17 @@
       "aperture": "f/4",
       "shutter_speed": "1/800 s",
       "iso": 6400,
-      "date_taken": "2026-02-03T17:52:56"
+      "date_taken": "2026-02-03T17:52:56",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "020",
-      "file": "020.jpg",
+      "file": "020.webp",
       "original_name": "DSC_0023.png",
       "source_sha1": "97dc528877d135caa44a137d07cfa9bee65269d2",
-      "title": "",
+      "title": "A Winding Stream on a Spring Afternoon",
       "caption": "",
       "location": "Igny, France",
       "featured": false,
@@ -756,20 +799,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/020.jpg",
+        "src": "full/020.webp",
         "width": 1333,
         "height": 2000,
-        "bytes": 2141206,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1386256,
+        "format": "webp",
+        "quality": 93
       },
       "thumb": {
-        "src": "thumbs/020.jpg",
+        "src": "thumbs/020.webp",
         "width": 533,
         "height": 800,
-        "bytes": 327533,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 162412,
+        "format": "webp",
+        "quality": 82
       },
       "aspect_ratio": 0.6666,
       "camera": "Nikon Z5_2",
@@ -779,14 +822,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/2000 s",
       "iso": 200,
-      "date_taken": "2026-04-18T15:02:55"
+      "date_taken": "2026-04-18T15:02:55",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "021",
-      "file": "021.jpg",
+      "file": "021.webp",
       "original_name": "DSC_0024.png",
       "source_sha1": "600710bbcbf4de120131a3e9a354f2cb1139d3f2",
-      "title": "",
+      "title": "The Bièvre Winding Through the Meadows",
       "caption": "",
       "location": "Igny, France",
       "featured": false,
@@ -794,20 +840,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/021.jpg",
+        "src": "full/021.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 3021216,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1664288,
+        "format": "webp",
+        "quality": 89
       },
       "thumb": {
-        "src": "thumbs/021.jpg",
+        "src": "thumbs/021.webp",
         "width": 800,
         "height": 640,
-        "bytes": 408126,
-        "format": "jpg",
-        "quality": 92
+        "bytes": 198606,
+        "format": "webp",
+        "quality": 78
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -817,14 +863,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/2000 s",
       "iso": 200,
-      "date_taken": "2026-04-18T15:03:16"
+      "date_taken": "2026-04-18T15:03:16",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "022",
-      "file": "022.jpg",
+      "file": "022.webp",
       "original_name": "DSC_0029.png",
       "source_sha1": "e64bd7228f0573deae69218d8f16da9793fa31c7",
-      "title": "",
+      "title": "Common Moorhen in the Grass",
       "caption": "",
       "location": "Verrières-le-Buisson, France",
       "featured": false,
@@ -832,20 +881,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/022.jpg",
+        "src": "full/022.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1565974,
-        "format": "jpg",
+        "bytes": 1024712,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/022.jpg",
+        "src": "thumbs/022.webp",
         "width": 800,
         "height": 640,
-        "bytes": 320564,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 150134,
+        "format": "webp",
+        "quality": 85
       },
       "aspect_ratio": 1.2501,
       "camera": "Nikon Z5_2",
@@ -855,14 +904,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/400 s",
       "iso": 200,
-      "date_taken": "2026-04-18T16:06:21"
+      "date_taken": "2026-04-18T16:06:21",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "023",
-      "file": "023.jpg",
+      "file": "023.webp",
       "original_name": "DSC_0036.png",
       "source_sha1": "7cdeb67edbf38b3554636f8b1d4d8921a7a4538c",
-      "title": "",
+      "title": "Dandelion Clock in Soft Light",
       "caption": "",
       "location": "Verrières-le-Buisson, France",
       "featured": false,
@@ -870,20 +922,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/023.jpg",
+        "src": "full/023.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 700179,
-        "format": "jpg",
+        "bytes": 341924,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/023.jpg",
+        "src": "thumbs/023.webp",
         "width": 600,
         "height": 800,
-        "bytes": 93548,
-        "format": "jpg",
-        "quality": 89
+        "bytes": 44932,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.75,
       "camera": "Nikon Z5_2",
@@ -893,14 +945,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/125 s",
       "iso": 200,
-      "date_taken": "2026-04-18T16:12:26"
+      "date_taken": "2026-04-18T16:12:26",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "024",
-      "file": "024.jpg",
+      "file": "024.webp",
       "original_name": "DSC_0066.png",
       "source_sha1": "a4c8886949cc06e4d118cf654faf304625ef7250",
-      "title": "",
+      "title": "Mallard Drake Among the Reeds",
       "caption": "",
       "location": "Verrières-le-Buisson, France",
       "featured": false,
@@ -908,20 +963,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/024.jpg",
+        "src": "full/024.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1188585,
-        "format": "jpg",
+        "bytes": 822440,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/024.jpg",
+        "src": "thumbs/024.webp",
         "width": 800,
         "height": 640,
-        "bytes": 227716,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 113292,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.2499,
       "camera": "Nikon Z5_2",
@@ -931,14 +986,17 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/320 s",
       "iso": 800,
-      "date_taken": "2026-04-18T16:22:07"
+      "date_taken": "2026-04-18T16:22:07",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "025",
-      "file": "025.jpg",
+      "file": "025.webp",
       "original_name": "DSC_0086.png",
       "source_sha1": "27d351644bf2185aaf84752a993514a45f2840a4",
-      "title": "",
+      "title": "On the Stone Steps by the Seine",
       "caption": "",
       "location": "4th Arrondissement, Paris, France",
       "featured": false,
@@ -946,20 +1004,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/025.jpg",
+        "src": "full/025.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 1789354,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1314652,
+        "format": "webp",
+        "quality": 88
       },
       "thumb": {
-        "src": "thumbs/025.jpg",
+        "src": "thumbs/025.webp",
         "width": 600,
         "height": 800,
-        "bytes": 259243,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 175900,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -969,14 +1027,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/640 s",
       "iso": 400,
-      "date_taken": "2026-05-02T15:28:19"
+      "date_taken": "2026-05-02T15:28:19",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "026",
-      "file": "026.jpg",
+      "file": "026.webp",
       "original_name": "DSC_0089.png",
       "source_sha1": "d5fc1590d2d8173f9972ac826c2c47b7a0b5b63d",
-      "title": "",
+      "title": "Afternoon Bustle on a Parisian Street",
       "caption": "",
       "location": "4th Arrondissement, Paris, France",
       "featured": false,
@@ -984,20 +1045,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/026.jpg",
+        "src": "full/026.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1031919,
-        "format": "jpg",
+        "bytes": 941282,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/026.jpg",
+        "src": "thumbs/026.webp",
         "width": 800,
         "height": 533,
-        "bytes": 163325,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 116560,
+        "format": "webp",
+        "quality": 92
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1007,11 +1068,14 @@
       "aperture": "f/11",
       "shutter_speed": "1/2500 s",
       "iso": 400,
-      "date_taken": "2026-05-02T15:29:44"
+      "date_taken": "2026-05-02T15:29:44",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "027",
-      "file": "027.jpg",
+      "file": "027.webp",
       "original_name": "DSC_0096.png",
       "source_sha1": "fc045bb0a4c0ce50b4537a4e487b7a256b04ab88",
       "title": "Seine River and Paris Cityscape",
@@ -1022,20 +1086,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/027.jpg",
+        "src": "full/027.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1885679,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1340086,
+        "format": "webp",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/027.jpg",
+        "src": "thumbs/027.webp",
         "width": 800,
         "height": 533,
-        "bytes": 320909,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 152456,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.4999,
       "camera": "Nikon Z5_2",
@@ -1049,10 +1113,10 @@
     },
     {
       "id": "028",
-      "file": "028.jpg",
+      "file": "028.webp",
       "original_name": "DSC_0112.png",
       "source_sha1": "7591a5603d402783dca155e66478f50496ac01f4",
-      "title": "",
+      "title": "Notre-Dame de Paris Under a Spring Sky",
       "caption": "",
       "location": "4th Arrondissement, Paris, France",
       "featured": false,
@@ -1060,20 +1124,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/028.jpg",
+        "src": "full/028.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1785718,
-        "format": "jpg",
+        "bytes": 1344738,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/028.jpg",
+        "src": "thumbs/028.webp",
         "width": 800,
         "height": 640,
-        "bytes": 295771,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 135082,
+        "format": "webp",
+        "quality": 85
       },
       "aspect_ratio": 1.2499,
       "camera": "Nikon Z5_2",
@@ -1087,10 +1151,10 @@
     },
     {
       "id": "029",
-      "file": "029.jpg",
+      "file": "029.webp",
       "original_name": "DSC_0123.png",
       "source_sha1": "9baa8565d73e03f108ae699280f692df28ea1373",
-      "title": "",
+      "title": "Passengers on a Seine River Cruise",
       "caption": "",
       "location": "4th Arrondissement, Paris, France",
       "featured": false,
@@ -1098,20 +1162,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/029.jpg",
+        "src": "full/029.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1171765,
-        "format": "jpg",
+        "bytes": 755126,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/029.jpg",
+        "src": "thumbs/029.webp",
         "width": 800,
         "height": 640,
-        "bytes": 251479,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 117196,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -1121,35 +1185,38 @@
       "aperture": "f/11",
       "shutter_speed": "1/800 s",
       "iso": 400,
-      "date_taken": "2026-05-02T16:15:13"
+      "date_taken": "2026-05-02T16:15:13",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "030",
-      "file": "030.jpg",
+      "file": "030.webp",
       "original_name": "DSC_0130.png",
       "source_sha1": "f7e247a7a2cdcf5cd0c0bce0aef751a9e29df5f8",
-      "title": "",
+      "title": "Passing the Café Terraces of the Marais",
       "caption": "",
-      "location": "",
+      "location": "Le Marais, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/030.jpg",
+        "src": "full/030.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1169436,
-        "format": "jpg",
+        "bytes": 770330,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/030.jpg",
+        "src": "thumbs/030.webp",
         "width": 800,
         "height": 533,
-        "bytes": 241594,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 126978,
+        "format": "webp",
+        "quality": 92
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1159,35 +1226,38 @@
       "aperture": "f/11",
       "shutter_speed": "1/100 s",
       "iso": 400,
-      "date_taken": "2026-05-02T17:42:47"
+      "date_taken": "2026-05-02T17:42:47",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "031",
-      "file": "031.jpg",
+      "file": "031.webp",
       "original_name": "DSC_0148.png",
       "source_sha1": "fd93b25a77426f4207e0ad257ad96ebf1bb361e9",
-      "title": "",
+      "title": "Sunset Glow on a Paris Street",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/031.jpg",
+        "src": "full/031.webp",
         "width": 1333,
         "height": 2000,
-        "bytes": 1439594,
-        "format": "jpg",
+        "bytes": 1103516,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/031.jpg",
+        "src": "thumbs/031.webp",
         "width": 533,
         "height": 800,
-        "bytes": 247246,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 133366,
+        "format": "webp",
+        "quality": 91
       },
       "aspect_ratio": 0.6667,
       "camera": "Nikon Z5_2",
@@ -1197,35 +1267,38 @@
       "aperture": "f/11",
       "shutter_speed": "1/3200 s",
       "iso": 800,
-      "date_taken": "2026-05-02T18:18:13"
+      "date_taken": "2026-05-02T18:18:13",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "032",
-      "file": "032.jpg",
+      "file": "032.webp",
       "original_name": "DSC_0157.png",
       "source_sha1": "2cf38fc361bb1283a9347b4de4da91e979276486",
-      "title": "",
+      "title": "Hôtel de Ville de Paris in Evening Light",
       "caption": "",
-      "location": "",
+      "location": "4th Arrondissement, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/032.jpg",
+        "src": "full/032.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1704957,
-        "format": "jpg",
+        "bytes": 1299550,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/032.jpg",
+        "src": "thumbs/032.webp",
         "width": 800,
         "height": 640,
-        "bytes": 283463,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 154828,
+        "format": "webp",
+        "quality": 91
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -1239,31 +1312,31 @@
     },
     {
       "id": "033",
-      "file": "033.jpg",
+      "file": "033.webp",
       "original_name": "DSC_0158.png",
       "source_sha1": "17098acb98790709ce95e82608749403f27aaf7e",
-      "title": "",
+      "title": "The Flower Shop in the Marais",
       "caption": "",
-      "location": "",
+      "location": "Le Marais, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/033.jpg",
+        "src": "full/033.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 1538709,
-        "format": "jpg",
+        "bytes": 1170938,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/033.jpg",
+        "src": "thumbs/033.webp",
         "width": 640,
         "height": 800,
-        "bytes": 271779,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 136144,
+        "format": "webp",
+        "quality": 91
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -1273,14 +1346,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/500 s",
       "iso": 800,
-      "date_taken": "2026-05-02T18:34:30"
+      "date_taken": "2026-05-02T18:34:30",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "034",
-      "file": "034.jpg",
+      "file": "034.webp",
       "original_name": "DSC_0184.png",
       "source_sha1": "4823fbe25c1b97d3bf7b99134bcc989df447127b",
-      "title": "",
+      "title": "Double Rainbow over Igny",
       "caption": "",
       "location": "Igny, France",
       "featured": false,
@@ -1288,19 +1364,19 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/034.jpg",
+        "src": "full/034.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1249916,
-        "format": "jpg",
+        "bytes": 1033776,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/034.jpg",
+        "src": "thumbs/034.webp",
         "width": 800,
         "height": 533,
-        "bytes": 169891,
-        "format": "jpg",
+        "bytes": 110982,
+        "format": "webp",
         "quality": 95
       },
       "aspect_ratio": 1.4998,
@@ -1311,14 +1387,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/800 s",
       "iso": 3200,
-      "date_taken": "2026-05-13T20:00:03"
+      "date_taken": "2026-05-13T20:00:03",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "035",
-      "file": "035.jpg",
+      "file": "035.webp",
       "original_name": "DSC_0295.png",
       "source_sha1": "824c5d8818a01d8614fdf071366f8a59a205be2b",
-      "title": "",
+      "title": "Bee on a Clover Blossom",
       "caption": "",
       "location": "Igny, France",
       "featured": false,
@@ -1326,20 +1405,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/035.jpg",
+        "src": "full/035.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 1418430,
-        "format": "jpg",
+        "bytes": 1142796,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/035.jpg",
+        "src": "thumbs/035.webp",
         "width": 640,
         "height": 800,
-        "bytes": 204421,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 110844,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 0.8,
       "camera": "Nikon Z5_2",
@@ -1349,14 +1428,17 @@
       "aperture": "f/9",
       "shutter_speed": "1/640 s",
       "iso": 1600,
-      "date_taken": "2026-05-17T14:26:12"
+      "date_taken": "2026-05-17T14:26:12",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "036",
-      "file": "036.jpg",
+      "file": "036.webp",
       "original_name": "DSC_0331.png",
       "source_sha1": "8bc3c43a90ef19c193ce836842ec2b21ad19a1b9",
-      "title": "",
+      "title": "Buttercup in the Long Grass",
       "caption": "",
       "location": "Igny, France",
       "featured": false,
@@ -1364,20 +1446,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/036.jpg",
+        "src": "full/036.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 822916,
-        "format": "jpg",
+        "bytes": 527048,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/036.jpg",
+        "src": "thumbs/036.webp",
         "width": 800,
         "height": 533,
-        "bytes": 113145,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 43160,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1387,35 +1469,38 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/1600 s",
       "iso": 1600,
-      "date_taken": "2026-05-17T14:37:35"
+      "date_taken": "2026-05-17T14:37:35",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "037",
-      "file": "037.jpg",
+      "file": "037.webp",
       "original_name": "DSC_0357.png",
       "source_sha1": "00f07079f0d091b892515f56595a258ce2289ed8",
-      "title": "",
+      "title": "La Caverne du Pont Neuf by JR at Sunset",
       "caption": "",
-      "location": "",
+      "location": "Pont Neuf, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/037.jpg",
+        "src": "full/037.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1647875,
-        "format": "jpg",
+        "bytes": 1134612,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/037.jpg",
+        "src": "thumbs/037.webp",
         "width": 800,
         "height": 640,
-        "bytes": 274495,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 130968,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -1429,31 +1514,31 @@
     },
     {
       "id": "038",
-      "file": "038.jpg",
+      "file": "038.webp",
       "original_name": "DSC_0367.png",
       "source_sha1": "ac2a126b649cdb7961c38f3915e9ba52e88c84dd",
-      "title": "",
+      "title": "A Summer Hat at the Crossing",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/038.jpg",
+        "src": "full/038.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 1485930,
-        "format": "jpg",
+        "bytes": 1061726,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/038.jpg",
+        "src": "thumbs/038.webp",
         "width": 640,
         "height": 800,
-        "bytes": 300774,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 149002,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 0.8002,
       "camera": "Nikon Z5_2",
@@ -1463,14 +1548,17 @@
       "aperture": "f/4",
       "shutter_speed": "1/1250 s",
       "iso": 200,
-      "date_taken": "2026-05-25T19:20:21"
+      "date_taken": "2026-05-25T19:20:21",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "039",
-      "file": "039.jpg",
+      "file": "039.webp",
       "original_name": "DSC_0425.png",
       "source_sha1": "e8594a7974a6f7e53750c208eb508f81796e517a",
-      "title": "",
+      "title": "Palais du Luxembourg from the Gardens",
       "caption": "",
       "location": "Jardin du Luxembourg, Paris, France",
       "featured": true,
@@ -1478,20 +1566,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/039.jpg",
+        "src": "full/039.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1637537,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 923970,
+        "format": "webp",
+        "quality": 90
       },
       "thumb": {
-        "src": "thumbs/039.jpg",
+        "src": "thumbs/039.webp",
         "width": 800,
         "height": 533,
-        "bytes": 261987,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 117790,
+        "format": "webp",
+        "quality": 83
       },
       "aspect_ratio": 1.4998,
       "camera": "Nikon Z5_2",
@@ -1505,31 +1593,31 @@
     },
     {
       "id": "040",
-      "file": "040.jpg",
+      "file": "040.webp",
       "original_name": "DSC_0034.png",
       "source_sha1": "4ebbda0adea66f9b260711af74cce2d85992dbc1",
-      "title": "",
+      "title": "Saxophonist by the Seine at Golden Hour",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/040.jpg",
+        "src": "full/040.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 908306,
-        "format": "jpg",
+        "bytes": 543474,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/040.jpg",
+        "src": "thumbs/040.webp",
         "width": 640,
         "height": 800,
-        "bytes": 175955,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 83284,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -1539,35 +1627,38 @@
       "aperture": "f/1.8",
       "shutter_speed": "1/1600 s",
       "iso": 100,
-      "date_taken": "2026-07-17T20:26:58"
+      "date_taken": "2026-07-17T20:26:58",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "041",
-      "file": "041.jpg",
+      "file": "041.webp",
       "original_name": "DSC_0035.png",
       "source_sha1": "265644e5a3bd4ff648551373d22613d04837b004",
-      "title": "",
+      "title": "Evening Crowd on the Seine Quays",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/041.jpg",
+        "src": "full/041.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1705332,
-        "format": "jpg",
+        "bytes": 1423170,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/041.jpg",
+        "src": "thumbs/041.webp",
         "width": 800,
         "height": 640,
-        "bytes": 270400,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 180912,
+        "format": "webp",
+        "quality": 93
       },
       "aspect_ratio": 1.2501,
       "camera": "Nikon Z5_2",
@@ -1577,14 +1668,17 @@
       "aperture": "f/1.8",
       "shutter_speed": "1/2500 s",
       "iso": 100,
-      "date_taken": "2026-07-17T20:27:17"
+      "date_taken": "2026-07-17T20:27:17",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "042",
-      "file": "042.jpg",
+      "file": "042.webp",
       "original_name": "DSC_0041.png",
       "source_sha1": "961229fa5f78461a491f8621ebc09856138de91c",
-      "title": "",
+      "title": "Pont de Bir-Hakeim and the Seine at Sunset",
       "caption": "",
       "location": "Pont de Bir-Hakeim, Paris, France",
       "featured": false,
@@ -1592,20 +1686,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/042.jpg",
+        "src": "full/042.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1207909,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 659814,
+        "format": "webp",
+        "quality": 90
       },
       "thumb": {
-        "src": "thumbs/042.jpg",
+        "src": "thumbs/042.webp",
         "width": 800,
         "height": 533,
-        "bytes": 190819,
-        "format": "jpg",
-        "quality": 92
+        "bytes": 90388,
+        "format": "webp",
+        "quality": 82
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -1619,10 +1713,10 @@
     },
     {
       "id": "043",
-      "file": "043.jpg",
+      "file": "043.webp",
       "original_name": "DSC_9089.png",
       "source_sha1": "399f09bdd58b87335c4604cca16459d822746744",
-      "title": "",
+      "title": "The Eiffel Tower Framed by Pont de Bir-Hakeim",
       "caption": "",
       "location": "Pont de Bir-Hakeim, Paris, France",
       "featured": false,
@@ -1630,20 +1724,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/043.jpg",
+        "src": "full/043.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 2273071,
-        "format": "jpg",
+        "bytes": 1658836,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/043.jpg",
+        "src": "thumbs/043.webp",
         "width": 800,
         "height": 640,
-        "bytes": 383163,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 168792,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 1.2499,
       "camera": "Nikon Z5_2",
@@ -1653,11 +1747,14 @@
       "aperture": "f/1.8",
       "shutter_speed": "1/8000 s",
       "iso": 1600,
-      "date_taken": "2026-07-17T21:03:28"
+      "date_taken": "2026-07-17T21:03:28",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "044",
-      "file": "044.jpg",
+      "file": "044.webp",
       "original_name": "DSC_9096.png",
       "source_sha1": "9dc6805825ceafa7fe3fdccf17dbad4a04932c94",
       "title": "Eiffel Tower at Golden Hour in Paris",
@@ -1668,20 +1765,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/044.jpg",
+        "src": "full/044.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 1238093,
-        "format": "jpg",
+        "bytes": 610042,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/044.jpg",
+        "src": "thumbs/044.webp",
         "width": 600,
         "height": 800,
-        "bytes": 118576,
-        "format": "jpg",
-        "quality": 86
+        "bytes": 45932,
+        "format": "webp",
+        "quality": 60
       },
       "aspect_ratio": 0.7501,
       "camera": "Nikon Z5_2",
@@ -1698,10 +1795,10 @@
     },
     {
       "id": "045",
-      "file": "045.jpg",
+      "file": "045.webp",
       "original_name": "DSC_0107.png",
       "source_sha1": "89fbe81128b42c98baf76a84724f247d551728d4",
-      "title": "",
+      "title": "Twilight Walk on Pont de Bir-Hakeim",
       "caption": "",
       "location": "Pont de Bir-Hakeim, Paris, France",
       "featured": false,
@@ -1709,20 +1806,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/045.jpg",
+        "src": "full/045.webp",
         "width": 2000,
         "height": 1600,
-        "bytes": 1322728,
-        "format": "jpg",
+        "bytes": 950988,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/045.jpg",
+        "src": "thumbs/045.webp",
         "width": 800,
         "height": 640,
-        "bytes": 236701,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 96128,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.25,
       "camera": "Nikon Z5_2",
@@ -1732,11 +1829,15 @@
       "aperture": "f/1.8",
       "shutter_speed": "1/8000 s",
       "iso": 800,
-      "date_taken": "2026-07-17T21:12:45"
+      "date_taken": "2026-07-17T21:12:45",
+      "tags": [
+        "street",
+        "night"
+      ]
     },
     {
       "id": "046",
-      "file": "046.jpg",
+      "file": "046.webp",
       "original_name": "DSC_9123.png",
       "source_sha1": "13dbd1e842c14b5a8401ed6f2bbff64db4528023",
       "title": "Eiffel Tower and Seine River in Evening Glow",
@@ -1747,20 +1848,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/046.jpg",
+        "src": "full/046.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1110699,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 618728,
+        "format": "webp",
+        "quality": 92
       },
       "thumb": {
-        "src": "thumbs/046.jpg",
+        "src": "thumbs/046.webp",
         "width": 800,
         "height": 600,
-        "bytes": 155108,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 71540,
+        "format": "webp",
+        "quality": 84
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -1777,7 +1878,7 @@
     },
     {
       "id": "047",
-      "file": "047.jpg",
+      "file": "047.webp",
       "original_name": "DSC_0155.png",
       "source_sha1": "b93094533dbd656e033d53b8505d4b4c910ad4a8",
       "title": "Eiffel Tower at Night",
@@ -1788,20 +1889,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/047.jpg",
+        "src": "full/047.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 1964386,
-        "format": "jpg",
+        "bytes": 1320084,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/047.jpg",
+        "src": "thumbs/047.webp",
         "width": 640,
         "height": 800,
-        "bytes": 311951,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 154476,
+        "format": "webp",
+        "quality": 91
       },
       "aspect_ratio": 0.7999,
       "camera": "Nikon Z5_2",
@@ -1814,11 +1915,14 @@
       "date_taken": "2026-07-17T22:12:31",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-in-Night/3063431/14130759/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "048",
-      "file": "048.jpg",
+      "file": "048.webp",
       "original_name": "DSC_0164.png",
       "source_sha1": "91abfb6c5ecba814e6f8825e8127156613620721",
       "title": "Long-Exposure Photography of Eiffel Tower at Night, Paris",
@@ -1829,20 +1933,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/048.jpg",
+        "src": "full/048.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 616479,
-        "format": "jpg",
+        "bytes": 354290,
+        "format": "webp",
         "quality": 94
       },
       "thumb": {
-        "src": "thumbs/048.jpg",
+        "src": "thumbs/048.webp",
         "width": 800,
         "height": 600,
-        "bytes": 99809,
-        "format": "jpg",
-        "quality": 90
+        "bytes": 42948,
+        "format": "webp",
+        "quality": 82
       },
       "aspect_ratio": 1.3335,
       "camera": "Nikon Z5_2",
@@ -1855,11 +1959,14 @@
       "date_taken": "2026-07-17T22:24:55",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Long-Exposure-Photography-of-Eiffel-Tower-in-Night-Paris/3063431/14142703/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "049",
-      "file": "049.jpg",
+      "file": "049.webp",
       "original_name": "DSC_0180.png",
       "source_sha1": "16c9576039c637d1b667a58f349e4c58888d31d6",
       "title": "Eiffel Tower at Night, Paris",
@@ -1870,20 +1977,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/049.jpg",
+        "src": "full/049.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 939531,
-        "format": "jpg",
+        "bytes": 536668,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/049.jpg",
+        "src": "thumbs/049.webp",
         "width": 800,
         "height": 600,
-        "bytes": 167462,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 55832,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -1896,35 +2003,38 @@
       "date_taken": "2026-07-17T22:39:42",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-at-Night-Paris/3063431/14142591/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "050",
-      "file": "050.jpg",
+      "file": "050.webp",
       "original_name": "DSC_0264.png",
       "source_sha1": "d0109cac31bd2ee79a496dda830b6ebefe23fe18",
-      "title": "",
+      "title": "A Red Stride Past the Moncler Window",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/050.jpg",
+        "src": "full/050.webp",
         "width": 1317,
         "height": 1646,
-        "bytes": 691725,
-        "format": "jpg",
+        "bytes": 391054,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/050.jpg",
+        "src": "thumbs/050.webp",
         "width": 640,
         "height": 800,
-        "bytes": 215394,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 116770,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -1934,35 +2044,38 @@
       "aperture": "f/8",
       "shutter_speed": "1/160 s",
       "iso": 100,
-      "date_taken": "2026-08-04T19:24:48"
+      "date_taken": "2026-08-04T19:24:48",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "051",
-      "file": "051.jpg",
+      "file": "051.webp",
       "original_name": "DSC_0272.png",
       "source_sha1": "bb57b88b5e2fcb4674d2a1d4cb75707a30be376e",
-      "title": "",
+      "title": "A Lone Walker Beneath the Plane Trees",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/051.jpg",
+        "src": "full/051.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 773637,
-        "format": "jpg",
+        "bytes": 387032,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/051.jpg",
+        "src": "thumbs/051.webp",
         "width": 640,
         "height": 800,
-        "bytes": 146905,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 46408,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.7999,
       "camera": "Nikon Z5_2",
@@ -1972,35 +2085,38 @@
       "aperture": "f/8",
       "shutter_speed": "1/320 s",
       "iso": 100,
-      "date_taken": "2026-08-04T19:33:58"
+      "date_taken": "2026-08-04T19:33:58",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "052",
-      "file": "052.jpg",
+      "file": "052.webp",
       "original_name": "DSC_0274.png",
       "source_sha1": "8e3b72caadca8a7b239a89b8e030d96e6b967969",
-      "title": "",
+      "title": "Two Walkers in the Evening Shade",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/052.jpg",
+        "src": "full/052.webp",
         "width": 1333,
         "height": 2000,
-        "bytes": 1370839,
-        "format": "jpg",
+        "bytes": 1034770,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/052.jpg",
+        "src": "thumbs/052.webp",
         "width": 533,
         "height": 800,
-        "bytes": 235152,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 143570,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 0.6667,
       "camera": "Nikon Z5_2",
@@ -2010,35 +2126,38 @@
       "aperture": "f/8",
       "shutter_speed": "1/200 s",
       "iso": 100,
-      "date_taken": "2026-08-04T19:35:24"
+      "date_taken": "2026-08-04T19:35:24",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "053",
-      "file": "053.jpg",
+      "file": "053.webp",
       "original_name": "DSC_0293.png",
       "source_sha1": "1ffe9c39f8e89466673fe540571c6a1d70bb39e3",
-      "title": "",
+      "title": "Crossing the Street at Golden Hour",
       "caption": "",
-      "location": "",
+      "location": "Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/053.jpg",
+        "src": "full/053.webp",
         "width": 1600,
         "height": 2000,
-        "bytes": 1814441,
-        "format": "jpg",
+        "bytes": 1123654,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/053.jpg",
+        "src": "thumbs/053.webp",
         "width": 640,
         "height": 800,
-        "bytes": 352738,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 143756,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.8001,
       "camera": "Nikon Z5_2",
@@ -2048,35 +2167,38 @@
       "aperture": "f/8",
       "shutter_speed": "1/400 s",
       "iso": 200,
-      "date_taken": "2026-08-04T19:59:03"
+      "date_taken": "2026-08-04T19:59:03",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "054",
-      "file": "054.jpg",
+      "file": "054.webp",
       "original_name": "DSC_0218.png",
       "source_sha1": "408fa256f2dbf7fe5d78d8ccd551b4d19fce4bef",
-      "title": "",
+      "title": "Sunburst at the Arc de Triomphe",
       "caption": "",
-      "location": "",
+      "location": "Arc de Triomphe, Paris, France",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/054.jpg",
+        "src": "full/054.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1455179,
-        "format": "jpg",
+        "bytes": 1053540,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/054.jpg",
+        "src": "thumbs/054.webp",
         "width": 800,
         "height": 600,
-        "bytes": 259039,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 129766,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2090,31 +2212,31 @@
     },
     {
       "id": "055",
-      "file": "055.jpg",
+      "file": "055.webp",
       "original_name": "DSC_2383.png",
       "source_sha1": "09ddf969645fe62ca5b1da8926c6f363b31a236d",
-      "title": "",
+      "title": "Sunset Through the Arc de Triomphe",
       "caption": "",
-      "location": "",
+      "location": "Champs-Élysées, Paris, France",
       "featured": true,
       "black_and_white": false,
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/055.jpg",
+        "src": "full/055.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1856345,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1406660,
+        "format": "webp",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/055.jpg",
+        "src": "thumbs/055.webp",
         "width": 800,
         "height": 533,
-        "bytes": 300887,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 157312,
+        "format": "webp",
+        "quality": 87
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -2128,7 +2250,7 @@
     },
     {
       "id": "056",
-      "file": "056.jpg",
+      "file": "056.webp",
       "original_name": "DSC_0618.png",
       "source_sha1": "9de2e964c3bf3da2caeab3114cb6aa63a8aa9033",
       "title": "Sacré-Cœur Basilique from Rue de l'Abreuvoir at Night, Paris",
@@ -2139,20 +2261,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/056.jpg",
+        "src": "full/056.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1691533,
-        "format": "jpg",
+        "bytes": 1062614,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/056.jpg",
+        "src": "thumbs/056.webp",
         "width": 800,
         "height": 600,
-        "bytes": 328856,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 148908,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2165,11 +2287,14 @@
       "date_taken": "2026-08-07T21:45:26",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-Paris/3063431/14141877/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "057",
-      "file": "057.jpg",
+      "file": "057.webp",
       "original_name": "DSC_0623.png",
       "source_sha1": "79adac7f667ea966db109bcb7bbe8339c4e9a75e",
       "title": "Sacré-Cœur Basilique from Rue de l'Abreuvoir at Night (BW), Paris",
@@ -2180,20 +2305,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/057.jpg",
+        "src": "full/057.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1163629,
-        "format": "jpg",
+        "bytes": 872002,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/057.jpg",
+        "src": "thumbs/057.webp",
         "width": 800,
         "height": 600,
-        "bytes": 212597,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 127120,
+        "format": "webp",
+        "quality": 91
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2206,14 +2331,17 @@
       "date_taken": "2026-08-07T21:52:50",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-BW-Paris/3063431/14142801/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "058",
-      "file": "058.jpg",
+      "file": "058.webp",
       "original_name": "DSC_0628.png",
       "source_sha1": "58b752490969b27e6c812890b3b7bbfcd376a85c",
-      "title": "",
+      "title": "Light Trails Below Sacré-Cœur at Night",
       "caption": "",
       "location": "Montmartre, Paris, France",
       "featured": false,
@@ -2221,20 +2349,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/058.jpg",
+        "src": "full/058.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1723148,
-        "format": "jpg",
+        "bytes": 1059320,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/058.jpg",
+        "src": "thumbs/058.webp",
         "width": 800,
         "height": 600,
-        "bytes": 344050,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 164082,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2244,11 +2372,14 @@
       "aperture": "f/18",
       "shutter_speed": "30 s",
       "iso": 100,
-      "date_taken": "2026-08-07T22:01:38"
+      "date_taken": "2026-08-07T22:01:38",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "059",
-      "file": "059.jpg",
+      "file": "059.webp",
       "original_name": "DSC_0638.png",
       "source_sha1": "ce52a2a0a3ebc76b19b26beb2af03c6837540099",
       "title": "Montmartre Nocturne",
@@ -2259,20 +2390,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/059.jpg",
+        "src": "full/059.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1339962,
-        "format": "jpg",
+        "bytes": 793870,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/059.jpg",
+        "src": "thumbs/059.webp",
         "width": 800,
         "height": 600,
-        "bytes": 272156,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 139106,
+        "format": "webp",
+        "quality": 93
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2285,11 +2416,14 @@
       "date_taken": "2026-08-07T22:14:11",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Montmartre-Nocturne/3063431/14233283/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "060",
-      "file": "060.jpg",
+      "file": "060.webp",
       "original_name": "DSC_0658.png",
       "source_sha1": "b0c16bef5ff90654a91e7da0616d98aae128ba47",
       "title": "The River Seine and the Moon",
@@ -2300,20 +2434,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/060.jpg",
+        "src": "full/060.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 872048,
-        "format": "jpg",
+        "bytes": 554918,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/060.jpg",
+        "src": "thumbs/060.webp",
         "width": 800,
         "height": 600,
-        "bytes": 153070,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 61446,
+        "format": "webp",
+        "quality": 91
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -2323,11 +2457,14 @@
       "aperture": "f/4",
       "shutter_speed": "1/40 s",
       "iso": 3200,
-      "date_taken": "2026-08-23T21:17:42"
+      "date_taken": "2026-08-23T21:17:42",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "061",
-      "file": "061.jpg",
+      "file": "061.webp",
       "original_name": "DSC_0669.png",
       "source_sha1": "5521087e901a2c429b9da46fcf9cf3d5007fa9a7",
       "title": "Grande Arche and skyscrapers at La Défense",
@@ -2338,20 +2475,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/061.jpg",
+        "src": "full/061.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1008434,
-        "format": "jpg",
+        "bytes": 523068,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/061.jpg",
+        "src": "thumbs/061.webp",
         "width": 800,
         "height": 600,
-        "bytes": 204149,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 79512,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2365,7 +2502,7 @@
     },
     {
       "id": "062",
-      "file": "062.jpg",
+      "file": "062.webp",
       "original_name": "DSC_0679.png",
       "source_sha1": "ad70a7aa015a8a162f93b0ccf0814c414c0458f1",
       "title": "Two walkers beneath a furious sky",
@@ -2376,20 +2513,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/062.jpg",
+        "src": "full/062.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1130283,
-        "format": "jpg",
+        "bytes": 887078,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/062.jpg",
+        "src": "thumbs/062.webp",
         "width": 800,
         "height": 600,
-        "bytes": 180114,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 105132,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -2399,11 +2536,14 @@
       "aperture": "f/8",
       "shutter_speed": "1/640 s",
       "iso": 400,
-      "date_taken": "2026-08-29T18:35:08"
+      "date_taken": "2026-08-29T18:35:08",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "063",
-      "file": "063.jpg",
+      "file": "063.webp",
       "original_name": "DSC_0683.png",
       "source_sha1": "0a244b38bb273b7cba1e78e8982bb5a0e159993b",
       "title": "Traveler and time: a rain‑pooled reflection in the modern city",
@@ -2414,20 +2554,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/063.jpg",
+        "src": "full/063.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 1499415,
-        "format": "jpg",
+        "bytes": 986446,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/063.jpg",
+        "src": "thumbs/063.webp",
         "width": 600,
         "height": 800,
-        "bytes": 286631,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 127080,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -2437,11 +2577,14 @@
       "aperture": "f/8",
       "shutter_speed": "1/400 s",
       "iso": 400,
-      "date_taken": "2026-08-29T18:37:24"
+      "date_taken": "2026-08-29T18:37:24",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "064",
-      "file": "064.jpg",
+      "file": "064.webp",
       "original_name": "DSC_0727-HDR.png",
       "source_sha1": "bf7a512f7f9d6a3a25e554290d05b874ce8fc68f",
       "title": "Under the Green Canopy: Quiet Moments on the Banks of the Seine",
@@ -2452,20 +2595,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/064.jpg",
+        "src": "full/064.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 1804893,
-        "format": "jpg",
+        "bytes": 1146618,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/064.jpg",
+        "src": "thumbs/064.webp",
         "width": 600,
         "height": 800,
-        "bytes": 304751,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 139176,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -2475,14 +2618,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/4000 s",
       "iso": 400,
-      "date_taken": "2026-08-29T18:59:37"
+      "date_taken": "2026-08-29T18:59:37",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "065",
-      "file": "065.jpg",
+      "file": "065.webp",
       "original_name": "DSC_0773.png",
       "source_sha1": "06cf0228c00d7c230eba04a83240cd591db58978",
-      "title": "",
+      "title": "The Eiffel Tower Rising Above the Seine",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2490,20 +2636,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/065.jpg",
+        "src": "full/065.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 1326431,
-        "format": "jpg",
+        "bytes": 1004552,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/065.jpg",
+        "src": "thumbs/065.webp",
         "width": 600,
         "height": 800,
-        "bytes": 248859,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 113818,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 0.7501,
       "camera": "Nikon Z5_2",
@@ -2517,7 +2663,7 @@
     },
     {
       "id": "066",
-      "file": "066.jpg",
+      "file": "066.webp",
       "original_name": "DSC_0993.png",
       "source_sha1": "9f78c14f2edbc170dc2717cb6bdd851b3e24d1d2",
       "title": "Reflections of Desire: Parisian Nights Between Water and Sky",
@@ -2528,20 +2674,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/066.jpg",
+        "src": "full/066.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 716575,
-        "format": "jpg",
+        "bytes": 355138,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/066.jpg",
+        "src": "thumbs/066.webp",
         "width": 800,
         "height": 533,
-        "bytes": 127170,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 54906,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 1.5001,
       "camera": "Nikon Z5_2",
@@ -2554,11 +2700,14 @@
       "date_taken": "2026-08-29T21:28:13",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Reflections-of-Desire-Parisian-Nights-Between-Water-and-Sky/3063431/14190591/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "067",
-      "file": "067.jpg",
+      "file": "067.webp",
       "original_name": "DSC_1010.png",
       "source_sha1": "8f64044011cbec3939daf78f7720de3188ca5957",
       "title": "Eiffel Tower glowing above the Seine",
@@ -2569,20 +2718,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/067.jpg",
+        "src": "full/067.webp",
         "width": 2000,
         "height": 1125,
-        "bytes": 762534,
-        "format": "jpg",
+        "bytes": 443256,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/067.jpg",
+        "src": "thumbs/067.webp",
         "width": 800,
         "height": 450,
-        "bytes": 140924,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 63156,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.7778,
       "camera": "Nikon Z5_2",
@@ -2592,11 +2741,14 @@
       "aperture": "f/8",
       "shutter_speed": "10 s",
       "iso": 400,
-      "date_taken": "2026-08-29T21:44:49"
+      "date_taken": "2026-08-29T21:44:49",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "068",
-      "file": "068.jpg",
+      "file": "068.webp",
       "original_name": "DSC_1060.png",
       "source_sha1": "b6aa781f0307531faa2e2bfe5053ebd77318fdfb",
       "title": "La Conciergerie",
@@ -2607,20 +2759,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/068.jpg",
+        "src": "full/068.webp",
         "width": 2000,
         "height": 1125,
-        "bytes": 1102622,
-        "format": "jpg",
+        "bytes": 633136,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/068.jpg",
+        "src": "thumbs/068.webp",
         "width": 800,
         "height": 450,
-        "bytes": 194042,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 79736,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 1.7778,
       "camera": "Nikon Z5_2",
@@ -2634,7 +2786,7 @@
     },
     {
       "id": "069",
-      "file": "069.jpg",
+      "file": "069.webp",
       "original_name": "DSC_1103.png",
       "source_sha1": "f57e9edf32ba2669bc5f1a848b4fff43d1751e12",
       "title": "Sunlit Paris Street Photo on a Historic Cobblestone Lane",
@@ -2645,20 +2797,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/069.jpg",
+        "src": "full/069.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 1467865,
-        "format": "jpg",
+        "bytes": 1092198,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/069.jpg",
+        "src": "thumbs/069.webp",
         "width": 600,
         "height": 800,
-        "bytes": 280158,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 140714,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.7499,
       "camera": "Nikon Z5_2",
@@ -2668,14 +2820,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/60 s",
       "iso": 100,
-      "date_taken": "2026-09-26T16:31:01"
+      "date_taken": "2026-09-26T16:31:01",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "070",
-      "file": "070.jpg",
+      "file": "070.webp",
       "original_name": "DSC_1110.png",
       "source_sha1": "fb709a5b6e5a43e5466e5bfd6b32ddcd48fbcfe7",
-      "title": "",
+      "title": "Resting on the Steps Below Shuttered Windows",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2683,20 +2838,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/070.jpg",
+        "src": "full/070.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1696677,
-        "format": "jpg",
+        "bytes": 1309208,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/070.jpg",
+        "src": "thumbs/070.webp",
         "width": 800,
         "height": 600,
-        "bytes": 286144,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 152790,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2706,14 +2861,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/20 s",
       "iso": 100,
-      "date_taken": "2026-09-26T16:33:33"
+      "date_taken": "2026-09-26T16:33:33",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "071",
-      "file": "071.jpg",
+      "file": "071.webp",
       "original_name": "DSC_1125.png",
       "source_sha1": "5b5a0f68e5359f2bbaf09201498fe62be99755a2",
-      "title": "",
+      "title": "Au Vieux Paris d'Arcole, Wrapped in Greenery",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2721,20 +2879,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/071.jpg",
+        "src": "full/071.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1844033,
-        "format": "jpg",
+        "bytes": 1406106,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/071.jpg",
+        "src": "thumbs/071.webp",
         "width": 800,
         "height": 600,
-        "bytes": 358191,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 166948,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2744,14 +2902,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/6 s",
       "iso": 100,
-      "date_taken": "2026-09-26T16:38:24"
+      "date_taken": "2026-09-26T16:38:24",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "072",
-      "file": "072.jpg",
+      "file": "072.webp",
       "original_name": "DSC_1128.png",
       "source_sha1": "bd475f002dc3314296775297e8dc61a517dfcae8",
-      "title": "",
+      "title": "An Old Wooden Door in the Shadows",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2759,20 +2920,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/072.jpg",
+        "src": "full/072.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1438394,
-        "format": "jpg",
+        "bytes": 872434,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/072.jpg",
+        "src": "thumbs/072.webp",
         "width": 800,
         "height": 600,
-        "bytes": 274246,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 119010,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -2782,14 +2943,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/100 s",
       "iso": 100,
-      "date_taken": "2026-09-26T16:39:00"
+      "date_taken": "2026-09-26T16:39:00",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "073",
-      "file": "073.jpg",
+      "file": "073.webp",
       "original_name": "DSC_1150.png",
       "source_sha1": "31b1350a524ec761cbab1d87b516297ffb85bf10",
-      "title": "",
+      "title": "The Seine Under Summer Clouds",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2797,20 +2961,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/073.jpg",
+        "src": "full/073.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1497591,
-        "format": "jpg",
+        "bytes": 1102268,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/073.jpg",
+        "src": "thumbs/073.webp",
         "width": 800,
         "height": 600,
-        "bytes": 265222,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 132536,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -2824,10 +2988,10 @@
     },
     {
       "id": "074",
-      "file": "074.jpg",
+      "file": "074.webp",
       "original_name": "DSC_1165.png",
       "source_sha1": "ca622f0b762f2492f6da9b0ba1157fa4d57e834c",
-      "title": "",
+      "title": "Children and the Living Statue",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2835,20 +2999,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/074.jpg",
+        "src": "full/074.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 2313609,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1480452,
+        "format": "webp",
+        "quality": 93
       },
       "thumb": {
-        "src": "thumbs/074.jpg",
+        "src": "thumbs/074.webp",
         "width": 800,
         "height": 600,
-        "bytes": 418742,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 189512,
+        "format": "webp",
+        "quality": 85
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -2858,14 +3022,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/250 s",
       "iso": 100,
-      "date_taken": "2026-09-26T16:55:39"
+      "date_taken": "2026-09-26T16:55:39",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "075",
-      "file": "075.jpg",
+      "file": "075.webp",
       "original_name": "DSC_1226.png",
       "source_sha1": "99e97107e851f55e2cd8e3ae9c5e39022cf13aa8",
-      "title": "",
+      "title": "Under the Red Awning of L'Escale",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2873,20 +3040,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/075.jpg",
+        "src": "full/075.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1207440,
-        "format": "jpg",
+        "bytes": 776642,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/075.jpg",
+        "src": "thumbs/075.webp",
         "width": 800,
         "height": 600,
-        "bytes": 242125,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 120960,
+        "format": "webp",
+        "quality": 92
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -2896,14 +3063,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/320 s",
       "iso": 100,
-      "date_taken": "2026-09-26T17:10:46"
+      "date_taken": "2026-09-26T17:10:46",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "076",
-      "file": "076.jpg",
+      "file": "076.webp",
       "original_name": "DSC_1229.png",
       "source_sha1": "3925b3d1f811ffeee7011ca221faf71db47e6077",
-      "title": "",
+      "title": "In the Doorway of a Yellow Curiosity Shop",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -2911,20 +3081,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/076.jpg",
+        "src": "full/076.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1094618,
-        "format": "jpg",
+        "bytes": 642330,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/076.jpg",
+        "src": "thumbs/076.webp",
         "width": 800,
         "height": 600,
-        "bytes": 210608,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 74196,
+        "format": "webp",
+        "quality": 87
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -2934,14 +3104,17 @@
       "aperture": "f/11",
       "shutter_speed": "1/25 s",
       "iso": 100,
-      "date_taken": "2026-09-26T17:11:25"
+      "date_taken": "2026-09-26T17:11:25",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "077",
-      "file": "077.jpg",
+      "file": "077.webp",
       "original_name": "DSC_1249.png",
       "source_sha1": "e27c4af71599e72dee4816e8bc871370aa1d22ff",
-      "title": "",
+      "title": "An Afternoon on the Seine Embankment",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": true,
@@ -2949,20 +3122,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/077.jpg",
+        "src": "full/077.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1591120,
-        "format": "jpg",
+        "bytes": 1151212,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/077.jpg",
+        "src": "thumbs/077.webp",
         "width": 800,
         "height": 600,
-        "bytes": 272840,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 137388,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -2972,11 +3145,14 @@
       "aperture": "f/8",
       "shutter_speed": "1/800 s",
       "iso": 200,
-      "date_taken": "2026-09-26T17:17:32"
+      "date_taken": "2026-09-26T17:17:32",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "078",
-      "file": "078.jpg",
+      "file": "078.webp",
       "original_name": "DSC_1272.png",
       "source_sha1": "c3c0d2250a9c40413e26583488e1ee35cdeefe1b",
       "title": "Parisian Urban Street with Pedestrian and Leafy Trees",
@@ -2987,20 +3163,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/078.jpg",
+        "src": "full/078.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 2240082,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1463294,
+        "format": "webp",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/078.jpg",
+        "src": "thumbs/078.webp",
         "width": 800,
         "height": 600,
-        "bytes": 370153,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 170896,
+        "format": "webp",
+        "quality": 84
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -3010,14 +3186,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/400 s",
       "iso": 200,
-      "date_taken": "2026-09-26T17:22:33"
+      "date_taken": "2026-09-26T17:22:33",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "079",
-      "file": "079.jpg",
+      "file": "079.webp",
       "original_name": "DSC_1295.png",
       "source_sha1": "7d79328abe9a75046bbb1d3e0750ae6656327b2a",
-      "title": "",
+      "title": "Shadows Along an Ochre Wall",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3025,20 +3204,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/079.jpg",
+        "src": "full/079.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1473625,
-        "format": "jpg",
+        "bytes": 1126072,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/079.jpg",
+        "src": "thumbs/079.webp",
         "width": 800,
         "height": 600,
-        "bytes": 205017,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 140370,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 1.3334,
       "camera": "Nikon Z5_2",
@@ -3048,14 +3227,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/640 s",
       "iso": 200,
-      "date_taken": "2026-09-26T17:28:49"
+      "date_taken": "2026-09-26T17:28:49",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "080",
-      "file": "080.jpg",
+      "file": "080.webp",
       "original_name": "DSC_1308.png",
       "source_sha1": "2e0f7aa385bb5dd7db10ffdfd251de0ccb0324cd",
-      "title": "",
+      "title": "Reflections in a Parisian Shop Window",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3063,20 +3245,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/080.jpg",
+        "src": "full/080.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 863898,
-        "format": "jpg",
+        "bytes": 453188,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/080.jpg",
+        "src": "thumbs/080.webp",
         "width": 800,
         "height": 600,
-        "bytes": 214582,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 96320,
+        "format": "webp",
+        "quality": 91
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -3086,14 +3268,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/50 s",
       "iso": 200,
-      "date_taken": "2026-09-26T17:30:23"
+      "date_taken": "2026-09-26T17:30:23",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "081",
-      "file": "081.jpg",
+      "file": "081.webp",
       "original_name": "DSC_1319.png",
       "source_sha1": "99d8bd60e008d2a323e2834d63d631666b49766c",
-      "title": "",
+      "title": "A Café Terrace in Bloom",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3101,20 +3286,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/081.jpg",
+        "src": "full/081.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1344439,
-        "format": "jpg",
+        "bytes": 795886,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/081.jpg",
+        "src": "thumbs/081.webp",
         "width": 800,
         "height": 533,
-        "bytes": 278007,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 129792,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -3124,14 +3309,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/320 s",
       "iso": 200,
-      "date_taken": "2026-09-26T17:35:59"
+      "date_taken": "2026-09-26T17:35:59",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "082",
-      "file": "082.jpg",
+      "file": "082.webp",
       "original_name": "DSC_1385.png",
       "source_sha1": "297f84b22a1dfcbbe9b1a2573a7363c9975db071",
-      "title": "",
+      "title": "Passers-by in Motion Under the Arcades",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3139,20 +3327,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/082.jpg",
+        "src": "full/082.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1018244,
-        "format": "jpg",
+        "bytes": 665822,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/082.jpg",
+        "src": "thumbs/082.webp",
         "width": 800,
         "height": 600,
-        "bytes": 197367,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 90412,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -3162,14 +3350,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/15 s",
       "iso": 100,
-      "date_taken": "2026-09-26T18:10:54"
+      "date_taken": "2026-09-26T18:10:54",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "083",
-      "file": "083.jpg",
+      "file": "083.webp",
       "original_name": "DSC_1402.png",
       "source_sha1": "0caf76032013b99714b518afc9942e862fbeebad",
-      "title": "",
+      "title": "Light and Shadow Under the Arcades",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3177,20 +3368,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/083.jpg",
+        "src": "full/083.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1161528,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 733734,
+        "format": "webp",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/083.jpg",
+        "src": "thumbs/083.webp",
         "width": 800,
         "height": 600,
-        "bytes": 177999,
-        "format": "jpg",
-        "quality": 93
+        "bytes": 88998,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.3331,
       "camera": "Nikon Z5_2",
@@ -3200,14 +3391,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/125 s",
       "iso": 100,
-      "date_taken": "2026-09-26T18:13:40"
+      "date_taken": "2026-09-26T18:13:40",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "084",
-      "file": "084.jpg",
+      "file": "084.webp",
       "original_name": "DSC_1427.png",
       "source_sha1": "be41728ac5b7c546aff32055e2b13e3fb28eb347",
-      "title": "",
+      "title": "Late Sun Through the Trees",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3215,20 +3409,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/084.jpg",
+        "src": "full/084.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 2104972,
-        "format": "jpg",
+        "bytes": 1251618,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/084.jpg",
+        "src": "thumbs/084.webp",
         "width": 800,
         "height": 600,
-        "bytes": 398872,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 175322,
+        "format": "webp",
+        "quality": 88
       },
       "aspect_ratio": 1.3331,
       "camera": "Nikon Z5_2",
@@ -3238,11 +3432,14 @@
       "aperture": "f/10",
       "shutter_speed": "1/25 s",
       "iso": 100,
-      "date_taken": "2026-09-26T18:23:54"
+      "date_taken": "2026-09-26T18:23:54",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "085",
-      "file": "085.jpg",
+      "file": "085.webp",
       "original_name": "DSC_1448.png",
       "source_sha1": "971be4f13a0bd5e159dc0183d01474ded5330237",
       "title": "Notre-Dame de Paris glowing under the moon",
@@ -3253,20 +3450,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/085.jpg",
+        "src": "full/085.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 1227153,
-        "format": "jpg",
+        "bytes": 760536,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/085.jpg",
+        "src": "thumbs/085.webp",
         "width": 600,
         "height": 800,
-        "bytes": 226807,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 100078,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 0.7501,
       "camera": "Nikon Z5_2",
@@ -3279,11 +3476,14 @@
       "date_taken": "2026-09-26T21:14:30",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Notre-Dame-de-Paris-glowing-under-the-moon/3063431/14274179/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "086",
-      "file": "086.jpg",
+      "file": "086.webp",
       "original_name": "DSC_1462.png",
       "source_sha1": "9f8e2510aa06eaf687c11938da80ffd57c694a38",
       "title": "Illuminated Notre-Dame and Seine River Paris",
@@ -3294,20 +3494,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/086.jpg",
+        "src": "full/086.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1256690,
-        "format": "jpg",
+        "bytes": 787660,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/086.jpg",
+        "src": "thumbs/086.webp",
         "width": 800,
         "height": 600,
-        "bytes": 240364,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 103202,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -3320,14 +3520,17 @@
       "date_taken": "2026-09-26T21:39:14",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Illuminated-Notre-Dame-and-Seine-River-Paris/3063431/14292111/view"
-      }
+      },
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "087",
-      "file": "087.jpg",
+      "file": "087.webp",
       "original_name": "DSC_1486.png",
       "source_sha1": "45144941f24cc8f7feb28243082a33adf70b2cfa",
-      "title": "",
+      "title": "The Eiffel Tower Through an Arch of Pont de Bir-Hakeim",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3335,19 +3538,19 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/087.jpg",
+        "src": "full/087.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1300684,
-        "format": "jpg",
+        "bytes": 1100306,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/087.jpg",
+        "src": "thumbs/087.webp",
         "width": 800,
         "height": 533,
-        "bytes": 186330,
-        "format": "jpg",
+        "bytes": 136368,
+        "format": "webp",
         "quality": 95
       },
       "aspect_ratio": 1.5,
@@ -3362,10 +3565,10 @@
     },
     {
       "id": "088",
-      "file": "088.jpg",
+      "file": "088.webp",
       "original_name": "DSC_1498.png",
       "source_sha1": "5a52bd23192aec681b4fce8f488e9bdc3839a3d2",
-      "title": "",
+      "title": "Cyclist Beneath the Arch, Eiffel Tower Beyond",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": true,
@@ -3373,20 +3576,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/088.jpg",
+        "src": "full/088.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1342593,
-        "format": "jpg",
+        "bytes": 1129890,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/088.jpg",
+        "src": "thumbs/088.webp",
         "width": 800,
         "height": 533,
-        "bytes": 201654,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 140888,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -3396,14 +3599,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/500 s",
       "iso": 800,
-      "date_taken": "2026-10-09T16:59:30"
+      "date_taken": "2026-10-09T16:59:30",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "089",
-      "file": "089.jpg",
+      "file": "089.webp",
       "original_name": "DSC_1537.png",
       "source_sha1": "b8d39e3db89b72c41a737777b11f0c4de31fc77b",
-      "title": "",
+      "title": "Visitors on the Trocadéro Esplanade",
       "caption": "",
       "location": "Trocadéro, Paris, France",
       "featured": false,
@@ -3411,20 +3617,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/089.jpg",
+        "src": "full/089.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1522710,
-        "format": "jpg",
+        "bytes": 1241788,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/089.jpg",
+        "src": "thumbs/089.webp",
         "width": 800,
         "height": 600,
-        "bytes": 260030,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 166724,
+        "format": "webp",
+        "quality": 93
       },
       "aspect_ratio": 1.3331,
       "camera": "Nikon Z5_2",
@@ -3434,14 +3640,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/125 s",
       "iso": 800,
-      "date_taken": "2026-10-09T17:31:28"
+      "date_taken": "2026-10-09T17:31:28",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "090",
-      "file": "090.jpg",
+      "file": "090.webp",
       "original_name": "DSC_1538.png",
       "source_sha1": "af3494c8e55aac19ad4f8ed7bba7394e13f394cc",
-      "title": "",
+      "title": "A Busy Afternoon at the Trocadéro",
       "caption": "",
       "location": "Trocadéro, Paris, France",
       "featured": false,
@@ -3449,20 +3658,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/090.jpg",
+        "src": "full/090.webp",
         "width": 2000,
         "height": 1497,
-        "bytes": 1519820,
-        "format": "jpg",
+        "bytes": 1250708,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/090.jpg",
+        "src": "thumbs/090.webp",
         "width": 800,
         "height": 599,
-        "bytes": 265391,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 158268,
+        "format": "webp",
+        "quality": 92
       },
       "aspect_ratio": 1.3361,
       "camera": "Nikon Z5_2",
@@ -3472,14 +3681,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/160 s",
       "iso": 800,
-      "date_taken": "2026-10-09T17:32:48"
+      "date_taken": "2026-10-09T17:32:48",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "091",
-      "file": "091.jpg",
+      "file": "091.webp",
       "original_name": "DSC_1540.png",
       "source_sha1": "6c8e7269f6bfc916f9f67d4cd09ace6ab2651269",
-      "title": "",
+      "title": "Photographing the Eiffel Tower from the Trocadéro",
       "caption": "",
       "location": "Trocadéro, Paris, France",
       "featured": false,
@@ -3487,20 +3699,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/091.jpg",
+        "src": "full/091.webp",
         "width": 2000,
         "height": 1497,
-        "bytes": 1386090,
-        "format": "jpg",
+        "bytes": 1145884,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/091.jpg",
+        "src": "thumbs/091.webp",
         "width": 800,
         "height": 599,
-        "bytes": 233687,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 156944,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 1.3361,
       "camera": "Nikon Z5_2",
@@ -3510,14 +3722,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/160 s",
       "iso": 800,
-      "date_taken": "2026-10-09T17:34:38"
+      "date_taken": "2026-10-09T17:34:38",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "092",
-      "file": "092.jpg",
+      "file": "092.webp",
       "original_name": "DSC_1541.png",
       "source_sha1": "955bece08af2d94aa75647a3441021ab36662757",
-      "title": "",
+      "title": "Strolling on the Trocadéro Esplanade",
       "caption": "",
       "location": "Trocadéro, Paris, France",
       "featured": false,
@@ -3525,20 +3740,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/092.jpg",
+        "src": "full/092.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1746670,
-        "format": "jpg",
+        "bytes": 1466234,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/092.jpg",
+        "src": "thumbs/092.webp",
         "width": 800,
         "height": 600,
-        "bytes": 281144,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 198574,
+        "format": "webp",
+        "quality": 94
       },
       "aspect_ratio": 1.3335,
       "camera": "Nikon Z5_2",
@@ -3548,14 +3763,17 @@
       "aperture": "f/8",
       "shutter_speed": "1/200 s",
       "iso": 800,
-      "date_taken": "2026-10-09T17:35:02"
+      "date_taken": "2026-10-09T17:35:02",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "093",
-      "file": "093.jpg",
+      "file": "093.webp",
       "original_name": "DSC_1591.png",
       "source_sha1": "dcec756e69ff4917a790dfd800adf428d1cf796b",
-      "title": "",
+      "title": "Pont Alexandre III and the Dome of Les Invalides",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3563,20 +3781,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/093.jpg",
+        "src": "full/093.webp",
         "width": 1333,
         "height": 2000,
-        "bytes": 1360034,
-        "format": "jpg",
+        "bytes": 1092278,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/093.jpg",
+        "src": "thumbs/093.webp",
         "width": 533,
         "height": 800,
-        "bytes": 218945,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 127094,
+        "format": "webp",
+        "quality": 93
       },
       "aspect_ratio": 0.6667,
       "camera": "Nikon Z5_2",
@@ -3590,7 +3808,7 @@
     },
     {
       "id": "094",
-      "file": "094.jpg",
+      "file": "094.webp",
       "original_name": "DSC_1628.png",
       "source_sha1": "78d883f1e4c044ac1608b380a0ae82171715b67e",
       "title": "Louvre Pyramid at Twilight",
@@ -3601,19 +3819,19 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/094.jpg",
+        "src": "full/094.webp",
         "width": 1497,
         "height": 2000,
-        "bytes": 995120,
-        "format": "jpg",
+        "bytes": 675054,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/094.jpg",
+        "src": "thumbs/094.webp",
         "width": 599,
         "height": 800,
-        "bytes": 165018,
-        "format": "jpg",
+        "bytes": 96530,
+        "format": "webp",
         "quality": 95
       },
       "aspect_ratio": 0.7485,
@@ -3624,11 +3842,14 @@
       "aperture": "f/10",
       "shutter_speed": "1/50 s",
       "iso": 1600,
-      "date_taken": "2026-10-09T19:08:49"
+      "date_taken": "2026-10-09T19:08:49",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "095",
-      "file": "095.jpg",
+      "file": "095.webp",
       "original_name": "DSC_1645.png",
       "source_sha1": "8c44d51bbdf3a68fa313d45242821236e65edb47",
       "title": "Louvre Pyramid and Historic Museum Facade",
@@ -3639,20 +3860,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/095.jpg",
+        "src": "full/095.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1906040,
-        "format": "jpg",
+        "bytes": 1476990,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/095.jpg",
+        "src": "thumbs/095.webp",
         "width": 800,
         "height": 600,
-        "bytes": 316586,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 162850,
+        "format": "webp",
+        "quality": 90
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -3666,10 +3887,10 @@
     },
     {
       "id": "096",
-      "file": "096.jpg",
+      "file": "096.webp",
       "original_name": "DSC_1662.png",
       "source_sha1": "8cf4549bfcb63406aa8b176f6868d5199a326c66",
-      "title": "",
+      "title": "Sunlight Through the Leaves on a Graffiti Lane",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3677,20 +3898,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/096.jpg",
+        "src": "full/096.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 850843,
-        "format": "jpg",
+        "bytes": 486174,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/096.jpg",
+        "src": "thumbs/096.webp",
         "width": 800,
         "height": 533,
-        "bytes": 192678,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 96784,
+        "format": "webp",
+        "quality": 92
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -3700,11 +3921,14 @@
       "aperture": "f/10",
       "shutter_speed": "1/200 s",
       "iso": 200,
-      "date_taken": "2026-10-17T16:21:45"
+      "date_taken": "2026-10-17T16:21:45",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "097",
-      "file": "097.jpg",
+      "file": "097.webp",
       "original_name": "DSC_1694.png",
       "source_sha1": "a57f3144188db0e868c2739f9505b18078301008",
       "title": "Paris looks different when the sky tells a story",
@@ -3715,20 +3939,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/097.jpg",
+        "src": "full/097.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 2210290,
-        "format": "jpg",
+        "bytes": 1527946,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/097.jpg",
+        "src": "thumbs/097.webp",
         "width": 600,
         "height": 800,
-        "bytes": 407026,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 183124,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.75,
       "camera": "Nikon Z5_2",
@@ -3742,7 +3966,7 @@
     },
     {
       "id": "098",
-      "file": "098.jpg",
+      "file": "098.webp",
       "original_name": "DSC_1737.png",
       "source_sha1": "643a31ddd8e5e0504a234ce77e2552aa5f539ff9",
       "title": "If autumn had an address, it would be somewhere in Paris",
@@ -3753,20 +3977,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/098.jpg",
+        "src": "full/098.webp",
         "width": 1500,
         "height": 2000,
-        "bytes": 2071408,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1312998,
+        "format": "webp",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/098.jpg",
+        "src": "thumbs/098.webp",
         "width": 600,
         "height": 800,
-        "bytes": 451405,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 200406,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 0.75,
       "camera": "Nikon Z5_2",
@@ -3780,10 +4004,10 @@
     },
     {
       "id": "099",
-      "file": "099.jpg",
+      "file": "099.webp",
       "original_name": "DSC_1754.png",
       "source_sha1": "c99185f029f91d73359a980c619a5fbc24888de4",
-      "title": "",
+      "title": "Shuttered Shops Below a Red-Brick Facade",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3791,20 +4015,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/099.jpg",
+        "src": "full/099.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1719344,
-        "format": "jpg",
+        "bytes": 1062400,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/099.jpg",
+        "src": "thumbs/099.webp",
         "width": 800,
         "height": 600,
-        "bytes": 336179,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 134990,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -3814,14 +4038,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/60 s",
       "iso": 200,
-      "date_taken": "2026-10-17T17:05:13"
+      "date_taken": "2026-10-17T17:05:13",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "100",
-      "file": "100.jpg",
+      "file": "100.webp",
       "original_name": "DSC_1758.png",
       "source_sha1": "9998de9fedaf66dd0b49a0c8e7c3c5ae05611067",
-      "title": "",
+      "title": "Tree Shadows on a Red-Brick Facade",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3829,20 +4056,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/100.jpg",
+        "src": "full/100.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 1417945,
-        "format": "jpg",
+        "bytes": 854994,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/100.jpg",
+        "src": "thumbs/100.webp",
         "width": 800,
         "height": 533,
-        "bytes": 292882,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 128744,
+        "format": "webp",
+        "quality": 89
       },
       "aspect_ratio": 1.5,
       "camera": "Nikon Z5_2",
@@ -3856,10 +4083,10 @@
     },
     {
       "id": "101",
-      "file": "101.jpg",
+      "file": "101.webp",
       "original_name": "DSC_1849.png",
       "source_sha1": "bb86f16aaa1e53bdabd3d398276ccde60123e38e",
-      "title": "",
+      "title": "A Shaded Path Through the Park",
       "caption": "",
       "location": "7th Arrondissement, Paris, France",
       "featured": false,
@@ -3867,20 +4094,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/101.jpg",
+        "src": "full/101.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 2554700,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 1570602,
+        "format": "webp",
+        "quality": 94
       },
       "thumb": {
-        "src": "thumbs/101.jpg",
+        "src": "thumbs/101.webp",
         "width": 800,
         "height": 600,
-        "bytes": 481933,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 217170,
+        "format": "webp",
+        "quality": 86
       },
       "aspect_ratio": 1.3332,
       "camera": "Nikon Z5_2",
@@ -3890,11 +4117,14 @@
       "aperture": "f/10",
       "shutter_speed": "1/200 s",
       "iso": 800,
-      "date_taken": "2026-10-17T17:38:15"
+      "date_taken": "2026-10-17T17:38:15",
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "102",
-      "file": "102.jpg",
+      "file": "102.webp",
       "original_name": "DSC_1899.png",
       "source_sha1": "7b10201fb5ce195f97f29d3415a30e703a97a26e",
       "title": "A Pause in Paris",
@@ -3905,20 +4135,20 @@
       "copyright_year": 2026,
       "copyright": "© 2026 Praveen Kumar Singh",
       "full": {
-        "src": "full/102.jpg",
+        "src": "full/102.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 1985185,
-        "format": "jpg",
+        "bytes": 1169174,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/102.jpg",
+        "src": "thumbs/102.webp",
         "width": 800,
         "height": 600,
-        "bytes": 361109,
-        "format": "jpg",
-        "quality": 95
+        "bytes": 143366,
+        "format": "webp",
+        "quality": 87
       },
       "aspect_ratio": 1.3335,
       "camera": "Nikon Z5_2",
@@ -3928,14 +4158,17 @@
       "aperture": "f/10",
       "shutter_speed": "1/640 s",
       "iso": 800,
-      "date_taken": "2026-10-17T17:48:40"
+      "date_taken": "2026-10-17T17:48:40",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "103",
-      "file": "103.jpg",
+      "file": "103.webp",
       "original_name": "DSC_0800.png",
       "source_sha1": "df2c96db015ce0f056ee28e7e840eb6af8fa48bd",
-      "title": "",
+      "title": "A Boy at the Window of a Crowded Bus",
       "caption": "",
       "location": "",
       "featured": false,
@@ -3943,20 +4176,20 @@
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/103.jpg",
+        "src": "full/103.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 300531,
-        "format": "jpg",
-        "quality": 85
+        "bytes": 154266,
+        "format": "webp",
+        "quality": 87
       },
       "thumb": {
-        "src": "thumbs/103.jpg",
+        "src": "thumbs/103.webp",
         "width": 800,
         "height": 600,
-        "bytes": 78799,
-        "format": "jpg",
-        "quality": 85
+        "bytes": 30502,
+        "format": "webp",
+        "quality": 72
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -3966,35 +4199,38 @@
       "aperture": "f/8",
       "shutter_speed": "1/50 s",
       "iso": 100,
-      "date_taken": "2025-11-01T10:15:48"
+      "date_taken": "2025-11-01T10:15:48",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "104",
-      "file": "104.jpg",
+      "file": "104.webp",
       "original_name": "DSC_1526.png",
       "source_sha1": "2248801e2484fc037cceb2ae32181acc8f37cf63",
-      "title": "",
+      "title": "A Child in Yellow",
       "caption": "",
-      "location": "",
+      "location": "Attari-Wagah border, Amritsar, India",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/104.jpg",
+        "src": "full/104.webp",
         "width": 2000,
         "height": 1500,
-        "bytes": 477312,
-        "format": "jpg",
-        "quality": 94
+        "bytes": 220500,
+        "format": "webp",
+        "quality": 95
       },
       "thumb": {
-        "src": "thumbs/104.jpg",
+        "src": "thumbs/104.webp",
         "width": 800,
         "height": 600,
-        "bytes": 86833,
-        "format": "jpg",
-        "quality": 89
+        "bytes": 39698,
+        "format": "webp",
+        "quality": 87
       },
       "aspect_ratio": 1.3333,
       "camera": "Nikon Z5_2",
@@ -4004,34 +4240,37 @@
       "aperture": "f/6.3",
       "shutter_speed": "1/160 s",
       "iso": 3200,
-      "date_taken": "2025-11-05T17:43:50"
+      "date_taken": "2025-11-05T17:43:50",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "105",
-      "file": "105.jpg",
+      "file": "105.webp",
       "original_name": "DSC_1535.png",
       "source_sha1": "6ab9eba4ad00a3e4fd6e6ad140d75423af80be00",
-      "title": "",
+      "title": "Streetlights on an Evening Road",
       "caption": "",
-      "location": "",
+      "location": "Attari-Wagah border, Amritsar, India",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/105.jpg",
+        "src": "full/105.webp",
         "width": 2000,
         "height": 1125,
-        "bytes": 1739782,
-        "format": "jpg",
+        "bytes": 1029896,
+        "format": "webp",
         "quality": 95
       },
       "thumb": {
-        "src": "thumbs/105.jpg",
+        "src": "thumbs/105.webp",
         "width": 800,
         "height": 450,
-        "bytes": 208664,
-        "format": "jpg",
+        "bytes": 125748,
+        "format": "webp",
         "quality": 95
       },
       "aspect_ratio": 1.778,
@@ -4042,35 +4281,38 @@
       "aperture": "f/6",
       "shutter_speed": "1/8 s",
       "iso": 3200,
-      "date_taken": "2025-11-05T18:04:29"
+      "date_taken": "2025-11-05T18:04:29",
+      "tags": [
+        "night"
+      ]
     },
     {
       "id": "106",
-      "file": "106.jpg",
+      "file": "106.webp",
       "original_name": "DSC_1549.png",
       "source_sha1": "3ab5e7882425bb419c5092bd8b97fb06e9aaa73a",
-      "title": "",
+      "title": "Ferris Wheel Lights at Night",
       "caption": "",
-      "location": "",
+      "location": "Amritsar, India",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2025,
       "copyright": "© 2025 Praveen Kumar Singh",
       "full": {
-        "src": "full/106.jpg",
+        "src": "full/106.webp",
         "width": 2000,
         "height": 1333,
-        "bytes": 519205,
-        "format": "jpg",
+        "bytes": 282924,
+        "format": "webp",
         "quality": 93
       },
       "thumb": {
-        "src": "thumbs/106.jpg",
+        "src": "thumbs/106.webp",
         "width": 800,
         "height": 533,
-        "bytes": 93855,
-        "format": "jpg",
-        "quality": 90
+        "bytes": 32392,
+        "format": "webp",
+        "quality": 78
       },
       "aspect_ratio": 1.4999,
       "camera": "Nikon Z5_2",
@@ -4080,8 +4322,11 @@
       "aperture": "f/6.3",
       "shutter_speed": "2 s",
       "iso": 100,
-      "date_taken": "2025-11-05T19:10:28"
+      "date_taken": "2025-11-05T19:10:28",
+      "tags": [
+        "night"
+      ]
     }
   ],
-  "updated": "2026-11-02T02:43:56"
+  "updated": "2026-11-06T18:54:58"
 }

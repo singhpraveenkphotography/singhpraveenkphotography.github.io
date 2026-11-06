@@ -17,6 +17,14 @@
 
    • filter buttons
        <div class="pg-filters" data-for="grid-id"> <button data-filter="all">…
+     (a button is hidden while it would show fewer than data-min photos, default 4)
+
+   • collections: a grid limited to a place and/or a tag
+       <div class="pg-grid" data-place="Paris" data-tag="night">   (| = or: "India|Nepal")
+     and cover cards for them
+       <a class="pg-collection" href="paris.html" data-place="Paris" data-cover="043">
+
+   • a print-enquiry form (<form class="pg-enquiry">, see contact/index.qmd)
 
    • one shared lightbox: keyboard arrows, Esc, touch swipe, and a details
      bar on the bottom edge of the photo (from photos.json)
@@ -119,6 +127,7 @@
           <span class="pg-lb-shop-label">Available as a print</span>
           <span class="pg-lb-shop-links"></span>
         </div>
+        <a class="pg-lb-enquire" href="#">Enquire about this photograph</a>
       </figure>`;
     document.body.appendChild(lb);
     $$('img', lb).forEach((im) => { im.draggable = false; });
@@ -170,6 +179,15 @@
       links.appendChild(a);
     });
     box.hidden = !links.children.length;
+    // "Enquire about this photograph" -> contact page with the photo filled in
+    const enq = $('.pg-lb-enquire', lb);
+    const nav = $('.navbar a[href$="contact/index.html"], .navbar a[href$="contact/"]');
+    if (enq && nav) {
+      const u = new URL(nav.href, location.href);
+      u.search = `?photo=${encodeURIComponent(p.id)}`; u.hash = 'enquiry';
+      enq.href = u.href;
+      enq.textContent = shopLinks(p).length ? 'Other sizes, framing or licensing? Enquire' : 'Enquire about a print or licence';
+    } else if (enq) enq.hidden = true;
   }
   function renderLb() {
     const p = lbList[lbIndex], token = ++lbToken, img = $('.pg-lb-frame img', lb);
@@ -207,6 +225,14 @@
     colour: (p) => !p.black_and_white,
     forsale: (p) => shopLinks(p).length > 0,
   };
+  // data-place / data-tag on an element -> does photo p belong to it?
+  const norm = (t) => String(t || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  function inScope(el) {
+    const places = (el.dataset.place || '').split('|').map(norm).filter(Boolean);
+    const tags = (el.dataset.tag || '').split('|').map(norm).filter(Boolean);
+    return (p) => (!places.length || places.some((pl) => norm(p.location).includes(pl)))
+      && (!tags.length || tags.some((tg) => (p.tags || []).map(norm).includes(tg)));
+  }
   const ratio = (p) => p.thumb.height / p.thumb.width;
   const shuffle = (a) => {
     const b = a.slice();
@@ -282,6 +308,7 @@
     let all;
     try { all = await loadPhotos(grid.dataset.gallery || 'assets/gallery/'); }
     catch (err) { console.error('photos.json', err); grid.innerHTML = '<p class="pg-status">The gallery could not be loaded</p>'; return; }
+    all = all.filter(inScope(grid));             // collection pages: one place / theme
     const fields = metaFields(grid);
     const limit = parseInt(grid.dataset.limit || '0', 10);
     const random = grid.dataset.random === 'true';
@@ -313,6 +340,11 @@
 
     const bar = grid.id && $(`.pg-filters[data-for="${grid.id}"]`);
     if (bar) {
+      const min = parseInt(bar.dataset.min || '4', 10);
+      $$('button', bar).forEach((b) => {     // hide filters that would show (almost) nothing
+        const f = b.dataset.filter;
+        if (f !== 'all' && all.filter(FILTERS[f] || FILTERS.all).length < min) b.hidden = true;
+      });
       $$('button', bar).forEach((b) => {
         b.setAttribute('aria-pressed', String(b.dataset.filter === filter));
         b.addEventListener('click', () => {
@@ -334,6 +366,64 @@
     });
   }
   $$('.pg-grid').forEach(initGrid);
+
+  /* ---------- collection cards: cover photo + count ---------- */
+  $$('.pg-collection').forEach(async (card) => {
+    let all;
+    try { all = await loadPhotos(card.dataset.gallery || 'assets/gallery/'); } catch { return; }
+    const pool = all.filter(inScope(card));
+    const count = $('.pg-collection-count', card);
+    if (count) count.textContent = `${pool.length} photograph${pool.length === 1 ? '' : 's'}`;
+    const cover = pool.find((p) => p.id === card.dataset.cover) || pool.find((p) => p.featured) || pool[0];
+    const img = $('img', card);
+    if (cover && img) {
+      img.src = cover.thumbUrl; img.alt = altText(cover);
+      img.width = cover.thumb.width; img.height = cover.thumb.height;
+    }
+    if (!pool.length) card.classList.add('is-empty');
+  });
+
+  /* ---------- print-enquiry form (Formspree, or e-mail if not set up) ---------- */
+  $$('form.pg-enquiry').forEach(async (form) => {
+    const photoField = form.elements.photo;
+    const asked = new URLSearchParams(location.search).get('photo');
+    if (asked && photoField) {
+      photoField.value = `№ ${asked}`;
+      try {
+        const all = await loadPhotos(form.dataset.gallery || '../assets/gallery/');
+        const p = all.find((x) => x.id === asked || x.id === asked.padStart(3, '0'));
+        if (p) photoField.value = `№ ${p.id}${p.title ? ' – ' + p.title : ''}`;
+      } catch { /* keep the number */ }
+      if (form.elements.kind) form.elements.kind.value = 'Print';
+    }
+    const status = $('.pg-enquiry-status', form);
+    const say = (msg, kind) => { if (status) { status.textContent = msg; status.dataset.kind = kind || ''; } };
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (form.elements._gotcha && form.elements._gotcha.value) return;      // a bot filled the hidden field
+      if (!form.reportValidity()) return;
+      const data = new FormData(form);
+      const configured = form.action && !/YOUR_FORM_ID/.test(form.action) && /^https:\/\/formspree\.io\//.test(form.action);
+      if (!configured) {                                                     // fallback: open the visitor's e-mail app
+        const to = form.dataset.email;
+        const body = ['kind', 'photo', 'message'].map((k) => data.get(k) ? `${k === 'kind' ? 'About' : k[0].toUpperCase() + k.slice(1)}: ${data.get(k)}` : '').filter(Boolean).join('\n\n')
+          + `\n\n${data.get('name') || ''}`;
+        location.href = `mailto:${to}?subject=${encodeURIComponent('Enquiry: ' + (data.get('kind') || 'Photography'))}&body=${encodeURIComponent(body)}`;
+        return;
+      }
+      const btn = $('button[type="submit"]', form);
+      if (btn) btn.disabled = true;
+      say('Sending…');
+      try {
+        const r = await fetch(form.action, { method: 'POST', body: data, headers: { Accept: 'application/json' } });
+        if (!r.ok) throw new Error(String(r.status));
+        form.reset();
+        say('Thank you, your message has been sent. I will reply by e-mail.', 'ok');
+      } catch {
+        say(`Sorry, the message could not be sent. Please e-mail ${form.dataset.email} instead.`, 'error');
+      } finally { if (btn) btn.disabled = false; }
+    });
+  });
 
   /* ---------- hero slideshow ---------- */
   async function initHero(hero) {
@@ -416,7 +506,7 @@
      photos only, so text, links and the keyboard work as usual. Anything a
      browser shows can still be screenshotted; the badge and the copyright
      inside each file are the real protection. */
-  const PROTECTED = '.pg-grid, .pg-hero, .pg-lb-frame, .pg-protect';
+  const PROTECTED = '.pg-grid, .pg-hero, .pg-lb-frame, .pg-collection, .pg-protect';
   const isProtected = (t) => t instanceof Element && (t.tagName === 'IMG' || t.closest('.pg-item, .pg-lb-frame'))
     && t.closest(PROTECTED);
   let toast, toastTimer;
