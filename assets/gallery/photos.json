@@ -39,7 +39,8 @@
       "date_taken": "2025-09-23T20:28:50",
       "tags": [
         "night",
-        "street"
+        "street",
+        "monument"
       ]
     },
     {
@@ -80,7 +81,8 @@
       "iso": 3200,
       "date_taken": "2025-09-23T20:31:52",
       "tags": [
-        "night"
+        "night",
+        "monument"
       ]
     },
     {
@@ -121,7 +123,8 @@
       "iso": 3200,
       "date_taken": "2025-09-23T20:40:45",
       "tags": [
-        "night"
+        "night",
+        "monument"
       ]
     },
     {
@@ -245,7 +248,10 @@
       "date_taken": "2025-10-11T10:28:04",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Whispers-of-Light/3063431/14131289/view"
-      }
+      },
+      "tags": [
+        "nature"
+      ]
     },
     {
       "id": "007",
@@ -412,7 +418,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/320 s",
       "iso": 100,
-      "date_taken": "2025-10-18T15:50:27"
+      "date_taken": "2025-10-18T15:50:27",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "011",
@@ -453,7 +462,10 @@
       "date_taken": "2025-10-18T16:52:52",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Feuerstelle-Lumbini-Looking-Towards-World-Peace-Pagoda/3063431/14141493/view"
-      }
+      },
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "012",
@@ -496,7 +508,8 @@
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacred-Night-at-Maya-Devi-Temple-Lumbini/3063431/14132249/view"
       },
       "tags": [
-        "night"
+        "night",
+        "monument"
       ]
     },
     {
@@ -620,7 +633,10 @@
       "aperture": "f/4",
       "shutter_speed": "1/13 s",
       "iso": 3200,
-      "date_taken": "2025-11-01T15:15:36"
+      "date_taken": "2025-11-01T15:15:36",
+      "tags": [
+        "people"
+      ]
     },
     {
       "id": "016",
@@ -699,7 +715,10 @@
       "aperture": "f/4",
       "shutter_speed": "1/6400 s",
       "iso": 100,
-      "date_taken": "2025-11-02T11:31:31"
+      "date_taken": "2025-11-02T11:31:31",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "018",
@@ -742,7 +761,8 @@
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Echoes-at-Dusk/3063431/14141195/view"
       },
       "tags": [
-        "night"
+        "night",
+        "monument"
       ]
     },
     {
@@ -1109,7 +1129,10 @@
       "aperture": "f/11",
       "shutter_speed": "1/2000 s",
       "iso": 400,
-      "date_taken": "2026-05-02T15:37:46"
+      "date_taken": "2026-05-02T15:37:46",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "028",
@@ -1147,7 +1170,10 @@
       "aperture": "f/11",
       "shutter_speed": "1/2000 s",
       "iso": 400,
-      "date_taken": "2026-05-02T16:04:21"
+      "date_taken": "2026-05-02T16:04:21",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "029",
@@ -1308,7 +1334,10 @@
       "aperture": "f/11",
       "shutter_speed": "1/2000 s",
       "iso": 800,
-      "date_taken": "2026-05-02T18:23:26"
+      "date_taken": "2026-05-02T18:23:26",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "033",
@@ -1510,7 +1539,10 @@
       "aperture": "f/4",
       "shutter_speed": "1/8000 s",
       "iso": 200,
-      "date_taken": "2026-05-25T19:14:00"
+      "date_taken": "2026-05-25T19:14:00",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "038",
@@ -1589,7 +1621,10 @@
       "aperture": "f/11",
       "shutter_speed": "1/160 s",
       "iso": 400,
-      "date_taken": "2026-05-25T20:50:27"
+      "date_taken": "2026-05-25T20:50:27",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "040",
@@ -1709,7 +1744,10 @@
       "aperture": "f/1.8",
       "shutter_speed": "1/4000 s",
       "iso": 100,
-      "date_taken": "2026-07-17T20:40:51"
+      "date_taken": "2026-07-17T20:40:51",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "043",
@@ -1749,7 +1787,8 @@
       "iso": 1600,
       "date_taken": "2026-07-17T21:03:28",
       "tags": [
-        "street"
+        "street",
+        "monument"
       ]
     },
     {
@@ -1791,7 +1830,10 @@
       "date_taken": "2026-07-17T21:07:30",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-at-Golden-Hour-in-Paris/3063431/14150375/view"
-      }
+      },
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "045",
@@ -1874,7 +1916,10 @@
       "date_taken": "2026-07-17T21:29:11",
       "shop": {
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-and-Seine-River-in-Evening-Glow/3063431/14130565/view"
-      }
+      },
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "047",
@@ -1917,7 +1962,8 @@
         "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-in-Night/3063431/14130759/view"
       },
       "tags": [
-        "night"
+        "night",
+        "monument"
       ]
     },
     {
@@ -2208,7 +2254,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/1250 s",
       "iso": 400,
-      "date_taken": "2026-08-04T20:25:43"
+      "date_taken": "2026-08-04T20:25:43",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "055",
@@ -2246,7 +2295,10 @@
       "aperture": "f/13",
       "shutter_speed": "1/1250 s",
       "iso": 800,
-      "date_taken": "2026-08-04T21:09:41"
+      "date_taken": "2026-08-04T21:09:41",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "056",
@@ -2498,7 +2550,10 @@
       "aperture": "f/11",
       "shutter_speed": "1/20 s",
       "iso": 6400,
-      "date_taken": "2026-08-23T21:25:31"
+      "date_taken": "2026-08-23T21:25:31",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "062",
@@ -2659,7 +2714,10 @@
       "aperture": "f/5.6",
       "shutter_speed": "1/6 s",
       "iso": 200,
-      "date_taken": "2026-08-29T20:18:21"
+      "date_taken": "2026-08-29T20:18:21",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "066",
@@ -2782,7 +2840,10 @@
       "aperture": "f/8",
       "shutter_speed": "30 s",
       "iso": 100,
-      "date_taken": "2026-09-05T21:06:52"
+      "date_taken": "2026-09-05T21:06:52",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "069",
@@ -2984,7 +3045,10 @@
       "aperture": "f/11",
       "shutter_speed": "1/320 s",
       "iso": 100,
-      "date_taken": "2026-09-26T16:52:00"
+      "date_taken": "2026-09-26T16:52:00",
+      "tags": [
+        "street"
+      ]
     },
     {
       "id": "074",
@@ -3561,7 +3625,10 @@
       "aperture": "f/8",
       "shutter_speed": "1/800 s",
       "iso": 800,
-      "date_taken": "2026-10-09T16:57:56"
+      "date_taken": "2026-10-09T16:57:56",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "088",
@@ -3804,7 +3871,10 @@
       "aperture": "f/13",
       "shutter_speed": "1/60 s",
       "iso": 1250,
-      "date_taken": "2026-10-09T18:24:50"
+      "date_taken": "2026-10-09T18:24:50",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "094",
@@ -3883,7 +3953,10 @@
       "aperture": "f/10",
       "shutter_speed": "1/40 s",
       "iso": 1600,
-      "date_taken": "2026-10-09T19:13:02"
+      "date_taken": "2026-10-09T19:13:02",
+      "tags": [
+        "monument"
+      ]
     },
     {
       "id": "096",
@@ -3962,7 +4035,10 @@
       "aperture": "f/10",
       "shutter_speed": "1/320 s",
       "iso": 200,
-      "date_taken": "2026-10-17T16:35:41"
+      "date_taken": "2026-10-17T16:35:41",
+      "tags": [
+        "minimalism"
+      ]
     },
     {
       "id": "098",
@@ -4000,7 +4076,10 @@
       "aperture": "f/10",
       "shutter_speed": "1/13 s",
       "iso": 200,
-      "date_taken": "2026-10-17T17:00:01"
+      "date_taken": "2026-10-17T17:00:01",
+      "tags": [
+        "minimalism"
+      ]
     },
     {
       "id": "099",
@@ -4079,7 +4158,10 @@
       "aperture": "f/10",
       "shutter_speed": "1/160 s",
       "iso": 200,
-      "date_taken": "2026-10-17T17:06:36"
+      "date_taken": "2026-10-17T17:06:36",
+      "tags": [
+        "minimalism"
+      ]
     },
     {
       "id": "101",
@@ -4170,7 +4252,7 @@
       "source_sha1": "df2c96db015ce0f056ee28e7e840eb6af8fa48bd",
       "title": "A Boy at the Window of a Crowded Bus",
       "caption": "",
-      "location": "",
+      "location": "Hyderabad, India",
       "featured": false,
       "black_and_white": false,
       "copyright_year": 2025,
@@ -4328,5 +4410,5 @@
       ]
     }
   ],
-  "updated": "2026-11-06T23:30:38"
+  "updated": "2026-11-06T23:53:04"
 }
