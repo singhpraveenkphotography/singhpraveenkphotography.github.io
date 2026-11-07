@@ -201,20 +201,37 @@
     img.src = p.thumbUrl;                       // instant, already cached
     lb.classList.add('is-loading');
     const full = new Image();
-    full.onload = () => { if (token === lbToken) { img.src = p.fullUrl; lb.classList.remove('is-loading'); } };
+    full.onload = () => { if (token === lbToken) { img.src = p.fullUrl; lb.classList.remove('is-loading'); fitSoon(); } };
     full.onerror = () => { if (token === lbToken) lb.classList.remove('is-loading'); };
     full.src = p.fullUrl;
     [-1, 1].forEach((d) => { const n = lbList[lbIndex + d]; if (n) new Image().src = n.fullUrl; });
+    fitSoon();
   }
   function openLb(list, index, fields) {
     if (!lb) buildLightbox();
     lbList = list; lbIndex = index; lbFields = fields || DEFAULT_META;
     renderLb();
     lb.classList.add('is-open');
+    fitLb();
     document.body.style.overflow = 'hidden';
     $('.pg-lb-close', lb).focus({ preventScroll: true });
   }
   function closeLb() { lb.classList.remove('is-open'); document.body.style.overflow = ''; }
+  // Size the photo so the details, caption, print links and enquiry link all
+  // fit on screen, however short the window (14" laptops, landscape phones).
+  // Run twice: a smaller photo is narrower, so the details may wrap onto
+  // another line and need a little more room.
+  function fitLb() {
+    if (!lb || !lb.classList.contains('is-open')) return;
+    const stage = $('.pg-lb-stage', lb), img = $('.pg-lb-frame img', lb);
+    for (let k = 0; k < 2; k++) {
+      const rest = stage.getBoundingClientRect().height - img.getBoundingClientRect().height;
+      const room = Math.floor(lb.clientHeight - rest - 2 * 16);   // 16 px clear above and below
+      img.style.maxHeight = `${Math.max(180, room)}px`;            // very short windows: lightbox scrolls
+    }
+  }
+  const fitSoon = () => requestAnimationFrame(fitLb);
+  window.addEventListener('resize', fitSoon);
   function step(d) { lbIndex = (lbIndex + d + lbList.length) % lbList.length; renderLb(); }
 
   /* ---------- masonry grids ---------- */
