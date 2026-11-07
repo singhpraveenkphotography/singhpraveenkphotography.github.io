@@ -1,6 +1,6 @@
 {
   "registry": "Praveen Kumar Singh — Certificates of Authenticity",
-  "updated": "2026-10-30",
+  "updated": "2026-11-07",
   "certificates": [
     {
       "id": "DEMO0001",
@@ -63,6 +63,22 @@
       "issued": "2026-10-30",
       "location": "Igny, France",
       "image": "certificates/DEMO0004.jpg",
+      "status": "valid",
+      "note": ""
+    },
+    {
+      "id": "202610SA575RNB",
+      "title": "Suspended Light: A Golden Wing Against a Green Silence",
+      "artist": "Praveen Kumar Singh",
+      "yearOfCompletion": "2026",
+      "medium": "Color on canvas",
+      "dimensions": "80 × 60 cm",
+      "edition": "Limited Edition 1 of 25",
+      "purchased": "2026-10-30",
+      "purchasedFrom": "www.saatchiart.com",
+      "issued": "2026-10-30",
+      "location": "Igny, France",
+      "image": "certificates/202610SA575RNB.jpg",
       "status": "valid",
       "note": ""
     }
