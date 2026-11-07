@@ -368,11 +368,21 @@
   $$('.pg-grid').forEach(initGrid);
 
   /* ---------- collection cards: cover photo + count ---------- */
-  // <ul class="pg-collections" data-random="true">: new card order and a new
-  // cover photo (from that collection) on every visit
+  // <ul class="pg-collections" data-random="true">: places first, then themes,
+  // each group in a new order, and a new cover photo (from that collection)
+  // on every visit. data-per-row="3": one row of each, showing 3 picked at
+  // random when a group has more (e.g. 3 of the 4 themes)
   const usedCovers = new Set();
   $$('.pg-collections[data-random="true"]').forEach((ul) => {
-    shuffle(Array.from(ul.children)).forEach((li) => ul.appendChild(li));
+    const items = Array.from(ul.children);
+    const isPlace = (li) => !!$('.pg-collection[data-place]', li);
+    const per = parseInt(ul.dataset.perRow || '0', 10);
+    [items.filter(isPlace), items.filter((li) => !isPlace(li))].forEach((group) => {
+      shuffle(group).forEach((li, i) => {
+        ul.appendChild(li);
+        if (per && i >= per) li.style.display = 'none';
+      });
+    });
     $$('.pg-collection', ul).forEach((card) => { card.dataset.cover = 'random'; });
   });
   $$('.pg-collection').forEach(async (card) => {
