@@ -1,9 +1,11 @@
-/tests/ export-ignore
 certificates.json export-ignore
+CNAME export-ignore
 verify.html export-ignore
 index.html export-ignore
+**/about/ export-ignore
 **/assets/ export-ignore
 **/certificates/ export-ignore
 **/gallery/ export-ignore
 **/contact/ export-ignore
-**/about/ export-ignore
+**/collections/ export-ignore
+**/verify/ export-ignore
