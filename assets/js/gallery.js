@@ -368,14 +368,24 @@
   $$('.pg-grid').forEach(initGrid);
 
   /* ---------- collection cards: cover photo + count ---------- */
+  // <ul class="pg-collections" data-random="true">: new card order and a new
+  // cover photo (from that collection) on every visit
+  const usedCovers = new Set();
+  $$('.pg-collections[data-random="true"]').forEach((ul) => {
+    shuffle(Array.from(ul.children)).forEach((li) => ul.appendChild(li));
+    $$('.pg-collection', ul).forEach((card) => { card.dataset.cover = 'random'; });
+  });
   $$('.pg-collection').forEach(async (card) => {
     let all;
     try { all = await loadPhotos(card.dataset.gallery || 'assets/gallery/'); } catch { return; }
     const pool = all.filter(inScope(card));
     const count = $('.pg-collection-count', card);
     if (count) count.textContent = `${pool.length} photograph${pool.length === 1 ? '' : 's'}`;
-    const cover = pool.find((p) => p.id === card.dataset.cover) || pool.find((p) => p.featured) || pool[0];
+    const cover = card.dataset.cover === 'random'
+      ? (shuffle(pool).find((p) => !usedCovers.has(p.id)) || shuffle(pool)[0])
+      : pool.find((p) => p.id === card.dataset.cover) || pool.find((p) => p.featured) || pool[0];
     const img = $('img', card);
+    if (cover) usedCovers.add(cover.id);             // no two cards with the same photo
     if (cover && img) {
       img.src = cover.thumbUrl; img.alt = altText(cover);
       img.width = cover.thumb.width; img.height = cover.thumb.height;
