@@ -25,7 +25,8 @@ This repository holds two kinds of material, licensed differently.
    site's design or reusing the code requires permission.
 
 3. THIRD-PARTY ICONS
-   The Instagram, Facebook and email icons are from Font Awesome Free 6.7.2
-   by Fonticons, Inc. (https://fontawesome.com), licensed under CC BY 4.0
-   (https://creativecommons.org/licenses/by/4.0/). Brand icons are
+   The Instagram, Facebook and email icons are from Bootstrap Icons 1.11.3
+   (https://icons.getbootstrap.com), Copyright (c) 2019-2024 The Bootstrap
+   Authors, licensed under the MIT License
+   (https://github.com/twbs/icons/blob/main/LICENSE). Brand icons are
    trademarks of their respective owners.
