@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-33269adcf1721b81efc5ea7fcfe7f0ee.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ebbe643fcadcaa9c74362a0280afdb8a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-65cdca844c5e2460ae8ce63d3a4fb13b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-ebbe643fcadcaa9c74362a0280afdb8a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-120ceb8ca6390c3fa3f239acf7703af6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-6575c2debbe8dd89607d9dba764a5225.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-120ceb8ca6390c3fa3f239acf7703af6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -414,6 +414,16 @@ ul.task-list li input[type="checkbox"] {
        Until then, "Send" opens the visitor's own e-mail app with the message filled in. -->
   <div class="pg-enquiry-wrap" id="enquiry">
     <h2 class="pg-title pg-title--sm anchored">Send an <em>enquiry</em></h2>
+    <!-- WHAT TO EXPECT. EDIT: change the reply time if you need to -->
+    <p class="pg-expect-lede">I usually reply within <strong>two working days</strong>. To help me answer in one go, please include:</p>
+    <ul class="pg-expect">
+      <li><span class="pg-expect-h">Prints</span>
+        Which photograph (its number or title), the size, paper or canvas, and the country it will be shipped to.</li>
+      <li><span class="pg-expect-h">Licensing</span>
+        Where the image will appear (book, magazine, website, advertising…), for how long, in which countries, and whether you need it exclusively.</li>
+      <li><span class="pg-expect-h">Commissions</span>
+        What you would like photographed, where, your dates, and how the photographs will be used.</li>
+    </ul>
     <form class="pg-enquiry" action="https://formspree.io/f/mvkknoey" method="POST" data-email="praveen.singh@writtenwithlight.com" data-gallery="../assets/gallery/">
       <div class="pg-field">
         <label for="enq-name">Name</label>
@@ -450,6 +460,22 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <p class="pg-enquiry-status pg-field--wide" role="status" aria-live="polite"></p>
     </form>
+    <script>
+      /* the hint inside "Message" follows the chosen topic */
+      (function () {
+        var kind = document.getElementById('enq-kind'), msg = document.getElementById('enq-message');
+        if (!kind || !msg) return;
+        var hints = {
+          'Print': 'Size, paper or canvas, framing, and the country for delivery…',
+          'Commission': 'What and where to photograph, your dates, and how the photographs will be used…',
+          'Licensing': 'Where the image will appear, for how long, in which countries, exclusive or not…',
+          'Collaboration': 'Tell me about your project or idea…',
+          'Other': 'Your message…'
+        };
+        var set = function () { msg.placeholder = hints[kind.value] || hints.Other; };
+        kind.addEventListener('change', set); set();
+      })();
+    </script>
   </div>
 
   <span class="pg-kicker pg-stores-head">Where to buy prints</span>
@@ -929,6 +955,7 @@ Explore
 <li>
 <a href="../collections/">Collections</a>
 </li>
+<!-- <li><a href="/stories/">Stories</a></li> -->
 <li>
 <a href="../about/">About</a>
 </li>

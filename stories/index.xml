@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Stories – Praveen Kumar Singh Photography</title>
+<link>https://writtenwithlight.com/stories/</link>
+<atom:link href="https://writtenwithlight.com/stories/index.xml" rel="self" type="application/rss+xml"/>
+<description>The stories behind the photographs: where they were made, what the light was doing, and how they became prints.</description>
+<image>
+<url>https://writtenwithlight.com/assets/images/hero.jpg</url>
+<title>Stories – Praveen Kumar Singh Photography</title>
+<link>https://writtenwithlight.com/stories/</link>
+</image>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Mon, 09 Nov 2026 01:10:54 GMT</lastBuildDate>
+</channel>
+</rss>
