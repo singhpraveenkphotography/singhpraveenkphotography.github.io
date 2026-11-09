@@ -2757,7 +2757,9 @@
       "iso": 100,
       "date_taken": "2026-08-29T21:28:13",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Reflections-of-Desire-Parisian-Nights-Between-Water-and-Sky/3063431/14190591/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Reflections-of-Desire-Parisian-Nights-Between-Water-and-Sky/3063431/14190591/view",
+        "Artfinder": "https://www.artfinder.com/product/parisian-nights-between-water-and-sky/",
+        "Photo4me": "https://www.photo4me.com/shop/1506663/"
       },
       "tags": [
         "night"
@@ -4957,5 +4959,5 @@
       "date_taken": "2026-04-18T16:12:46"
     }
   ],
-  "updated": "2026-11-08T02:29:27"
+  "updated": "2026-11-09T03:01:05"
 }
