@@ -760,7 +760,8 @@
       "iso": 800,
       "date_taken": "2025-11-02T17:31:39",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Echoes-at-Dusk/3063431/14141195/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Echoes-at-Dusk/3063431/14141195/view",
+        "Artfinder": "https://www.artfinder.com/product/echoes-at-dusk-f89df/"
       },
       "tags": [
         "night",
@@ -1749,7 +1750,10 @@
       "date_taken": "2026-07-17T20:40:51",
       "tags": [
         "monument"
-      ]
+      ],
+      "shop": {
+        "Photo4me": "https://www.photo4me.com/shop/1468234/framed-mounted-print"
+      }
     },
     {
       "id": "043",
@@ -1831,7 +1835,8 @@
       "iso": 800,
       "date_taken": "2026-07-17T21:07:30",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-at-Golden-Hour-in-Paris/3063431/14150375/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-at-Golden-Hour-in-Paris/3063431/14150375/view",
+        "Photo4me": "https://www.photo4me.com/shop/1468121/framed-mounted-print"
       },
       "tags": [
         "monument"
@@ -1917,7 +1922,8 @@
       "iso": 100,
       "date_taken": "2026-07-17T21:29:11",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-and-Seine-River-in-Evening-Glow/3063431/14130565/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-and-Seine-River-in-Evening-Glow/3063431/14130565/view",
+        "Photo4me": "https://www.photo4me.com/shop/1467855/framed-mounted-print"
       },
       "tags": [
         "monument"
@@ -1961,7 +1967,8 @@
       "iso": 6400,
       "date_taken": "2026-07-17T22:12:31",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-in-Night/3063431/14130759/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-in-Night/3063431/14130759/view",
+        "Photo4me": "https://www.photo4me.com/shop/1467910/framed-mounted-print"
       },
       "tags": [
         "night",
@@ -2384,7 +2391,8 @@
       "iso": 100,
       "date_taken": "2026-08-07T21:52:50",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-BW-Paris/3063431/14142801/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-in-Night-BW-Paris/3063431/14142801/view",
+        "Artfinder": "https://www.artfinder.com/product/sacre-cur-basilique-from-rue-de-labreuvoir/"
       },
       "tags": [
         "night"
@@ -2429,7 +2437,10 @@
       "date_taken": "2026-08-07T22:01:38",
       "tags": [
         "night"
-      ]
+      ],
+      "shop": {
+        "Photo4me": "https://www.photo4me.com/shop/1470828/framed-mounted-print"
+      }
     },
     {
       "id": "059",
@@ -3543,7 +3554,8 @@
       "iso": 100,
       "date_taken": "2026-09-26T21:14:30",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Notre-Dame-de-Paris-glowing-under-the-moon/3063431/14274179/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Notre-Dame-de-Paris-glowing-under-the-moon/3063431/14274179/view",
+        "Photo4me": "https://www.photo4me.com/shop/1491328/framed-mounted-print"
       },
       "tags": [
         "night"
@@ -3587,7 +3599,8 @@
       "iso": 100,
       "date_taken": "2026-09-26T21:39:14",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Illuminated-Notre-Dame-and-Seine-River-Paris/3063431/14292111/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Illuminated-Notre-Dame-and-Seine-River-Paris/3063431/14292111/view",
+        "Photo4me": "https://www.photo4me.com/shop/1491326/framed-mounted-print"
       },
       "tags": [
         "night"
@@ -4449,7 +4462,10 @@
       "aperture": "f/1.8",
       "shutter_speed": "1/8000 s",
       "iso": 100,
-      "date_taken": "2026-07-17T20:05:00"
+      "date_taken": "2026-07-17T20:05:00",
+      "shop": {
+        "Photo4me": "https://www.photo4me.com/shop/1467920/framed-mounted-print"
+      }
     },
     {
       "id": "108",
@@ -4563,7 +4579,10 @@
       "aperture": "f/4",
       "shutter_speed": "1/640 s",
       "iso": 1600,
-      "date_taken": "2026-07-17T21:43:28"
+      "date_taken": "2026-07-17T21:43:28",
+      "shop": {
+        "Photo4me": "https://www.photo4me.com/shop/1467921/framed-mounted-print"
+      }
     },
     {
       "id": "111",
@@ -4641,7 +4660,8 @@
       "iso": 100,
       "date_taken": "2026-08-07T20:47:06",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-Paris/3063431/14138919/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Sacre-Coeur-Basilique-from-Rue-de-l-Abreuvoir-Paris/3063431/14138919/view",
+        "Photo4me": "https://www.photo4me.com/shop/1468755/framed-mounted-print"
       },
       "tags": [
         "monument"
@@ -4685,7 +4705,8 @@
       "iso": 800,
       "date_taken": "2026-08-29T20:58:59",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-and-Modern-Paris-Buildings-Along-the-Seine/3063431/14291835/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Eiffel-Tower-and-Modern-Paris-Buildings-Along-the-Seine/3063431/14291835/view",
+        "Artfinder": "https://www.artfinder.com/product/eiffel-tower-and-modern-paris-buildings/"
       },
       "tags": [
         "monument"
@@ -4999,5 +5020,5 @@
       "date_taken": "2026-11-14T14:03:28"
     }
   ],
-  "updated": "2026-11-15T15:46:59"
+  "updated": "2026-11-15T16:34:24"
 }
