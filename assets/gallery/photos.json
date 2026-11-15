@@ -247,7 +247,9 @@
       "iso": 100,
       "date_taken": "2025-10-11T10:28:04",
       "shop": {
-        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Whispers-of-Light/3063431/14131289/view"
+        "Saatchi Art": "https://www.saatchiart.com/en-fr/art/Photography-Whispers-of-Light/3063431/14131289/view",
+        "Artfinder": "https://www.artfinder.com/product/whispers-of-light-e77db/",
+        "Photo4me": "https://www.photo4me.com/shop/1470891/framed-mounted-print"
       },
       "tags": [
         "nature"
@@ -4957,7 +4959,45 @@
       "shutter_speed": "1/200 s",
       "iso": 200,
       "date_taken": "2026-04-18T16:12:46"
+    },
+    {
+      "id": "121",
+      "file": "121.webp",
+      "original_name": "DSC_1992.png",
+      "source_sha1": "dc4c00d20c6ef057dfc7bc63d993def647d32cf5",
+      "title": "",
+      "caption": "",
+      "location": "",
+      "featured": false,
+      "black_and_white": false,
+      "copyright_year": 2026,
+      "copyright": "© 2026 Praveen Kumar Singh",
+      "full": {
+        "src": "full/121.webp",
+        "width": 2000,
+        "height": 1333,
+        "bytes": 409662,
+        "format": "webp",
+        "quality": 95
+      },
+      "thumb": {
+        "src": "thumbs/121.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 47728,
+        "format": "webp",
+        "quality": 86
+      },
+      "aspect_ratio": 1.5002,
+      "camera": "Nikon Z5_2",
+      "lens": "NIKKOR Z 24-200mm f/4-6.3 VR",
+      "focal_length": "175 mm",
+      "focal_length_35mm": "175 mm",
+      "aperture": "f/8",
+      "shutter_speed": "1/50 s",
+      "iso": 200,
+      "date_taken": "2026-11-14T14:03:28"
     }
   ],
-  "updated": "2026-11-09T03:01:05"
+  "updated": "2026-11-15T15:46:59"
 }
