@@ -466,9 +466,11 @@
           say('Please wait for the security check below the message to finish, then send again.', 'error');
         } else if (res.error === 'invalid') {
           say('Please check your name, e-mail address and message, then send again.', 'error');
-        } else throw new Error(String(r.status));
-      } catch {
-        say(`Sorry, the message could not be sent. Please e-mail ${form.dataset.email} instead.`, 'error');
+        } else throw new Error(res.detail || res.error || `HTTP ${r.status}`);
+      } catch (err) {
+        console.warn('Enquiry form:', err && err.message);
+        say(`Sorry, the message could not be sent. Please e-mail ${form.dataset.email} instead.`
+          + (err && err.message ? ` (Reason: ${err.message})` : ''), 'error');
       } finally {
         if (btn) btn.disabled = false;
         if (widget && window.turnstile) { try { window.turnstile.reset(widget); } catch { /* ignore */ } }   // a token works only once
