@@ -420,7 +420,7 @@
     if (!pool.length) card.classList.add('is-empty');
   });
 
-  /* ---------- print-enquiry form (Formspree, or e-mail if not set up) ---------- */
+  /* ---------- print-enquiry form (Cloudflare Worker + Resend, or e-mail if not set up) ---------- */
   $$('form.pg-enquiry').forEach(async (form) => {
     const photoField = form.elements.photo;
     const asked = new URLSearchParams(location.search).get('photo');
@@ -435,12 +435,17 @@
     }
     const status = $('.pg-enquiry-status', form);
     const say = (msg, kind) => { if (status) { status.textContent = msg; status.dataset.kind = kind || ''; } };
+    const sentFlag = new URLSearchParams(location.search).get('sent');     // back from a no-JavaScript post
+    if (sentFlag === '1') say('Thank you, your message has been sent. I will reply by e-mail.', 'ok');
+    if (sentFlag === '0') say(`Sorry, the message could not be sent. Please e-mail ${form.dataset.email} instead.`, 'error');
+    const widget = $('.cf-turnstile', form);
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       if (form.elements._gotcha && form.elements._gotcha.value) return;      // a bot filled the hidden field
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      const configured = form.action && !/YOUR_FORM_ID/.test(form.action) && /^https:\/\/formspree\.io\//.test(form.action);
+      const configured = /^https:\/\//.test(form.action || '') && !/YOUR_/.test(form.action)
+        && !(widget && /YOUR_/.test(widget.dataset.sitekey || ''));
       if (!configured) {                                                     // fallback: open the visitor's e-mail app
         const to = form.dataset.email;
         const body = ['kind', 'photo', 'message'].map((k) => data.get(k) ? `${k === 'kind' ? 'About' : k[0].toUpperCase() + k.slice(1)}: ${data.get(k)}` : '').filter(Boolean).join('\n\n')
@@ -453,12 +458,21 @@
       say('Sending…');
       try {
         const r = await fetch(form.action, { method: 'POST', body: data, headers: { Accept: 'application/json' } });
-        if (!r.ok) throw new Error(String(r.status));
-        form.reset();
-        say('Thank you, your message has been sent. I will reply by e-mail.', 'ok');
+        const res = await r.json().catch(() => ({}));
+        if (r.ok && res.ok) {
+          form.reset();
+          say('Thank you, your message has been sent. A confirmation is on its way to your inbox.', 'ok');
+        } else if (res.error === 'captcha') {
+          say('Please wait for the security check below the message to finish, then send again.', 'error');
+        } else if (res.error === 'invalid') {
+          say('Please check your name, e-mail address and message, then send again.', 'error');
+        } else throw new Error(String(r.status));
       } catch {
         say(`Sorry, the message could not be sent. Please e-mail ${form.dataset.email} instead.`, 'error');
-      } finally { if (btn) btn.disabled = false; }
+      } finally {
+        if (btn) btn.disabled = false;
+        if (widget && window.turnstile) { try { window.turnstile.reset(widget); } catch { /* ignore */ } }   // a token works only once
+      }
     });
   });
 

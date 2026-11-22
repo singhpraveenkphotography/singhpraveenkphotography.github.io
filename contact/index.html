@@ -410,12 +410,10 @@ ul.task-list li input[type="checkbox"] {
     </li>
   </ul>
   
-  <!-- ENQUIRY FORM. To receive the messages by e-mail:
-       1. create a free account at https://formspree.io and add a new form
-          (use the inbox where the messages should arrive as its e-mail)
-       2. copy the form's address (https://formspree.io/f/xxxxxxxx) and paste it
-          below in place of https://formspree.io/f/YOUR_FORM_ID
-       Until then, "Send" opens the visitor's own e-mail app with the message filled in. -->
+  <!-- ENQUIRY FORM. Messages go to the Cloudflare Worker in _contact-worker/
+       (form.writtenwithlight.com), which checks Turnstile and e-mails them with Resend.
+       EDIT: paste your Turnstile site key in data-sitekey below (see _contact-worker/SETUP.txt).
+       Until it is set, "Send" opens the visitor's own e-mail app with the message filled in. -->
   <div class="pg-enquiry-wrap" id="enquiry">
     <h2 class="pg-title pg-title--sm anchored">Send an <em>enquiry</em></h2>
     <!-- WHAT TO EXPECT. EDIT: change the reply time if you need to -->
@@ -428,7 +426,7 @@ ul.task-list li input[type="checkbox"] {
       <li><span class="pg-expect-h">Commissions</span>
         What you would like photographed, where, your dates, and how the photographs will be used.</li>
     </ul>
-    <form class="pg-enquiry" action="https://formspree.io/f/mvkknoey" method="POST" data-email="praveen.singh@writtenwithlight.com" data-gallery="../assets/gallery/">
+    <form class="pg-enquiry" action="https://form.writtenwithlight.com/" method="POST" data-email="praveen.singh@writtenwithlight.com" data-gallery="../assets/gallery/">
       <div class="pg-field">
         <label for="enq-name">Name</label>
         <input id="enq-name" name="name" type="text" autocomplete="name" required="" maxlength="120">
@@ -457,10 +455,11 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <!-- spam trap: real visitors never see or fill this -->
       <input class="pg-hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <input type="hidden" name="_subject" value="New enquiry from the photography website">
+      <!-- Cloudflare Turnstile: a quiet check that the sender is a person -->
+      <div class="cf-turnstile pg-field--wide" data-sitekey="0x4AAAAAAGMps2mYTz2uqkhb" data-theme="auto" data-size="flexible"></div>
       <div class="pg-field pg-field--wide pg-enquiry-foot">
         <button type="submit" class="btn btn-dark">Send enquiry</button>
-        <p class="pg-enquiry-note">Your details are only used to reply to you.</p>
+        <p class="pg-enquiry-note">Your details are only used to reply to you. You will get a short confirmation by e-mail.</p>
       </div>
       <p class="pg-enquiry-status pg-field--wide" role="status" aria-live="polite"></p>
     </form>
@@ -513,6 +512,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </section>
 
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async="" defer=""></script>
 <script src="../assets/js/gallery.js" defer=""></script>
 
 
