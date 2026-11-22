@@ -412,7 +412,7 @@ ul.task-list li input[type="checkbox"] {
   
   <!-- ENQUIRY FORM. Messages go to the Cloudflare Worker in _contact-worker/
        (route writtenwithlight.com/api/contact), which checks Turnstile and e-mails them with Resend.
-       EDIT: paste your Turnstile site key in data-sitekey below (see _contact-worker/SETUP.txt).
+       Turnstile site key: data-sitekey below (from Cloudflare -> Turnstile -> Contact form).
        Until it is set, "Send" opens the visitor's own e-mail app with the message filled in. -->
   <div class="pg-enquiry-wrap" id="enquiry">
     <h2 class="pg-title pg-title--sm anchored">Send an <em>enquiry</em></h2>
@@ -456,7 +456,7 @@ ul.task-list li input[type="checkbox"] {
       <!-- spam trap: real visitors never see or fill this -->
       <input class="pg-hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
       <!-- Cloudflare Turnstile: a quiet check that the sender is a person -->
-      <div class="cf-turnstile pg-field--wide" data-sitekey="YOUR_TURNSTILE_SITE_KEY" data-theme="auto" data-size="flexible"></div>
+      <div class="cf-turnstile pg-field--wide" data-sitekey="0x4AAAAAAGMps2mYTz2uqkhb" data-theme="auto" data-size="flexible"></div>
       <div class="pg-field pg-field--wide pg-enquiry-foot">
         <button type="submit" class="btn btn-dark">Send enquiry</button>
         <p class="pg-enquiry-note">Your details are only used to reply to you. You will get a short confirmation by e-mail.</p>
