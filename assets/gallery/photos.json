@@ -5066,7 +5066,46 @@
         "landscape"
       ],
       "added": "2026-11-17"
+    },
+    {
+      "id": "123",
+      "file": "123.webp",
+      "original_name": "DSC_2064.png",
+      "source_sha1": "830b9ae0d9987ab3965be5d948d6c387bc83e608",
+      "title": "Sun shining above the chalk cliffs in Etretat",
+      "caption": "",
+      "location": "Etretat, Normandy, France",
+      "featured": false,
+      "black_and_white": false,
+      "copyright_year": 2026,
+      "copyright": "© 2026 Praveen Kumar Singh",
+      "added": "2026-11-24",
+      "full": {
+        "src": "full/123.webp",
+        "width": 2000,
+        "height": 1333,
+        "bytes": 460494,
+        "format": "webp",
+        "quality": 95
+      },
+      "thumb": {
+        "src": "thumbs/123.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 47890,
+        "format": "webp",
+        "quality": 91
+      },
+      "aspect_ratio": 1.4998,
+      "camera": "Nikon Z5_2",
+      "lens": "Viltrox AF 16/1.8 Z",
+      "focal_length": "16 mm",
+      "focal_length_35mm": "16 mm",
+      "aperture": "f/11",
+      "shutter_speed": "1/1250 s",
+      "iso": 200,
+      "date_taken": "2026-11-14T14:58:11"
     }
   ],
-  "updated": "2026-11-24T19:31:08"
+  "updated": "2026-11-24T20:46:06"
 }
