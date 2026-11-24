@@ -8,7 +8,7 @@
    • masonry grids (photos drop into the shortest column, so the columns
      stay even and the pattern holds at every screen width)
        <div class="pg-grid" data-gallery="assets/gallery/"
-            data-show="featured"      all | featured | bw | colour
+            data-show="featured"      all | featured | bw | colour | newest
             data-limit="9"            optional: how many photos
             data-random="true"        optional: new random selection and order
                                       on every visit, with balanced columns
@@ -241,6 +241,12 @@
     bw: (p) => p.black_and_white,
     colour: (p) => !p.black_and_white,
     forsale: (p) => shopLinks(p).length > 0,
+    newest: () => true,                         // every photo, newest first (see byNewest)
+  };
+  // newest first: most recent "added" date (set by process_photos.py), then the highest number
+  const byNewest = (a, b) => {
+    const d = String(b.added || '').localeCompare(String(a.added || ''));
+    return d || (parseInt(b.id, 10) || 0) - (parseInt(a.id, 10) || 0);
   };
   // data-place / data-tag on an element -> does photo p belong to it?
   const norm = (t) => String(t || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -330,19 +336,23 @@
     const limit = parseInt(grid.dataset.limit || '0', 10);
     const random = grid.dataset.random === 'true';
     let filter = grid.dataset.show || 'all';
+    const bar = grid.id && $(`.pg-filters[data-for="${grid.id}"]`);
+    const wanted = new URLSearchParams(location.search).get('show');   // e.g. gallery/?show=newest
+    if (wanted && bar && $(`button[data-filter="${wanted}"]`, bar)) filter = wanted;
     // featured-only grids fall back to all photos if nothing is featured yet
     if (filter === 'featured' && !all.some((p) => p.featured)) filter = 'all';
 
     let list = [];
     const build = () => {
       const pool = all.filter(FILTERS[filter] || FILTERS.all);
+      if (filter === 'newest') pool.sort(byNewest);
       const counter = grid.dataset.count && document.getElementById(grid.dataset.count);
       if (!pool.length) {
         if (counter) counter.textContent = '0 photographs';
         grid.innerHTML = '<p class="pg-status">No photographs here yet</p>';
         list = []; return;
       }
-      if (random) {
+      if (random && filter !== 'newest') {
         const cols = columnCount(grid);
         const gap = parseFloat(getComputedStyle(grid).columnGap) || 14;
         const colW = (grid.clientWidth - gap * (cols - 1)) / cols;
@@ -355,7 +365,6 @@
     };
     build();
 
-    const bar = grid.id && $(`.pg-filters[data-for="${grid.id}"]`);
     if (bar) {
       const min = parseInt(bar.dataset.min || '4', 10);
       $$('button', bar).forEach((b) => {     // hide filters that would show (almost) nothing
@@ -383,6 +392,34 @@
     });
   }
   $$('.pg-grid').forEach(initGrid);
+
+  /* ---------- home page "New work" row ---------- */
+  // <div class="pg-new-row" data-new-days="60"> holding <figure class="pg-new-item"
+  // data-id="122" data-added="2026-11-24">, written by scripts/seo_photos.py.
+  // Adds the lightbox and shows "New" on photos added within the last N days.
+  $$('.pg-new-row').forEach(async (row) => {
+    const days = parseInt(row.dataset.newDays || '60', 10);
+    const now = Date.now();
+    const figs = $$('.pg-new-item', row);
+    figs.forEach((fig) => {
+      const added = Date.parse(fig.dataset.added || '');
+      const badge = $('.pg-new-badge', fig);
+      if (badge && added && now - added < days * 864e5) badge.hidden = false;
+    });
+    let all;
+    try { all = await loadPhotos(row.dataset.gallery || 'assets/gallery/'); } catch { return; }
+    const byId = new Map(all.map((p) => [p.id, p]));
+    const list = figs.map((f) => byId.get(f.dataset.id)).filter(Boolean);
+    const fields = metaFields(row);
+    figs.forEach((fig) => {
+      const i = list.indexOf(byId.get(fig.dataset.id));
+      const link = $('.pg-new-link', fig);
+      if (i < 0 || !link) return;
+      link.setAttribute('role', 'button');
+      link.setAttribute('aria-label', `Open ${label(list[i], i)}`);
+      link.addEventListener('click', (e) => { e.preventDefault(); openLb(list, i, fields); });
+    });
+  });
 
   /* ---------- collection cards: cover photo + count ---------- */
   // <ul class="pg-collections" data-random="true">: places first, then themes,
