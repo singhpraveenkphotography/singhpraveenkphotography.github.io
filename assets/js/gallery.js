@@ -596,7 +596,7 @@
      photos only, so text, links and the keyboard work as usual. Anything a
      browser shows can still be screenshotted; the badge and the copyright
      inside each file are the real protection. */
-  const PROTECTED = '.pg-grid, .pg-hero, .pg-lb-frame, .pg-collection, .pg-protect';
+  const PROTECTED = '.pg-grid, .pg-hero, .pg-lb-frame, .pg-collection, .pg-new-row, .pg-story-card, .pg-protect';
   const isProtected = (t) => t instanceof Element && (t.tagName === 'IMG' || t.closest('.pg-item, .pg-lb-frame'))
     && t.closest(PROTECTED);
   let toast, toastTimer;
