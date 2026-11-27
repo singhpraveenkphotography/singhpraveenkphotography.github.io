@@ -593,38 +593,5 @@
     update();
   }
 
-  /* ---------- image protection ----------
-     A deterrent, not a lock: it stops right-click "Save image as", dragging
-     photos to the desktop and the long-press menu on phones. It applies to
-     photos only, so text, links and the keyboard work as usual. Anything a
-     browser shows can still be screenshotted; the badge and the copyright
-     inside each file are the real protection. */
-  const PROTECTED = '.pg-grid, .pg-hero, .pg-lb-frame, .pg-collection, .pg-new-row, .pg-story-card, .pg-story-lead, .pg-protect';
-  const isProtected = (t) => t instanceof Element && (t.tagName === 'IMG' || t.closest('.pg-item, .pg-lb-frame'))
-    && t.closest(PROTECTED);
-  let toast, toastTimer;
-  const notice = () => {
-    if (!toast) {
-      toast = document.createElement('div');
-      toast.className = 'pg-rights-toast';
-      toast.setAttribute('role', 'status');
-      toast.innerHTML = '© Praveen Kumar Singh · All rights reserved. For licensing or prints, see <a href="#">Contact</a>.';
-      const link = $('a', toast);
-      const nav = $(`.navbar a[href$="contact/index.html"], .navbar a[href$="contact/"]`);
-      link.href = nav ? nav.href : '/contact/';
-      document.body.appendChild(toast);
-    }
-    toast.classList.add('is-shown');
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove('is-shown'), 3200);
-  };
-  document.addEventListener('contextmenu', (e) => {
-    if (isProtected(e.target)) { e.preventDefault(); notice(); }
-  });
-  document.addEventListener('dragstart', (e) => { if (isProtected(e.target)) e.preventDefault(); });
-  const lockImages = (root) => $$('img', root).forEach((im) => { im.draggable = false; });
-  $$(PROTECTED).forEach((el) => {
-    lockImages(el);
-    new MutationObserver(() => lockImages(el)).observe(el, { childList: true, subtree: true });
-  });
+  /* image protection: see assets/js/protect.js (loaded on every page) */
 })();
