@@ -322,8 +322,6 @@
       fig.addEventListener('click', open);
       fig.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
       colEls[where[i]].appendChild(fig);
-      fig.style.transitionDelay = reduceMotion ? '0ms' : `${(i % 6) * 70}ms`;
-      reveal.observe(fig);
     });
   }
   async function initGrid(grid) {
@@ -344,8 +342,13 @@
 
     let list = [];
     const build = () => {
-      const pool = all.filter(FILTERS[filter] || FILTERS.all);
+      let pool = all.filter(FILTERS[filter] || FILTERS.all);
       if (filter === 'newest') pool.sort(byNewest);
+      // a "featured" grid on the home page skips photos already shown in "New work"
+      if (filter === 'featured') {
+        const shown = new Set($$('.pg-new-item').map((f) => f.dataset.id));
+        if (shown.size) pool = pool.filter((p) => !shown.has(p.id));
+      }
       const counter = grid.dataset.count && document.getElementById(grid.dataset.count);
       if (!pool.length) {
         if (counter) counter.textContent = '0 photographs';
@@ -596,7 +599,7 @@
      photos only, so text, links and the keyboard work as usual. Anything a
      browser shows can still be screenshotted; the badge and the copyright
      inside each file are the real protection. */
-  const PROTECTED = '.pg-grid, .pg-hero, .pg-lb-frame, .pg-collection, .pg-new-row, .pg-story-card, .pg-protect';
+  const PROTECTED = '.pg-grid, .pg-hero, .pg-lb-frame, .pg-collection, .pg-new-row, .pg-story-card, .pg-story-lead, .pg-protect';
   const isProtected = (t) => t instanceof Element && (t.tagName === 'IMG' || t.closest('.pg-item, .pg-lb-frame'))
     && t.closest(PROTECTED);
   let toast, toastTimer;
