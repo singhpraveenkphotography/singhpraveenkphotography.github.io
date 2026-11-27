@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-33269adcf1721b81efc5ea7fcfe7f0ee.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4d861daea26d86459ed9895c5036d68a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-434bd17f9ac5c49e52444381134121ae.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4d861daea26d86459ed9895c5036d68a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7e98da84b9bf44a634d8ea5a3765589a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-7e2eca0ad112e95c6a8c80623e4e193d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-7e98da84b9bf44a634d8ea5a3765589a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -388,24 +388,24 @@ ul.task-list li input[type="checkbox"] {
   --v-card: var(--bs-body-bg);
   --v-mat: var(--bs-tertiary-bg);
   --v-accent: var(--bs-primary);
-  font-size: 1.0625rem; line-height: 1.65; color: var(--v-ink);
+  font-size: var(--fs-base, 1.0625rem); line-height: 1.65; color: var(--v-ink);
   max-width: 760px; margin: 0 auto; padding-block: 1rem 0;
 }
 .pks-verify * { box-sizing: border-box; }
 .pks-verify h1.v-title { font-family: var(--font-display, Fraunces, Georgia, serif); font-weight: 400;
-  font-size: clamp(2.2rem, 4.5vw, 3.4rem); line-height: 1.1; letter-spacing: -0.02em;
+  font-size: var(--fs-2xl, 2.4rem); line-height: 1.1; letter-spacing: -0.02em;
   margin: 0 0 0.9rem; border: 0; padding: 0; color: var(--v-ink); }
 .pks-verify .lede { color: var(--v-muted); margin: 0 0 1.8rem; max-width: 56ch; }
 .pks-verify form { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 1.8rem; }
 .pks-verify .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-.pks-verify input[type=text] { flex: 1 1 240px; min-height: 48px; font-size: 1.05rem; letter-spacing: 0.04em; }
+.pks-verify input[type=text] { flex: 1 1 240px; min-height: 48px; font-size: var(--fs-base, 1.0625rem); letter-spacing: 0.04em; }
 .pks-verify input[type=text]::placeholder { letter-spacing: 0; }
 .pks-verify .btn { min-height: 48px; padding-inline: 1.6rem; font-size: 1rem; border-radius: 999px; }
 .pks-verify .status { display: flex; gap: 14px; align-items: flex-start; padding: 1rem 1.15rem; border-radius: var(--bs-border-radius);
   margin-bottom: 1.5rem; border: 1px solid transparent; }
 .pks-verify .status svg { flex: 0 0 26px; margin-top: 1px; }
-.pks-verify .status strong { display: block; font-size: 1.05rem; font-weight: 600; }
-.pks-verify .status span { font-size: 0.95rem; }
+.pks-verify .status strong { display: block; font-size: var(--fs-base, 1.0625rem); font-weight: 600; }
+.pks-verify .status span { font-size: var(--fs-sm, 0.9375rem); }
 .pks-verify .status.ok { background: var(--bs-success-bg-subtle); color: var(--bs-success-text-emphasis); border-color: var(--bs-success-border-subtle); }
 .pks-verify .status.bad { background: var(--bs-danger-bg-subtle); color: var(--bs-danger-text-emphasis); border-color: var(--bs-danger-border-subtle); }
 .pks-verify .status.warn { background: var(--bs-warning-bg-subtle); color: var(--bs-warning-text-emphasis); border-color: var(--bs-warning-border-subtle); }
@@ -414,16 +414,16 @@ ul.task-list li input[type="checkbox"] {
 @media (min-width: 640px) { .pks-verify .record.has-img { grid-template-columns: 300px minmax(0, 1fr); } }
 .pks-verify .mat { background: var(--v-mat); border: 1px solid var(--v-line); padding: 14px; align-self: start; justify-self: center; }
 .pks-verify .mat img { display: block; max-width: 100%; max-height: 420px; width: auto; height: auto; margin: 0 auto; }
-.pks-verify .r-title { font-family: var(--font-display, Fraunces, Georgia, serif); font-style: italic; font-size: 1.75rem; line-height: 1.25 !important; margin: 0 0 0.3rem; }
+.pks-verify .r-title { font-family: var(--font-display, Fraunces, Georgia, serif); font-style: italic; font-size: var(--fs-xl, 1.625rem); line-height: 1.25 !important; margin: 0 0 0.3rem; }
 .pks-verify .by { color: var(--v-muted); margin: 0 0 1.2rem; }
 .pks-verify dl { margin: 0; }
 .pks-verify dl div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 1rem; padding: 0.6rem 0; border-top: 1px solid var(--v-line); }
 .pks-verify dl div:last-child { border-bottom: 1px solid var(--v-line); }
 @media (max-width: 479.98px) { .pks-verify dl div { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; } }
-.pks-verify dt { font-weight: 400; font-size: 0.9rem; color: var(--v-muted); }
+.pks-verify dt { font-weight: 400; font-size: var(--fs-sm, 0.9375rem); color: var(--v-muted); }
 .pks-verify dd { margin: 0; font-size: 1rem; line-height: 1.5; overflow-wrap: anywhere; }
-.pks-verify .note { margin-top: 1rem; font-size: 0.95rem; color: var(--v-muted); }
-.pks-verify .help { margin: 2.2rem 0 0; font-size: 0.95rem; color: var(--v-muted); max-width: 60ch; }
+.pks-verify .note { margin-top: 1rem; font-size: var(--fs-sm, 0.9375rem); color: var(--v-muted); }
+.pks-verify .help { margin: 2.2rem 0 0; font-size: var(--fs-sm, 0.9375rem); color: var(--v-muted); max-width: 60ch; }
 .pks-verify .help p { margin: 0 0 0.4rem; }
 .pks-verify [hidden] { display: none !important; }
 .quarto-dark .pks-verify .status.ok { background: rgba(var(--bs-success-rgb), .14); color: var(--bs-success); border-color: rgba(var(--bs-success-rgb), .45); }

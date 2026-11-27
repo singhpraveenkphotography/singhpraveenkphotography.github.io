@@ -292,7 +292,93 @@
     }
     return best.pick;
   }
+  /* ---- justified rows (data-layout="rows") -------------------------------
+     Photos sit in rows of equal height; every row is scaled to the full width,
+     so edges line up on both sides and the bottom is straight. The number of
+     rows follows from the width and data-row-height (target height in px). */
+  const rowsLayout = (grid) => grid.dataset.layout === 'rows';
+  function rowTarget(grid) {
+    const w = grid.clientWidth || grid.parentElement.clientWidth;
+    const h = parseFloat(grid.dataset.rowHeight || '330');
+    return w < 768 ? Math.min(h, 190) : w < 1100 ? Math.min(h, 260) : h;
+  }
+  // split the photos (in order) into k rows whose widths are as even as possible
+  function partition(ars, k) {
+    const n = ars.length; k = Math.max(1, Math.min(k, n));
+    const pre = [0]; ars.forEach((a) => pre.push(pre[pre.length - 1] + a));
+    const ideal = pre[n] / k;
+    // dp[j][i]: best cost for the first i photos in j rows (squared deviation from the ideal row)
+    const dp = Array.from({ length: k + 1 }, () => new Array(n + 1).fill(Infinity));
+    const cut = Array.from({ length: k + 1 }, () => new Array(n + 1).fill(0));
+    dp[0][0] = 0;
+    for (let j = 1; j <= k; j++) for (let i = j; i <= n; i++) for (let m = j - 1; m < i; m++) {
+      const c = dp[j - 1][m] + (pre[i] - pre[m] - ideal) ** 2;
+      if (c < dp[j][i]) { dp[j][i] = c; cut[j][i] = m; }
+    }
+    const rows = []; let i = n;
+    for (let j = k; j >= 1; j--) { const m = cut[j][i]; rows.unshift([m, i]); i = m; }
+    return { rows, cost: dp[k][n] };
+  }
+  function rowPlan(grid, list) {
+    const w = grid.clientWidth || grid.parentElement.clientWidth;
+    const gap = parseFloat(getComputedStyle(grid).columnGap) || 14;
+    const ars = list.map(ratioWH);
+    const total = ars.reduce((a, b) => a + b, 0);
+    const k = Math.max(1, Math.round(total * rowTarget(grid) / w));
+    return { k, gap, ...partition(ars, k) };
+  }
+  const ratioWH = (p) => p.thumb.width / p.thumb.height;
+  // random pick for a rows grid: keep the order whose rows come out most even
+  function rowsRandom(grid, pool, limit, tries = 300) {
+    const n = limit ? Math.min(limit, pool.length) : pool.length;
+    let best = null;
+    for (let t = 0; t < tries; t++) {
+      const pick = shuffle(pool).slice(0, n);
+      const { cost } = rowPlan(grid, pick);
+      if (!best || cost < best.cost) best = { pick, cost };
+      if (cost < 0.01) break;
+    }
+    return best.pick;
+  }
+
+  function makeItem(p, i, list, fields) {
+    const fig = document.createElement('figure');
+    fig.className = 'pg-item';
+    fig.tabIndex = 0;
+    fig.setAttribute('role', 'button');
+    fig.setAttribute('aria-label', `Open ${label(p, i)}`);
+    fig.style.aspectRatio = `${p.thumb.width} / ${p.thumb.height}`;
+    fig.innerHTML = `<img src="${p.thumbUrl}" alt="" loading="lazy" decoding="async"
+        width="${p.thumb.width}" height="${p.thumb.height}">
+      <div class="pg-overlay"><span class="pg-num">№ ${p.id}</span>
+      ${p.title ? `<span class="pg-name"></span>` : ''}<span class="pg-exp"></span></div>
+      ${shopLinks(p).length ? '<span class="pg-sale-tag">Print available</span>' : ''}`;
+    $('img', fig).alt = altText(p);
+    if (p.title) $('.pg-name', fig).textContent = p.title;
+    $('.pg-exp', fig).textContent = [p.aperture, p.shutter_speed, p.iso ? `ISO ${p.iso}` : null].filter(Boolean).join('  ·  ');
+    const open = () => openLb(list, i, fields);
+    fig.addEventListener('click', open);
+    fig.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+    return fig;
+  }
+  function drawRows(grid, list, fields) {
+    const { k, rows } = rowPlan(grid, list);
+    grid.innerHTML = '';
+    grid.dataset.cols = 'rows' + k;
+    grid.classList.add('pg-grid--rows');
+    rows.forEach(([a, b]) => {
+      const row = document.createElement('div'); row.className = 'pg-row';
+      for (let i = a; i < b; i++) {
+        const fig = makeItem(list[i], i, list, fields);
+        fig.style.flex = `${ratioWH(list[i])} 1 0`;      // width ∝ aspect ratio → equal heights
+        row.appendChild(fig);
+      }
+      grid.appendChild(row);
+    });
+  }
+
   function drawGrid(grid, list, fields) {
+    if (rowsLayout(grid)) { drawRows(grid, list, fields); return; }
     const cols = columnCount(grid);
     const gap = parseFloat(getComputedStyle(grid).columnGap) || 14;
     const colW = (grid.clientWidth - gap * (cols - 1)) / cols;
@@ -302,27 +388,7 @@
     const colEls = Array.from({ length: cols }, () => {
       const c = document.createElement('div'); c.className = 'pg-col'; grid.appendChild(c); return c;
     });
-    list.forEach((p, i) => {
-      const fig = document.createElement('figure');
-      fig.className = 'pg-item';
-      fig.tabIndex = 0;
-      fig.setAttribute('role', 'button');
-      fig.setAttribute('aria-label', `Open ${label(p, i)}`);
-      fig.style.aspectRatio = `${p.thumb.width} / ${p.thumb.height}`;
-      fig.innerHTML = `<img src="${p.thumbUrl}" alt="" loading="lazy" decoding="async"
-          width="${p.thumb.width}" height="${p.thumb.height}">
-        <div class="pg-overlay"><span class="pg-num">№ ${p.id}</span>
-        ${p.title ? `<span class="pg-name"></span>` : ''}<span class="pg-exp"></span></div>
-        ${shopLinks(p).length ? '<span class="pg-sale-tag">Print available</span>' : ''}`;
-      $('img', fig).alt = altText(p);
-      if (p.title) $('.pg-name', fig).textContent = p.title;
-      // exposure line on hover: f/5.6 · 1/250 s · ISO 200
-      $('.pg-exp', fig).textContent = [p.aperture, p.shutter_speed, p.iso ? `ISO ${p.iso}` : null].filter(Boolean).join('  ·  ');
-      const open = () => openLb(list, i, fields);
-      fig.addEventListener('click', open);
-      fig.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
-      colEls[where[i]].appendChild(fig);
-    });
+    list.forEach((p, i) => { colEls[where[i]].appendChild(makeItem(p, i, list, fields)); });
   }
   async function initGrid(grid) {
     grid.innerHTML = '<p class="pg-status">Loading…</p>';
@@ -355,7 +421,9 @@
         grid.innerHTML = '<p class="pg-status">No photographs here yet</p>';
         list = []; return;
       }
-      if (random && filter !== 'newest') {
+      if (random && filter !== 'newest' && rowsLayout(grid)) {
+        list = rowsRandom(grid, pool, limit);
+      } else if (random && filter !== 'newest') {
         const cols = columnCount(grid);
         const gap = parseFloat(getComputedStyle(grid).columnGap) || 14;
         const colW = (grid.clientWidth - gap * (cols - 1)) / cols;
@@ -388,8 +456,9 @@
     window.addEventListener('resize', () => {
       clearTimeout(t);
       t = setTimeout(() => {
-        if (list.length && String(columnCount(grid)) !== grid.dataset.cols) {
-          if (random) build(); else drawGrid(grid, list, fields);
+        const now = rowsLayout(grid) ? 'rows' + rowPlan(grid, list).k : String(columnCount(grid));
+        if (list.length && now !== grid.dataset.cols) {
+          if (random && !rowsLayout(grid)) build(); else drawGrid(grid, list, fields);
         }
       }, 150);
     });
