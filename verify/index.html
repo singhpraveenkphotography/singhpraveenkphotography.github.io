@@ -136,8 +136,6 @@ ul.task-list li input[type="checkbox"] {
 }
 </script>
 <meta name="robots" content="noindex">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
 
 
 <meta property="og:title" content="Verify a Certificate">
@@ -373,7 +371,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 <div class="pg-grain" aria-hidden="true"></div>
 
@@ -381,7 +379,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-/* Colours come from the site's Bootstrap theme, so this page follows the site (light or dark). Fonts stay the certificate's. */
+/* Same look as the rest of the site: colours from the site theme (light or dark),
+   Fraunces for headings and titles, Inter for text. */
 .pks-verify {
   --v-ink: var(--bs-body-color);
   --v-muted: var(--bs-secondary-color);
@@ -389,48 +388,43 @@ ul.task-list li input[type="checkbox"] {
   --v-card: var(--bs-body-bg);
   --v-mat: var(--bs-tertiary-bg);
   --v-accent: var(--bs-primary);
-  --v-focus: var(--bs-link-color);
-  --v-serif: 'Cormorant Garamond', Garamond, Georgia, serif;
-  --v-sans: Inter, 'Helvetica Neue', Arial, system-ui, sans-serif;
-  font-family: var(--v-sans); font-size: 15px; line-height: 1.6; color: var(--v-ink);
-  max-width: 760px; margin: 0 auto; padding-block: 8px 24px;
+  font-size: 1.0625rem; line-height: 1.65; color: var(--v-ink);
+  max-width: 760px; margin: 0 auto; padding-block: 1rem 0;
 }
 .pks-verify * { box-sizing: border-box; }
-.pks-verify .eyebrow { font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: var(--v-muted);
-  padding-bottom: 14px; border-bottom: 1px solid var(--v-ink); }
-.pks-verify h1.v-title { font-family: var(--v-serif); font-weight: 300; font-size: clamp(36px, 8vw, 54px); line-height: 1;
-  margin: 32px 0 10px; border: 0; padding: 0; color: var(--v-ink); }
-.pks-verify h1.v-title em { color: var(--v-accent); }
-[data-bs-theme="dark"] .pks-verify h1.v-title em, .quarto-dark .pks-verify h1.v-title em { color: var(--bs-link-color); }
-.pks-verify .lede { color: var(--v-muted); margin: 0 0 26px; max-width: 520px; }
-.pks-verify form { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 30px; }
+.pks-verify h1.v-title { font-family: var(--font-display, Fraunces, Georgia, serif); font-weight: 400;
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem); line-height: 1.1; letter-spacing: -0.02em;
+  margin: 0 0 0.9rem; border: 0; padding: 0; color: var(--v-ink); }
+.pks-verify .lede { color: var(--v-muted); margin: 0 0 1.8rem; max-width: 56ch; }
+.pks-verify form { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 1.8rem; }
 .pks-verify .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-.pks-verify input[type=text] { flex: 1 1 220px; min-height: 46px; font-family: var(--v-sans); letter-spacing: .06em; text-transform: uppercase; }
-.pks-verify .btn { min-height: 46px; padding-inline: 22px; font-family: var(--v-sans); font-size: 12px; letter-spacing: .2em; text-transform: uppercase; }
-.pks-verify .status { display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px; border-radius: var(--bs-border-radius);
-  margin-bottom: 24px; border: 1px solid transparent; }
-.pks-verify .status svg { flex: 0 0 26px; margin-top: 2px; }
-.pks-verify .status strong { display: block; font-size: 16px; font-weight: 500; }
-.pks-verify .status span { font-size: 14px; }
+.pks-verify input[type=text] { flex: 1 1 240px; min-height: 48px; font-size: 1.05rem; letter-spacing: 0.04em; }
+.pks-verify input[type=text]::placeholder { letter-spacing: 0; }
+.pks-verify .btn { min-height: 48px; padding-inline: 1.6rem; font-size: 1rem; border-radius: 999px; }
+.pks-verify .status { display: flex; gap: 14px; align-items: flex-start; padding: 1rem 1.15rem; border-radius: var(--bs-border-radius);
+  margin-bottom: 1.5rem; border: 1px solid transparent; }
+.pks-verify .status svg { flex: 0 0 26px; margin-top: 1px; }
+.pks-verify .status strong { display: block; font-size: 1.05rem; font-weight: 600; }
+.pks-verify .status span { font-size: 0.95rem; }
 .pks-verify .status.ok { background: var(--bs-success-bg-subtle); color: var(--bs-success-text-emphasis); border-color: var(--bs-success-border-subtle); }
 .pks-verify .status.bad { background: var(--bs-danger-bg-subtle); color: var(--bs-danger-text-emphasis); border-color: var(--bs-danger-border-subtle); }
 .pks-verify .status.warn { background: var(--bs-warning-bg-subtle); color: var(--bs-warning-text-emphasis); border-color: var(--bs-warning-border-subtle); }
-.pks-verify .record { background: var(--v-card); border: 1px solid var(--v-line); border-radius: var(--bs-border-radius); padding: 24px;
-  display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); }
-@media (min-width: 640px) { .pks-verify .record.has-img { grid-template-columns: 240px minmax(0, 1fr); } }
-.pks-verify .mat { background: var(--v-mat); border: 1px solid var(--v-line); padding: 12px; align-self: start; justify-self: center; }
-.pks-verify .mat img { display: block; max-width: 100%; max-height: 360px; width: auto; height: auto; margin: 0 auto; }
-.pks-verify .r-title { font-family: var(--v-serif); font-style: italic; font-size: 30px; line-height: 1.15; margin: 0 0 4px; }
-.pks-verify .by { color: var(--v-muted); margin: 0 0 18px; }
+.pks-verify .record { border-top: 1px solid var(--v-line); padding-top: 1.8rem;
+  display: grid; gap: 2rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 640px) { .pks-verify .record.has-img { grid-template-columns: 300px minmax(0, 1fr); } }
+.pks-verify .mat { background: var(--v-mat); border: 1px solid var(--v-line); padding: 14px; align-self: start; justify-self: center; }
+.pks-verify .mat img { display: block; max-width: 100%; max-height: 420px; width: auto; height: auto; margin: 0 auto; }
+.pks-verify .r-title { font-family: var(--font-display, Fraunces, Georgia, serif); font-style: italic; font-size: 1.75rem; line-height: 1.25 !important; margin: 0 0 0.3rem; }
+.pks-verify .by { color: var(--v-muted); margin: 0 0 1.2rem; }
 .pks-verify dl { margin: 0; }
-.pks-verify dl div { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 12px; padding: 9px 0; border-top: 1px solid var(--v-line); }
+.pks-verify dl div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 1rem; padding: 0.6rem 0; border-top: 1px solid var(--v-line); }
 .pks-verify dl div:last-child { border-bottom: 1px solid var(--v-line); }
-.pks-verify dt { font-weight: 400; font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--v-muted); padding-top: 4px; }
-.pks-verify dd { margin: 0; font-family: var(--v-serif); font-size: 19px; line-height: 1.35; overflow-wrap: anywhere; }
-.pks-verify .note { margin-top: 18px; font-size: 13px; color: var(--v-muted); }
-.pks-verify-help { margin: 34px 0 24px; padding-top: 18px; border-top: 1px solid var(--bs-border-color); font-family: Inter, 'Helvetica Neue', Arial, system-ui, sans-serif;
-  font-size: 13px; line-height: 1.6; color: var(--bs-secondary-color); text-align: center; }
-.pks-verify-help p { margin: 0 0 6px; max-width: none; }
+@media (max-width: 479.98px) { .pks-verify dl div { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; } }
+.pks-verify dt { font-weight: 400; font-size: 0.9rem; color: var(--v-muted); }
+.pks-verify dd { margin: 0; font-size: 1rem; line-height: 1.5; overflow-wrap: anywhere; }
+.pks-verify .note { margin-top: 1rem; font-size: 0.95rem; color: var(--v-muted); }
+.pks-verify .help { margin: 2.2rem 0 0; font-size: 0.95rem; color: var(--v-muted); max-width: 60ch; }
+.pks-verify .help p { margin: 0 0 0.4rem; }
 .pks-verify [hidden] { display: none !important; }
 .quarto-dark .pks-verify .status.ok { background: rgba(var(--bs-success-rgb), .14); color: var(--bs-success); border-color: rgba(var(--bs-success-rgb), .45); }
 .quarto-dark .pks-verify .status.bad { background: rgba(var(--bs-danger-rgb), .14); color: #f1a9a0; border-color: rgba(var(--bs-danger-rgb), .45); }
@@ -439,23 +433,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 <div class="pks-verify">
-  <div class="eyebrow">Certificate Registry</div>
-  <h1 class="v-title">Verify a <em>Certificate</em></h1>
+  <span hidden=""></span><!-- keeps Quarto from moving the heading below into its title block -->
+  <h1 class="v-title">Verify a certificate</h1>
   <p class="lede">Scan the QR code on a Certificate of Authenticity, or enter the certificate number below, to check that it was issued by the artist.</p>
 
   <form id="lookup" autocomplete="off">
     <label class="sr" for="cid">Certificate number</label>
     <input type="text" class="form-control" id="cid" name="id" placeholder="e.g. PKS-0001" maxlength="40" spellcheck="false">
-    <button type="submit" class="btn btn-primary">Verify</button>
+    <button type="submit" class="btn btn-primary">Check certificate</button>
   </form>
 
   <div id="result" aria-live="polite"></div>
 
-</div>
-
-<div class="pks-verify-help column-page">
-  <p>A genuine certificate matches every detail shown here: the title, dimensions, edition, and the artwork itself.</p>
-  <p>If anything differs, or the number is not found, please <a href="../contact/">contact the artist</a>.</p>
+  <div class="help">
+    <p>A genuine certificate matches every detail shown here: the title, dimensions, edition and the photograph itself.</p>
+    <p>If anything differs, or the number is not found, <a href="../contact/">contact me</a>.</p>
+  </div>
 </div>
 
 <script>
@@ -484,9 +477,7 @@ ul.task-list li input[type="checkbox"] {
     try { return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }); } catch (e) { return iso; }
   }
   function purchase(rec) {
-    var M = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(rec.purchased || '');
-    var d = m ? m[3] + '-' + M[+m[2] - 1] + '-' + m[1] : (rec.purchased || ''), f = rec.purchasedFrom ? String(rec.purchasedFrom) : '';
+    var d = fmtDate(rec.purchased), f = rec.purchasedFrom ? String(rec.purchasedFrom) : '';
     return d && f ? d + ' from ' + f : (d || (f ? 'from ' + f : ''));
   }
   function normalise(raw) { return String(raw || '').trim().toUpperCase().replace(/\s+/g, ''); }
@@ -501,7 +492,7 @@ ul.task-list li input[type="checkbox"] {
   }
   function render(rec) {
     var status = String(rec.status || 'valid').toLowerCase(), frag = document.createDocumentFragment();
-    if (status === 'valid') frag.appendChild(statusBox('ok', 'Authentic — registered certificate', 'Certificate ' + rec.id + ' was issued by the artist and is valid.'));
+    if (status === 'valid') frag.appendChild(statusBox('ok', 'Genuine certificate', 'Certificate ' + rec.id + ' was issued by Praveen Kumar Singh and is valid.'));
     else if (status === 'revoked') frag.appendChild(statusBox('bad', 'Certificate revoked', 'Certificate ' + rec.id + ' has been withdrawn by the artist and is no longer valid.'));
     else frag.appendChild(statusBox('warn', 'Status: ' + status, 'Please contact the artist about certificate ' + rec.id + '.'));
     var card = el('section', 'record'); card.setAttribute('aria-label', 'Certificate details');
@@ -534,7 +525,7 @@ ul.task-list li input[type="checkbox"] {
       var rec = null;
       for (var i = 0; i < list.length; i++) { if (list[i] && normalise(list[i].id) === id) { rec = list[i]; break; } }
       if (rec) render(rec);
-      else out.replaceChildren(statusBox('bad', 'Not found', 'No certificate numbered ' + id + ' is registered. Check the number, or contact the artist.'));
+      else out.replaceChildren(statusBox('bad', 'No certificate with this number', 'No certificate numbered ' + id + ' is registered. Check the number on your certificate and try again.'));
     }).catch(function () {
       registryPromise = null;
       out.replaceChildren(statusBox('warn', 'Could not reach the registry', 'Please check your connection and try again.'));
